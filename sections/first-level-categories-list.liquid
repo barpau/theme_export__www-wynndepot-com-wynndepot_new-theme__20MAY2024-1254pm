@@ -63,7 +63,7 @@
                 class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
                 role="list">
             {%- for collection in collections -%}
-              {%- assign child_collections = collection.metafields.esyncer.child_collections -%}
+              {%- assign child_collections = collection.metafields.custom.child_collections -%}
         {{ child_collections | json }}
               
                 {% if forloop.index >= items_first and  forloop.index <= items_last %}
