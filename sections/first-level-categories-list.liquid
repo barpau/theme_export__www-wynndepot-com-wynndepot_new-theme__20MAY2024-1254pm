@@ -30,7 +30,9 @@
 <div class="container section-{{ section.id }}-padding">
    
   {%- if child_collections != blank -%}
-    {{ child_collections.value }}
+   {% for child_collection in child_collections %}
+  {{ child_collection.id }}
+{% endfor %}
     
     {%- assign child_collection_ids = child_collections.value | split: ',' -%}
 
