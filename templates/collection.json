@@ -1,1 +1,98 @@
-{"sections":{"banner":{"type":"main-collection-banner","settings":{"color_scheme":"dark","layout":"overlay","image":"additional_image","show_collection_description":true,"show_collection_image":true,"opacity_overlay":0,"opacity_overlay_mobile":0.7,"margin_top":"no-indent","margin_bottom":"xs"}},"product-grid":{"type":"main-collection-product-grid","settings":{"products_per_page":15,"columns_mobile":"1","image_ratio":"square","image_fit":"cover","show_secondary_image":true,"show_vendor":true,"show_desc":false,"show_sku":false,"enable_filtering":true,"enable_sorting":true,"padding_top":"no-indent","padding_bottom":"m"}}},"order":["banner","product-grid"]}
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "color_scheme": "dark",
+        "layout": "overlay",
+        "image": "additional_image",
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "opacity_overlay": 0,
+        "opacity_overlay_mobile": 0.7,
+        "margin_top": "no-indent",
+        "margin_bottom": "xs"
+      }
+    },
+    "first_level_categories_list_NYjTYw": {
+      "type": "first-level-categories-list",
+      "blocks": {
+        "collection_item_TzzFCd": {
+          "type": "collection_item",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection_item_m3zcQA": {
+          "type": "collection_item",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection_item_YythRY": {
+          "type": "collection_item",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection_item_Gb7EFP": {
+          "type": "collection_item",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection_item_TfxcBE": {
+          "type": "collection_item",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "collection_item_kz7APw": {
+          "type": "collection_item",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_TzzFCd",
+        "collection_item_m3zcQA",
+        "collection_item_YythRY",
+        "collection_item_Gb7EFP",
+        "collection_item_TfxcBE",
+        "collection_item_kz7APw"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "heading": "Some heading",
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "collections_to_show": 6,
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 15,
+        "columns_mobile": "1",
+        "image_ratio": "square",
+        "image_fit": "cover",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_desc": false,
+        "show_sku": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "padding_top": "no-indent",
+        "padding_bottom": "m"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "first_level_categories_list_NYjTYw",
+    "product-grid"
+  ]
+}
