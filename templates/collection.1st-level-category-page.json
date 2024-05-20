@@ -14,6 +14,11 @@
         "margin_bottom": "xs"
       }
     },
+    "first_level_categories_list": {
+      "type": "first_level_categories_list",
+      "settings": {
+      }
+    }
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -35,11 +40,5 @@
   "order": [
     "banner",
     "product-grid"
-  ],
-
-  "first_level_categories_list": {
-    "type": "first_level_categories_list",
-    "settings": {
-    }
-  }
+  ]
 }
