@@ -40,8 +40,11 @@
         {% assign items_last = paginate.current_page | times: paginate_by %}
 
     
-      {%- for collection in collections -%}
+     
     {%- assign child_collections = collection.metafields.esyncer.child_collections -%}
+        {{ child_collections | json }}
+
+        
     {%- if child_collections != blank -%}
         {%- assign child_collection_handles = child_collections | split: ',' -%}
         {%- for handle in child_collection_handles -%}
@@ -51,7 +54,7 @@
             {%- endif -%}
         {%- endfor -%}
     {%- endif -%}
-{%- endfor -%}
+
 
 {%- assign filtered_collections = filtered_collections | split: ',' | compact -%}
 
