@@ -39,11 +39,6 @@
         {% endif %}
         {% assign items_last = paginate.current_page | times: paginate_by %}
 
-     
-
-
-        {{ collections | json }}
-
         {%- assign food_services_collections = collections | where: 'handle', 'food-services' -%}
         {%- assign furniture_collections = collections | where: 'handle', 'furniture' -%}
         {%- assign industrial_collections = collections | where: 'handle', 'industrial' -%}
