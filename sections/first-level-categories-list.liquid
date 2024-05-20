@@ -58,9 +58,9 @@
                 class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
                 role="list">
             {%- for collection in collections -%}
-               {%- if collection.metafields.esyncer.first-level-category-id != blank -%}
+              
         {{ collection.title }}
-         {% endif %}
+     
                 {% if forloop.index >= items_first and  forloop.index <= items_last %}
                     <li class="collections-grid__item {% if section.settings.image_ratio == 'portrait' or section.settings.image_ratio == 'portrait' %} collections-grid__card--portrait {% endif %}">
                         {% liquid
