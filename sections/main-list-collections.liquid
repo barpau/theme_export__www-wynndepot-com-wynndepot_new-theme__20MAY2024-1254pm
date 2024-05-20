@@ -24,9 +24,8 @@
 
   assign paginate_by = section.settings.collections_to_show | times: 4
 
- assign custom_collections = "267816599607,267816697911,267816402999"
 -%}
-{{ collections | json }}
+
 <div class="container section-{{ section.id }}-padding">
   <div class="page-header">
     <div class="page-header__inner">
@@ -45,6 +44,7 @@
       class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
       role="list">
       {%- for collection in collections -%}
+        {% if collection.id == '271132426295' %}
         {% if forloop.index >= items_first and  forloop.index <= items_last %}
           <li class="collections-grid__item {% if section.settings.image_ratio == 'portrait' or section.settings.image_ratio == 'portrait' %} collections-grid__card--portrait {% endif %}">
             {% liquid
@@ -107,6 +107,7 @@
             </div>
           </li>
         {% endif %}
+           {% endif %}
       {%- endfor -%}
     </ul>
 
