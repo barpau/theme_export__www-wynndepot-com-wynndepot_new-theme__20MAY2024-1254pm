@@ -36,11 +36,10 @@
     
     {%- for id in child_collection_ids -%}
         {%- assign id = id | replace: 'gid://shopify/Collection/', '' | strip -%}
-      {{ id | json }}
         {%- assign child_collection = collections | where: 'id', id | first -%}
        
             {%- assign filtered_collections = filtered_collections | append: child_collection | append: ',' -%}
-    
+    {{ filtered_collections }}
     {%- endfor -%}
 {%- endif -%}
   
