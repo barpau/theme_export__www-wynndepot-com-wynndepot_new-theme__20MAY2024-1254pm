@@ -13,7 +13,9 @@
   assign custom_collection_ids = "267816599607,267816697911,267816402999"
   assign custom_collections = "" | split: ","  # Initialize an empty array
 
-  # Create the custom collections array based on the IDs
+  comment
+  Create the custom collections array based on the IDs
+  endcomment
   for id in custom_collection_ids | split: ","
     for collection in collections
       if collection.id == id
@@ -22,7 +24,9 @@
     endfor
   endfor
 
+  comment
   # Apply sorting based on settings
+  endcomment
   case section.settings.sort
     when 'products_high', 'products_low'
       assign sorted_custom_collections = custom_collections | sort: 'all_products_count'
@@ -34,12 +38,16 @@
       assign sorted_custom_collections = custom_collections
   endcase
 
+  comment
   # Apply reversing if necessary
+  endcomment
   if section.settings.sort == 'products_high' or section.settings.sort == 'date_reversed' or section.settings.sort == 'alphabetical_reversed'
     assign sorted_custom_collections = sorted_custom_collections | reverse
   endif
 
+  comment
   # Determine pagination limit
+  endcomment
   assign paginate_by = section.settings.collections_to_show | times: 4
 -%}
 
