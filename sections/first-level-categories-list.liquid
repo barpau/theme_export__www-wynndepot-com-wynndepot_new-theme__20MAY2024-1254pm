@@ -48,26 +48,6 @@
         {% endif %}
         {% assign items_last = paginate.current_page | times: paginate_by %}
 
-
-      
-     
-    {%- assign child_collections = collection.metafields.esyncer.child_collections -%}
-       
-
-        
-    {%- if child_collections != blank -%}
-        {%- assign child_collection_handles = child_collections | split: ',' -%}
-        {%- for handle in child_collection_handles -%}
-            {%- assign child_collection = collections | where: 'handle', handle | first -%}
-            {%- if child_collection != blank -%}
-                {%- assign filtered_collections = filtered_collections | append: child_collection | append: ',' -%}
-            {%- endif -%}
-        {%- endfor -%}
-    {%- endif -%}
-
-
-{%- assign filtered_collections = filtered_collections | split: ',' | compact -%}
-
      
         <ul
                 class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
