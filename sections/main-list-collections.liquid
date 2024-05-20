@@ -11,11 +11,8 @@
 {% comment %}bp edit start{% endcomment %}
 {%- liquid
   assign custom_collection_ids = "267816599607,267816697911,267816402999"
-  assign custom_collections = "" | split: ","  # Initialize an empty array
+  assign custom_collections = "" | split: ","
 
-  comment
-  Create the custom collections array based on the IDs
-  endcomment
   for id in custom_collection_ids | split: ","
     for collection in collections
       if collection.id == id
@@ -23,43 +20,9 @@
       endif
     endfor
   endfor
-
-  comment
-  # Apply sorting based on settings
-  endcomment
-  case section.settings.sort
-    when 'products_high', 'products_low'
-      assign sorted_custom_collections = custom_collections | sort: 'all_products_count'
-    when 'date', 'date_reversed'
-      assign sorted_custom_collections = custom_collections | sort: 'published_at'
-    when 'alphabetical', 'alphabetical_reversed'
-      assign sorted_custom_collections = custom_collections | sort: 'title'
-    else
-      assign sorted_custom_collections = custom_collections
-  endcase
-
-  comment
-  # Apply reversing if necessary
-  endcomment
-  if section.settings.sort == 'products_high' or section.settings.sort == 'date_reversed' or section.settings.sort == 'alphabetical_reversed'
-    assign sorted_custom_collections = sorted_custom_collections | reverse
-  endif
-
-  comment
-  # Determine pagination limit
-  endcomment
-  assign paginate_by = section.settings.collections_to_show | times: 4
 -%}
 
-{% paginate sorted_custom_collections by paginate_by %}
-  {% for collection in sorted_custom_collections %}
-    <!-- Output collection details here -->
-    <div class="collection">
-      <h2>{{ collection.title }}</h2>
-      <p>{{ collection.description }}</p>
-    </div>
-  {% endfor %}
-{% endpaginate %}
+
 
 {% comment %}bp edit end{% endcomment %}
 
@@ -87,18 +50,19 @@
       <h1 class="main-page-title page-title title--page">{{ section.settings.title | escape }}</h1>
     </div>
   </div>
-  {%- paginate collections by paginate_by -%}
+  {% comment %}{%- paginate collections by paginate_by -%}
     {% if paginate.current_page == 1 %}
       {% assign items_first = 1  %}
     {% else %}
       {% assign items_first = paginate.current_page | times: paginate_by | minus: paginate_by | plus: 1 %}
     {% endif %}
-    {% assign items_last = paginate.current_page | times: paginate_by %}
+    {% assign items_last = paginate.current_page | times: paginate_by %}{% endcomment %}
 
     <ul
       class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
       role="list">
-      {%- for collection in collections -%}
+      {%- for collection in custom_collections -%}
+      {% comment %}{%- for collection in collections -%}{% endcomment %}
         {% if forloop.index >= items_first and  forloop.index <= items_last %}
           <li class="collections-grid__item {% if section.settings.image_ratio == 'portrait' or section.settings.image_ratio == 'portrait' %} collections-grid__card--portrait {% endif %}">
             {% liquid
