@@ -42,8 +42,13 @@
   {%- assign food_services_collections = collections | where: 'handle', 'food-services' -%}
 {%- assign furniture_collections = collections | where: 'handle', 'furniture' -%}
 {%- assign industrial_collections = collections | where: 'handle', 'industrial' -%}
+    {%- assign janitorial_collections = collections | where: 'handle', 'janitorial-sanitation' -%}
+    {%- assign office_collections = collections | where: 'handle', 'office' -%}
+    {%- assign school_collections = collections | where: 'handle', 'school-supplies' -%}
+    {%- assign technology_collections = collections | where: 'handle', 'technology' -%}
+   
 
-{%- assign filtered_collections = food_services_collections | concat: furniture_collections | concat: industrial_collections -%}
+{%- assign filtered_collections = food_services_collections | concat: furniture_collections | concat: industrial_collections | concat: janitorial_collections  | concat: office_collections | concat: school_collections | concat: technology_collections -%}
 
     <ul
       class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
