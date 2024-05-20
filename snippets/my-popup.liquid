@@ -1,0 +1,255 @@
+<style>
+  .contact-form__fields {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  #form-heading-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+  }
+
+  #form-heading-container h3 {
+    align-content: center;
+    margin: 0;
+  }
+
+  #bulkOrderModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  #bulkOrderModalContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #bulkOrderModalContent {
+    background: white;
+    width: 80%;
+    max-width: 768px; /* Maximum width */
+    height: 95%;
+    padding: 20px 80px;
+    border-radius: 5px;
+    overflow: auto;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Adds shadow for depth */
+    align-content: center;
+  }
+
+  #bulkOrderForm {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #bulkOrderForm input, #bulkOrderForm textarea {
+    margin-bottom: 14px;
+    padding: 7px 10px;
+  }
+
+  #bulkOrderForm label {
+    margin-bottom: 4px;
+    color: #464646;
+    font-size: 14px;
+  }
+
+  #bulkOrderForm #quantity {
+    width: 100px;
+  }
+
+  #bulkOrderForm input, textarea {
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+  }
+
+  #closeModal {
+    font-size: 30px;
+  }
+
+  #productName {
+    padding: 0;
+    margin: 0;
+  }
+
+  #productID {
+  margin: 0;
+  font-size: 12px;
+  color: #7d7d7d;
+  }
+
+  input[type="submit"] {
+    background-color: #5433ea; /* Example color (green) */
+    color: white; /* Makes the text white */
+    border: none; /* Removes the border */
+    margin-top: 10px;
+    padding: 15px 20px !important; /* Adds padding */
+    cursor: pointer; /* Shows a pointer cursor */
+    font-size: 14px; /* Adjust the font size */
+    font-weight: 500;
+  }
+
+  #bulk-product-info-wrapper {
+    background-color: #e8ebfc;
+    padding: 15px;
+    margin-bottom: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #bulkOrderBanner {
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 35.4%, rgb(63, 76, 119) 70.2%);
+    margin-top: 5rem;
+
+  }
+
+  #bulkOrderButton {
+      padding: 15px;
+      display: block; /* Makes the anchor fill the div */
+      text-decoration: none; /* Removes underline from the link */
+      color: #fff; /* Sets text color, adjust as needed */
+      width: 100%; /* Ensures it occupies the full width of its parent */
+      height: 100%; /* Ensures it occupies the full height of its parent */
+      font-weight: 500;
+      letter-spacing: 0.2px;
+  }
+
+  #bulkOrderBanner:hover {
+    background: linear-gradient(112.1deg, rgb(63, 76, 119) 11.4%, rgb(32, 38, 57) 70.2%);
+  }
+
+  #bulkOrderButton {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+  }
+
+  #bulkOrderButton img {
+    margin-left: 5px; /* Spacing between text and image */
+    height: 20px; /* Adjust size as needed */
+    width: auto;
+    vertical-align: middle; /* Aligns the image vertically with the text */
+  }
+</style>
+
+<div id="bulkOrderBanner">
+  <a href="#" id="bulkOrderButton"
+    >Need a Bulk Order? Click to Fill Up Form Now!
+    <img
+      src="https://cdn.shopify.com/s/files/1/0559/2786/5399/files/arrow-down_9cecb4af-a88f-482a-af3d-964000199f89.webp?v=1715533585"
+      alt="Arrow Down"
+      style="margin-left: 5px; vertical-align: middle; width: 30px; height: 100%;"
+    >
+  </a>
+</div>
+
+<div id="bulkOrderForm" style="display:none;">
+  {% include 'bulk-order-form' %}
+</div>
+
+<script>
+  document.getElementById('bulkOrderButton').addEventListener('click', function(event) {
+    event.preventDefault();
+    var form = document.getElementById('bulkOrderForm');
+    if (form.style.display === 'none' || form.style.display === '') {
+      form.style.display = 'block';
+    } else {
+      form.style.display = 'none';
+    }
+  });
+</script>
+
+{%- if form.posted_successfully? -%}
+  <p>Thanks for contacting us. We'll get back to you as soon as possible.</p>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.getElementById('bulkOrderForm').style.display = 'none'; // Hide the form modal
+      document.getElementById('bulkOrderButton').innerText = 'Submission Successful!'; // Update banner text
+    });
+  </script>
+{%- endif -%}
+
+{% comment %}
+  <!-- Modal Container for Bulk Order -->
+  <div id="bulkOrderModal" style="display:none;">
+    <div id="bulkOrderModalContent">
+      <form id="bulkOrderForm">
+        <div id="form-heading-container">
+          <h3>{{ 'bulk_order.form.form_name_label' | t }}</h3>
+          <span id="closeModal" style="cursor:pointer;">&times;</span>
+        </div>
+
+        <div id="bulk-product-info-wrapper">
+          <h3 id="productName">{{ product.title | escape }}</h3>
+          <p id="productID">SKUs ID: {{ product.id | escape }}</p>
+        </div>
+        {% include 'bulk-order-form' %}
+
+        {% comment %}
+          <label for="productName">{{ 'bulk_order.form.product_name_label' | t }}</label>
+          <input type="text" id="productName" name="productName" value="{{ product.title | escape }}" readonly>
+
+
+          <label for="productId">{{ 'bulk_order.form.product_id_label' | t }}</label>
+          <input type="text" id="productId" name="productId" value="{{ product.id }}" readonly>
+        {% endcomment %}
+
+        {% comment %}
+          <label for="customerName">{{ 'bulk_order.form.name_label' | t }}</label>
+          <input type="text" id="customerName" name="customerName" required>
+
+          <label for="customerEmail">{{ 'bulk_order.form.email_label' | t }}</label>
+          <input type="email" id="customerEmail" name="customerEmail" required>
+
+          <label for="customerPhone">{{ 'bulk_order.form.phone_label' | t }}</label>
+          <input type="tel" id="customerPhone" name="customerPhone" required>
+
+          <label for="quantity">{{ 'bulk_order.form.quantity_label' | t }}</label>
+          <input type="number" id="quantity" name="quantity" required>
+
+          <label for="shippingAddress">{{ 'bulk_order.form.address_label' | t }}</label>
+          <textarea id="shippingAddress" name="shippingAddress" required></textarea>
+
+          <label for="specialInstructions">{{ 'bulk_order.form.instructions_label' | t }}</label>
+          <textarea id="specialInstructions" name="specialInstructions"></textarea>
+
+          <input type="submit" value="{{ 'bulk_order.form.submit_button' | t }}">
+          <p id="successMessage" style="display:none; color: green;">{{ 'bulk_order.form.success_message' | t }}</p>
+        {% endcomment %}
+      </form>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('bulkOrderButton').addEventListener('click', function(event) {
+      event.preventDefault();
+      document.getElementById('bulkOrderModal').style.display = 'flex';
+    });
+
+    document.getElementById('closeModal').addEventListener('click', function() {
+      document.getElementById('bulkOrderModal').style.display = 'none';
+    });
+
+    document.getElementById('bulkOrderModal').addEventListener('click', function(event) {
+      if (event.target === document.getElementById('bulkOrderModal')) {
+        document.getElementById('bulkOrderModal').style.display = 'none';
+      }
+    });
+  </script>
+{% endcomment %}

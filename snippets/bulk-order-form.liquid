@@ -1,0 +1,189 @@
+{{ 'section-custom-bulk-order-form.css' | asset_url | stylesheet_tag }}
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  {% render 'section-padding' %}
+{%- endstyle -%}
+
+<style>
+  .custom-contact-form__fields {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-{{ section.id }}-padding {
+    margin: 30px 0;
+  }
+
+  .custom-product-name-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 6px
+  }
+
+  .custom-contact-form__fields div {
+    margin-bottom: 15px;
+  }
+
+  .field input {
+    margin: 0 !important;
+  }
+
+  .field textarea {
+    margin: 0 !important;
+  }
+
+  .custom-bulk-order-form-container {
+    padding: 0 15px;
+  }
+
+  .custom-contact-form__bottom {
+    width: 100%;
+  }
+
+  .custom-contact-form__bottom button {
+    width: 100%;
+  }
+
+  .quantity-field {
+    width: 80%;
+  }
+  .field.quantity-field p {
+    width: 100%;
+    margin-left: 15px;
+    color: gray;
+  }
+</style>
+
+<div class="contact-form section-{{ section.id }}-padding">
+  <div class="custom-bulk-order-form-container">
+    <div class="contact-form__container contact-form__container--{{ section.settings.position }} ">
+      <div class="contact-form__text contact-form__text--{{ section.settings.layout }}">
+        <div class="contact-form__wrapper">
+          {%- if section.settings.heading != blank -%}
+            <h2 class="contact-form__title h3">
+              {{ section.settings.heading }}
+            </h2>
+          {%- endif -%}
+
+          {%- if form.posted_successfully? -%}
+            <p>Thanks for contacting us. We'll get back to you as soon as possible.</p>
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                document.getElementById('bulkOrderForm').style.display = 'none'; // Hide the form modal
+                document.getElementById('bulkOrderButton').innerText = 'Submission Successful!'; // Update banner text
+              });
+            </script>
+          {%- endif -%}
+
+          {%- form 'contact', id: 'ContactForm' -%}
+            {%- if form.posted_successfully? -%}
+              <div class="form-status form-status-list form__message" tabindex="-1" autofocus>
+                {% render 'icon-success' %}
+                {{ 'templates.contact.form.post_success' | t }}
+              </div>
+            {%- elsif form.errors -%}
+            {%- endif -%}
+            <div class="custom-contact-form__fields">
+              <div class="custom-product-name-wrapper">
+                <h3 id="productName">{{ product.title | escape }}</h3>
+                <p id="productID">SKUs ID: {{ product.selected_or_first_available_variant.sku | escape }}</p>
+              </div>
+              <div class="field field__name">
+                <input type="hidden" name="contact[Product Name]" value="{{ product.title | escape }}">
+                <input
+                  type="hidden"
+                  name="contact[SKU ID]"
+                  value="{{ product.selected_or_first_available_variant.sku | escape }}"
+                >
+
+                <input
+                  class="field__input"
+                  autocomplete="name"
+                  type="text"
+                  id="ContactForm-name"
+                  name="contact[name]"
+                  placeholder="{{ 'templates.contact.form.name' | t }}"
+                >
+                <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+              </div>
+
+              <div class="field field--with-error">
+                <input
+                  class="field__input"
+                  autocomplete="email"
+                  type="email"
+                  id="ContactForm-email"
+                  name="contact[email]"
+                  placeholder="{{ 'templates.contact.form.email' | t }}"
+                  required
+                >
+                <label class="field__label" for="ContactForm-email">{{ 'templates.contact.form.email' | t }}</label>
+                {%- if form.errors contains 'email' -%}
+                  <small class="contact-form__field-error" id="ContactForm-email-error">
+                    {{- form.errors.messages.email -}}
+                  </small>
+                {%- endif -%}
+              </div>
+
+              <div class="field">
+                <input
+                  type="tel"
+                  id="ContactForm-phone"
+                  class="field__input"
+                  autocomplete="tel"
+                  name="contact[phone]"
+                  placeholder="{{ 'templates.contact.form.phone' | t }}"
+                >
+                <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+              </div>
+
+              <div class="field quantity-field">
+                <input
+                  type="number"
+                  id="ContactForm-quantity"
+                  class="field__input"
+                  name="contact[quantity (Unit)]"
+                  placeholder="Quantity"
+                  required
+                >
+                <label class="field__label" for="ContactForm-quantity">Quantity</label>
+                <p>/ Unit</p>
+              </div>
+
+              <div class="field">
+                <textarea
+                  rows="4"
+                  id="ContactForm-address"
+                  class="text-area field__input"
+                  name="contact[address]"
+                  placeholder="Shipping Address"
+                  required
+                ></textarea>
+                <label class="field__label" for="ContactForm-address">Shipping Address</label>
+              </div>
+
+              <div class="field">
+                <textarea
+                  rows="4"
+                  id="ContactForm-instructions"
+                  class="text-area field__input"
+                  name="contact[instructions]"
+                  placeholder="Special Instructions"
+                ></textarea>
+                <label class="field__label" for="ContactForm-instructions"
+                  >Special Instructions (Optional: Provide details if applicable)</label
+                >
+              </div>
+
+              <div class="custom-contact-form__bottom">
+                <button type="submit" class="button button--primary">{{ 'templates.contact.form.send' | t }}</button>
+              </div>
+            </div>
+          {%- endform -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
