@@ -28,6 +28,21 @@
 <div class="container section-{{ section.id }}-padding">
     {%- assign child_collections = collection.metafields.esyncer.child_collections %}
    {{ child_collections }}
+
+
+  {%- if child_collections != blank -%}
+    {%- assign child_collection_ids = child_collections.value | split: ',' -%}
+    {%- for id in child_collection_ids -%}
+        {%- assign id = id | replace: 'gid://shopify/Collection/', '' | strip -%}
+        {%- assign child_collection = collections | where: 'id', id | first -%}
+        {%- if child_collection != blank -%}
+            {%- assign filtered_collections = filtered_collections | append: child_collection | append: ',' -%}
+
+          {{ filtered_collections }}
+        {%- endif -%}
+    {%- endfor -%}
+{%- endif -%}
+  
     {%- paginate collections by paginate_by -%}
         {% if paginate.current_page == 1 %}
             {% assign items_first = 1  %}
