@@ -27,9 +27,6 @@
 
 <div class="container section-{{ section.id }}-padding">
     {%- assign child_collections = collection.metafields.esyncer.child_collections %}
-  
-
-
   {%- if child_collections != blank -%}
     
     {%- assign child_collection_ids = child_collections.value | split: ',' -%}
@@ -39,8 +36,6 @@
         {%- assign child_collection = collections | where: 'id', id | first -%}
        
             {%- assign filtered_collections = filtered_collections | append: child_collection | append: ',' -%}
-
-          {{ filtered_collections }}
     
     {%- endfor -%}
 {%- endif -%}
