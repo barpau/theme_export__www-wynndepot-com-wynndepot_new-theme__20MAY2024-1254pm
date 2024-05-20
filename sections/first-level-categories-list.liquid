@@ -4,7 +4,7 @@
     <script src="{{ 'load-more.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
- {%- assign child_collections = collection.metafields.esyncer.child_collections %}
+ {%- assign child_collections = collection.metafields.esyncer.child_collections.value %}
   {{ child_collections }}
 
 {%- style -%}
