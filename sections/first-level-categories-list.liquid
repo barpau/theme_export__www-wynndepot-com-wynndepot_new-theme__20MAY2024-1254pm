@@ -5,8 +5,6 @@
 {%- endif -%}
 
  {%- assign child_collections = collection.metafields.custom.child_collections %}
-  {{ child_collections }}
- 
 
 {%- style -%}
     {% render 'section-padding' %}
@@ -32,6 +30,7 @@
 <div class="container section-{{ section.id }}-padding">
    
   {%- if child_collections != blank -%}
+    {{ child_collections | json }}
     
     {%- assign child_collection_ids = child_collections.value | split: ',' -%}
     {%- for id in child_collection_ids -%}
