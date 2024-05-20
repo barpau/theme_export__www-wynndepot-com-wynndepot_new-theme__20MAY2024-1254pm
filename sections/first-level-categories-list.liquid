@@ -120,6 +120,16 @@
         </ul>
 
         {%- if paginate.pages > 1 -%}
+            {%- if settings.pagination_type == 'load_more' -%}
+                {% render 'load-more',
+                        next_url: paginate.next.url,
+                        count_pages: paginate.pages,
+                        current_page: paginate.current_page
+                %}
+                <div class="js-hidden">
+                    {% render 'pagination', paginate: paginate %}
+                </div>
+            {%- elsif settings.pagination_type == 'infinite_scroll' -%}
                 {% render 'infinite-scroll',
                         next_url: paginate.next.url,
                         count_pages: paginate.pages,
