@@ -38,7 +38,13 @@
       {% assign items_first = paginate.current_page | times: paginate_by | minus: paginate_by | plus: 1 %}
     {% endif %}
     {% assign items_last = paginate.current_page | times: paginate_by %}
-   {%- assign filtered_collections = collections | where: 'handle', 'food-services' | concat: collections | where: 'handle', 'furniture' | concat: collections | where: 'handle', 'industrial' -%}
+    
+  {%- assign food_services_collections = collections | where: 'handle', 'food-services' -%}
+{%- assign furniture_collections = collections | where: 'handle', 'furniture' -%}
+{%- assign industrial_collections = collections | where: 'handle', 'industrial' -%}
+
+{%- assign filtered_collections = food_services_collections | concat: furniture_collections | concat: industrial_collections -%}
+
     <ul
       class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
       role="list">
