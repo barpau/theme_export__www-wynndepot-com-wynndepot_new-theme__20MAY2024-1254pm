@@ -33,7 +33,7 @@
   
   {%- if child_collections != blank -%}
      {% for child_collection in child_collections %}
-       {{ child_collection }}
+       {{ child_collection | json }}
     {% endfor %} 
    
 {%- endif -%}
