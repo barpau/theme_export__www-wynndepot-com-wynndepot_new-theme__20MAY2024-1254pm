@@ -33,7 +33,7 @@
   
   {%- if child_collections != blank -%}
      {% for child_collection in child_collections %}
-        filtered_collection_ids = child_collection.id 
+        filtered_collection_ids == child_collection.id | append
       {% endfor %}
     {{ filtered_collection_ids }}
    
