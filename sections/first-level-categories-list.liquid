@@ -39,7 +39,12 @@
    
 
 {%- if child_collections != blank -%}
+
+  jojo
+  
     {%- assign child_collection_ids = child_collections.value | split: ',' -%}
+ {{ child_collection_ids }}
+
     {%- for id in child_collection_ids -%}
         {%- assign id = id | replace: 'gid://shopify/Collection/', '' | strip -%}
         {%- assign child_collection = collections | where: 'id', id | first -%}
