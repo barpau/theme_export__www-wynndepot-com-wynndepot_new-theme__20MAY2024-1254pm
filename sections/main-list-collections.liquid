@@ -38,12 +38,11 @@
       {% assign items_first = paginate.current_page | times: paginate_by | minus: paginate_by | plus: 1 %}
     {% endif %}
     {% assign items_last = paginate.current_page | times: paginate_by %}
-    
+    {%- assign filtered_collections = collections | where: 'handle', 'wristbands' -%}
     <ul
       class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
       role="list">
-      {%- for collection in collections -%}
-         {% if collection.handle == "wristbands" %}
+      {%- for collection in filtered_collections -%}
         {% if forloop.index >= items_first and  forloop.index <= items_last %}
           <li class="collections-grid__item {% if section.settings.image_ratio == 'portrait' or section.settings.image_ratio == 'portrait' %} collections-grid__card--portrait {% endif %}">
             {% liquid
@@ -106,7 +105,6 @@
             </div>
           </li>
         {% endif %}
-            {% endif %}
       {%- endfor -%}
     </ul>
 
