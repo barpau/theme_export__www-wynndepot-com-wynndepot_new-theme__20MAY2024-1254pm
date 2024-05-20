@@ -31,6 +31,14 @@
             <h1 class="main-page-title page-title title--page">{{ section.settings.title | escape }}</h1>
         </div>
     </div>
+    {%- paginate collections by paginate_by -%}
+        {% if paginate.current_page == 1 %}
+            {% assign items_first = 1  %}
+        {% else %}
+            {% assign items_first = paginate.current_page | times: paginate_by | minus: paginate_by | plus: 1 %}
+        {% endif %}
+        {% assign items_last = paginate.current_page | times: paginate_by %}
+
         {%- assign food_services_collections = collections | where: 'handle', 'food-services' -%}
         {%- assign furniture_collections = collections | where: 'handle', 'furniture' -%}
         {%- assign industrial_collections = collections | where: 'handle', 'industrial' -%}
@@ -110,6 +118,7 @@
                 {% endif %}
             {%- endfor -%}
         </ul>
+    {%- endpaginate -%}
 </div>
 
 {% schema %}
