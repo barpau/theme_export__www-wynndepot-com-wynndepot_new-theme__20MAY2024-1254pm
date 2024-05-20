@@ -39,7 +39,7 @@
       role="list">
       {%- for collection in collections -%}
        
-        {% if collection.handle == "writing-pads-self-stick-notes" %}
+        {% if collection.handle == writing-pads-self-stick-notes %}
         {% if forloop.index >= items_first and  forloop.index <= items_last %}
           <li class="collections-grid__item {% if section.settings.image_ratio == 'portrait' or section.settings.image_ratio == 'portrait' %} collections-grid__card--portrait {% endif %}">
             {% liquid
