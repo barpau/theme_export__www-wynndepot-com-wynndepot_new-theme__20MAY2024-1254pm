@@ -51,6 +51,8 @@
 
 {%- assign filtered_collections = filtered_collections | split: ',' | compact -%}
 
+      {{ filtered_collections }}
+
      
         <ul
                 class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
