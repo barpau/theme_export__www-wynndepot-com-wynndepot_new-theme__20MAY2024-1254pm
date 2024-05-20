@@ -38,7 +38,7 @@
       {% assign items_first = paginate.current_page | times: paginate_by | minus: paginate_by | plus: 1 %}
     {% endif %}
     {% assign items_last = paginate.current_page | times: paginate_by %}
-    {%- assign filtered_collections = collections | where: 'handle', 'wristbands' -%}
+   {%- assign filtered_collections = collections | where: 'handle', 'food-services' | concat: collections | where: 'handle', 'furniture' | concat: collections | where: 'handle', 'industrial' -%}
     <ul
       class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
       role="list">
