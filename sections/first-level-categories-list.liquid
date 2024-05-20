@@ -31,7 +31,7 @@
 
 
   {%- if child_collections != blank -%}
-     {{ child_collections }}
+    
     {%- assign child_collection_ids = child_collections.value | split: ',' -%}
     {%- for id in child_collection_ids -%}
         {%- assign id = id | replace: 'gid://shopify/Collection/', '' | strip -%}
