@@ -6,7 +6,7 @@
 
  {%- assign child_collections = collection.metafields.esyncer.child_collections %}
   {{ child_collections.value }}
-  {{ collection.handle }}
+  {{ collection.metafields.esyncer.child_collections }}
 
 {%- style -%}
     {% render 'section-padding' %}
