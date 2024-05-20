@@ -23,8 +23,10 @@
   endif
 
   assign paginate_by = section.settings.collections_to_show | times: 4
+
+ assign custom_collections = "267816599607,267816697911,267816402999"
 -%}
-{{ collections | json }}
+{{ custom_collections | json }}
 <div class="container section-{{ section.id }}-padding">
   <div class="page-header">
     <div class="page-header__inner">
