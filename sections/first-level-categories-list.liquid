@@ -58,7 +58,7 @@
                 class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
                 role="list">
             {%- for collection in collections -%}
-              {% assign parent_collection = collection.metafields.esyncer['first-level-category-id'] %}
+              {% assign parent_collection = collection.metafields.esyncer.first_level_category_id %}
                
                 {{ parent_collection }}
               
