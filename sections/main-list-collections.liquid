@@ -32,7 +32,8 @@
     </div>
   </div>
 
-  {%- when 'first_level_categories_list' -%}
+  {%- liquid
+  when 'first_level_categories_list' -%}
         {% render 'first-level-categories-list' %}
 
   {%- paginate collections by paginate_by -%}
@@ -42,8 +43,6 @@
       {% assign items_first = paginate.current_page | times: paginate_by | minus: paginate_by | plus: 1 %}
     {% endif %}
     {% assign items_last = paginate.current_page | times: paginate_by %}
-
-
 
     <ul
       class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
