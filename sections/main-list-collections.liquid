@@ -44,6 +44,7 @@
       class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
       role="list">
       {%- for collection in collections -%}
+        {{ collection.id }}
        {% assign custom_collection = 267816402999 %}
         {% if collection.id == custom_collection %}
         {% if forloop.index >= items_first and  forloop.index <= items_last %}
