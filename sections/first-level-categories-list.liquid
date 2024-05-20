@@ -26,11 +26,8 @@
 -%}
 
 <div class="container section-{{ section.id }}-padding">
-    <div class="page-header">
-        <div class="page-header__inner">
-            <h1 class="main-page-title page-title title--page">{{ collection.title }}</h1>
-        </div>
-    </div>
+    {%- assign child_collections = collection.metafields.esyncer.child_collections %}
+   {{ child_collections }}
     {%- paginate collections by paginate_by -%}
         {% if paginate.current_page == 1 %}
             {% assign items_first = 1  %}
@@ -39,10 +36,11 @@
         {% endif %}
         {% assign items_last = paginate.current_page | times: paginate_by %}
 
-    
+
+      
      
     {%- assign child_collections = collection.metafields.esyncer.child_collections -%}
-        {{ child_collections | json }}
+       
 
         
     {%- if child_collections != blank -%}
