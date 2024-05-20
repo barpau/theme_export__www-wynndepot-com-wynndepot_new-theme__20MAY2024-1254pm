@@ -39,6 +39,8 @@
         {% endif %}
         {% assign items_last = paginate.current_page | times: paginate_by %}
 
+      {%- if collection.metafields.esyncer.first-level-category-id != blank -%}
+
         {%- assign food_services_collections = collections | where: 'handle', 'food-services' -%}
         {%- assign furniture_collections = collections | where: 'handle', 'furniture' -%}
         {%- assign industrial_collections = collections | where: 'handle', 'industrial' -%}
@@ -49,14 +51,11 @@
 
 
         {%- assign filtered_collections = food_services_collections | concat: furniture_collections | concat: industrial_collections | concat: janitorial_collections  | concat: office_collections | concat: school_collections | concat: technology_collections -%}
-
+{%- endif -%}
         <ul
                 class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
                 role="list">
-            {%- for collection in collections -%}
-               {%- if collection.metafields.esyncer.first-level-category-id != blank -%}
-    <p class="collections-grid__subtitle">{{ collection.title }}</p>
-{%- endif -%}
+            {%- for collection in filtered_collections -%}
                 {% if forloop.index >= items_first and  forloop.index <= items_last %}
                     <li class="collections-grid__item {% if section.settings.image_ratio == 'portrait' or section.settings.image_ratio == 'portrait' %} collections-grid__card--portrait {% endif %}">
                         {% liquid
