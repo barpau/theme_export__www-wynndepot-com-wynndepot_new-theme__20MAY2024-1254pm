@@ -5,7 +5,6 @@
 {%- endif -%}
 
  {%- assign child_collections = collection.metafields.custom.child_collections.value %}
-{{ child_collections }}
 {%- style -%}
     {% render 'section-padding' %}
 {%- endstyle -%}
@@ -28,21 +27,16 @@
 -%}
 
 <div class="container section-{{ section.id }}-padding">
-   
-  {%- if child_collections != blank -%}
-   {% for child_collection in child_collections %}
-  {{ child_collection.id }}
-{% endfor %}
-    
-    {%- assign child_collection_ids = child_collections.value | split: ',' -%}
 
-    {%- for id in child_collection_ids -%}
-        {%- assign id = id | replace: 'gid://shopify/Collection/', '' | strip -%}
-        {%- assign child_collection = collections | where: 'id', id | first -%}
-       
-            {%- assign filtered_collections = filtered_collections | append: child_collection | append: ',' -%}
-    {{ filtered_collections }}
-    {%- endfor -%}
+
+  {%- assign filtered_collection_ids = "" -%}
+  
+  {%- if child_collections != blank -%}
+     {% for child_collection in child_collections %}
+        filtered_collection_ids = child_collection.id 
+      {% endfor %}
+    {{ filtered_collection_ids }}
+   
 {%- endif -%}
   
     {%- paginate collections by paginate_by -%}
