@@ -16,57 +16,13 @@
     },
     "first_level_categories_list_W9mTHt": {
       "type": "first-level-categories-list",
-      "blocks": {
-        "collection_item_FTwUCa": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_item_KKXGAG": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_item_dhFFFE": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_item_FwChkL": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_item_zUk4T7": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_item_PLwDzt": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_item_FTwUCa",
-        "collection_item_KKXGAG",
-        "collection_item_dhFFFE",
-        "collection_item_FwChkL",
-        "collection_item_zUk4T7",
-        "collection_item_PLwDzt"
-      ],
       "settings": {
-        "color_scheme": "background-1",
-        "heading": "Some heading",
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image": "collection",
         "image_ratio": "square",
         "image_fit": "cover",
+        "show_desc": false,
         "collections_to_show": 6,
         "padding_top": "m",
         "padding_bottom": "m"
