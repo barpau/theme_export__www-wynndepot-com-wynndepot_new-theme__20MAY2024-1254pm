@@ -50,7 +50,7 @@
         <ul
                 class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
                 role="list">
-            {%- for collection in collections -%}
+            {%- for collection in child_collections -%}
               
               
                 {% if forloop.index >= items_first and  forloop.index <= items_last %}
