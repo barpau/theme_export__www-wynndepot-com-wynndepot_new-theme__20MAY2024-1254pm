@@ -48,7 +48,7 @@
     "social_facebook_link": "https:\/\/facebook.com\/wynndepot",
     "social_instagram_link": "https:\/\/instagram.com\/wynndepot",
     "favicon": "shopify:\/\/shop_images\/Artboard_9_copy_8.png",
-    "pagination_type": "infinite_scroll",
+    "pagination_type": "load_more",
     "show_back_to_top": true,
     "show_breadcrumbs": true,
     "colors_subtitle_dot": "#2d8653",
