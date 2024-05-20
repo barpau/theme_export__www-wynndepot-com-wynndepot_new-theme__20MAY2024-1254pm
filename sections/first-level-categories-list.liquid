@@ -32,12 +32,6 @@
   
   
   {%- if child_collections != blank -%}
-     {% for child_collection in child_collections %}
-       {{ child_collection | json }}
-    {% endfor %} 
-   
-{%- endif -%}
-  
     {%- paginate collections by paginate_by -%}
         {% if paginate.current_page == 1 %}
             {% assign items_first = 1  %}
@@ -142,6 +136,7 @@
             {%- endif -%}
         {%- endif -%}
     {%- endpaginate -%}
+  {%- endif -%}
 </div>
 
 {% schema %}
