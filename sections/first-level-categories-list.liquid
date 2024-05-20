@@ -27,6 +27,7 @@
 
 <div class="container section-{{ section.id }}-padding">
     {%- assign child_collections = collection.metafields.esyncer.child_collections %}
+  {{ child_collections }}
     {%- paginate collections by paginate_by -%}
         {% if paginate.current_page == 1 %}
             {% assign items_first = 1  %}
