@@ -39,6 +39,8 @@
         {% endif %}
         {% assign items_last = paginate.current_page | times: paginate_by %}
 
+     
+
 
         {{ collections | json }}
 
@@ -56,7 +58,10 @@
         <ul
                 class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
                 role="list">
-            {%- for collection in filtered_collections -%}
+            {%- for collection in collections -%}
+               {%- if collection.metafields.esyncer.first-level-category-id != blank -%}
+    <p class="collections-grid__subtitle">{{ collection.title }}</p>
+{%- endif -%}
                 {% if forloop.index >= items_first and  forloop.index <= items_last %}
                     <li class="collections-grid__item {% if section.settings.image_ratio == 'portrait' or section.settings.image_ratio == 'portrait' %} collections-grid__card--portrait {% endif %}">
                         {% liquid
