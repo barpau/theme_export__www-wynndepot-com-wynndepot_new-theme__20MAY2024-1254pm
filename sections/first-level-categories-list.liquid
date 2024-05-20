@@ -39,7 +39,7 @@
         {% endif %}
         {% assign items_last = paginate.current_page | times: paginate_by %}
 
-      {%- if collection.metafields.esyncer.first-level-category-id != blank -%}
+    
 
         
 
@@ -53,7 +53,7 @@
 
 
         {%- assign filtered_collections = food_services_collections | concat: furniture_collections | concat: industrial_collections | concat: janitorial_collections  | concat: office_collections | concat: school_collections | concat: technology_collections -%}
-{%- endif -%}
+
         <ul
                 class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
                 role="list">
