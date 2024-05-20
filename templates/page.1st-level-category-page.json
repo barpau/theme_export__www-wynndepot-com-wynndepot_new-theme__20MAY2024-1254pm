@@ -4,6 +4,11 @@
       "type": "main-page",
       "settings": {
       }
+    },
+    "first_level_categories_list": {
+      "type": "first_level_categories_list",
+      "settings": {
+      }
     }
   },
   "order": [

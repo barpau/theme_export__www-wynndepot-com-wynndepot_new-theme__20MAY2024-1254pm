@@ -35,12 +35,5 @@
   "order": [
     "banner",
     "product-grid"
-  ],
-  "blocks": [
-    {
-      "type": "first_level_categories_list",
-      "name": "First level category list",
-      "limit": 1
-    }
-    ]
+  ]
 }
