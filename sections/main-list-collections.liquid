@@ -8,26 +8,7 @@
   {% render 'section-padding' %}
 {%- endstyle -%}
 
-{% comment %}bp edit start{% endcomment %}
 {%- liquid
-  assign custom_collection_ids = "267816599607,267816697911,267816402999"
-  assign custom_collections = "" | split: ","
-
-  for id in custom_collection_ids | split: ","
-    for collection in collections
-      if collection.id == id
-        assign custom_collections = custom_collections | push: collection
-      endif
-    endfor
-  endfor
--%}
-
-
-
-{% comment %}bp edit end{% endcomment %}
-
-
-{% comment %}{%- liquid
   case section.settings.sort
     when 'products_high', 'products_low'
       assign collections = collections | sort: 'all_products_count'
@@ -43,26 +24,25 @@
 
   assign paginate_by = section.settings.collections_to_show | times: 4
 -%}
-{% endcomment %}
+{{ collections | json }}
 <div class="container section-{{ section.id }}-padding">
   <div class="page-header">
     <div class="page-header__inner">
       <h1 class="main-page-title page-title title--page">{{ section.settings.title | escape }}</h1>
     </div>
   </div>
-  {% comment %}{%- paginate collections by paginate_by -%}
+  {%- paginate collections by paginate_by -%}
     {% if paginate.current_page == 1 %}
       {% assign items_first = 1  %}
     {% else %}
       {% assign items_first = paginate.current_page | times: paginate_by | minus: paginate_by | plus: 1 %}
     {% endif %}
-    {% assign items_last = paginate.current_page | times: paginate_by %}{% endcomment %}
-
+    {% assign items_last = paginate.current_page | times: paginate_by %}
+    
     <ul
       class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
       role="list">
-      {%- for collection in custom_collections -%}
-      {% comment %}{%- for collection in collections -%}{% endcomment %}
+      {%- for collection in collections -%}
         {% if forloop.index >= items_first and  forloop.index <= items_last %}
           <li class="collections-grid__item {% if section.settings.image_ratio == 'portrait' or section.settings.image_ratio == 'portrait' %} collections-grid__card--portrait {% endif %}">
             {% liquid
