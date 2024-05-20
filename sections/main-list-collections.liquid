@@ -31,11 +31,6 @@
       <h1 class="main-page-title page-title title--page">{{ section.settings.title | escape }}</h1>
     </div>
   </div>
-
-  {%- liquid
-  when 'first_level_categories_list' -%}
-        {% render 'first-level-categories-list' %}
-
   {%- paginate collections by paginate_by -%}
     {% if paginate.current_page == 1 %}
       {% assign items_first = 1  %}
@@ -145,12 +140,6 @@
   "tag": "section",
   "class": "section-list-collections",
   "settings": [
-    {
-      "type": "first_level_categories_list",
-      "name": "First level categories list",
-      "limit": 1
-    },
-
     {
       "type": "text",
       "id": "title",
