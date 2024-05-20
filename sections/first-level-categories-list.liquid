@@ -59,7 +59,7 @@
                 role="list">
             {%- for collection in collections -%}
                
-                {{ collection.metafields.esyncer.first-level-category-id }}
+                {{ collection.metafields.esyncer.first-level-category-id.value }}
               
                 {% if forloop.index >= items_first and  forloop.index <= items_last %}
                     <li class="collections-grid__item {% if section.settings.image_ratio == 'portrait' or section.settings.image_ratio == 'portrait' %} collections-grid__card--portrait {% endif %}">
