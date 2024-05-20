@@ -118,6 +118,20 @@
                 {% endif %}
             {%- endfor -%}
         </ul>
+
+        {%- if paginate.pages > 1 -%}
+                {% render 'infinite-scroll',
+                        next_url: paginate.next.url,
+                        count_pages: paginate.pages,
+                        current_page: paginate.current_page
+                %}
+                <div class="js-hidden">
+                    {% render 'pagination', paginate: paginate %}
+                </div>
+            {% else %}
+                {% render 'pagination', paginate: paginate %}
+            {%- endif -%}
+        {%- endif -%}
     {%- endpaginate -%}
 </div>
 
