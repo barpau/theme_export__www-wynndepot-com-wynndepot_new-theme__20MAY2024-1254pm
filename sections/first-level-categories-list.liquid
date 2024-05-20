@@ -27,7 +27,6 @@
 
 <div class="container section-{{ section.id }}-padding">
     {%- assign child_collections = collection.metafields.esyncer.child_collections %}
-   {{ child_collections }}
     {%- paginate collections by paginate_by -%}
         {% if paginate.current_page == 1 %}
             {% assign items_first = 1  %}
@@ -36,23 +35,19 @@
         {% endif %}
         {% assign items_last = paginate.current_page | times: paginate_by %}
 
-
-      
-     
-    {%- assign child_collections = collection.metafields.esyncer.child_collections -%}
-       
-
         
-    {%- if child_collections != blank -%}
-        {%- assign child_collection_handles = child_collections | split: ',' -%}
-        {%- for handle in child_collection_handles -%}
-            {%- assign child_collection = collections | where: 'handle', handle | first -%}
-            {%- if child_collection != blank -%}
-                {%- assign filtered_collections = filtered_collections | append: child_collection | append: ',' -%}
-            {%- endif -%}
-        {%- endfor -%}
-    {%- endif -%}
+   
 
+{%- if child_collections != blank -%}
+    {%- assign child_collection_ids = child_collections.value | split: ',' -%}
+    {%- for id in child_collection_ids -%}
+        {%- assign id = id | replace: 'gid://shopify/Collection/', '' | strip -%}
+        {%- assign child_collection = collections | where: 'id', id | first -%}
+        {%- if child_collection != blank -%}
+            {%- assign filtered_collections = filtered_collections | append: child_collection | append: ',' -%}
+        {%- endif -%}
+    {%- endfor -%}
+{%- endif -%}
 
 {%- assign filtered_collections = filtered_collections | split: ',' | compact -%}
 
