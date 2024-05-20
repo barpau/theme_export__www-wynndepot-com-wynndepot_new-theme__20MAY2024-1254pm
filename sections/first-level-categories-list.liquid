@@ -4,11 +4,6 @@
     <script src="{{ 'load-more.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
- {%- assign child_collections = collection.metafields.custom.child_collections.value %}
-{%- style -%}
-    {% render 'section-padding' %}
-{%- endstyle -%}
-
 {%- liquid
     case section.settings.sort
         when 'products_high', 'products_low'
@@ -27,10 +22,7 @@
 -%}
 
 <div class="container section-{{ section.id }}-padding">
-
-
-  
-  
+  {%- assign child_collections = collection.metafields.custom.child_collections.value %}
   {%- if child_collections != blank -%}
     {%- paginate collections by paginate_by -%}
         {% if paginate.current_page == 1 %}
