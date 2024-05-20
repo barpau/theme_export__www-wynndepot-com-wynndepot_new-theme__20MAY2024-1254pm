@@ -40,27 +40,27 @@
         {% assign items_last = paginate.current_page | times: paginate_by %}
 
     
+      {%- for collection in collections -%}
+    {%- assign child_collections = collection.metafields.esyncer.child_collections -%}
+    {%- if child_collections != blank -%}
+        {%- assign child_collection_handles = child_collections | split: ',' -%}
+        {%- for handle in child_collection_handles -%}
+            {%- assign child_collection = collections | where: 'handle', handle | first -%}
+            {%- if child_collection != blank -%}
+                {%- assign filtered_collections = filtered_collections | append: child_collection | append: ',' -%}
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endif -%}
+{%- endfor -%}
 
-        
+{%- assign filtered_collections = filtered_collections | split: ',' | compact -%}
 
-        {%- assign food_services_collections = collections | where: 'handle', 'food-services' -%}
-        {%- assign furniture_collections = collections | where: 'handle', 'furniture' -%}
-        {%- assign industrial_collections = collections | where: 'handle', 'industrial' -%}
-        {%- assign janitorial_collections = collections | where: 'handle', 'janitorial-sanitation' -%}
-        {%- assign office_collections = collections | where: 'handle', 'office' -%}
-        {%- assign school_collections = collections | where: 'handle', 'school-supplies' -%}
-        {%- assign technology_collections = collections | where: 'handle', 'technology' -%}
-
-
-        {%- assign filtered_collections = food_services_collections | concat: furniture_collections | concat: industrial_collections | concat: janitorial_collections  | concat: office_collections | concat: school_collections | concat: technology_collections -%}
-
+     
         <ul
                 class="collections-grid collections-grid--{{ section.settings.collections_to_show }} load-more-grid"
                 role="list">
             {%- for collection in collections -%}
-              {% assign parent_collection = collection.metafields.esyncer.first_level_category_id %}
-               
-                {{ parent_collection }}
+             
               
                 {% if forloop.index >= items_first and  forloop.index <= items_last %}
                     <li class="collections-grid__item {% if section.settings.image_ratio == 'portrait' or section.settings.image_ratio == 'portrait' %} collections-grid__card--portrait {% endif %}">
