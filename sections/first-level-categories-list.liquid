@@ -4,6 +4,9 @@
     <script src="{{ 'load-more.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 
+ {%- assign child_collections = collection.metafields.esyncer.child_collections %}
+  {{ child_collections }}
+
 {%- style -%}
     {% render 'section-padding' %}
 {%- endstyle -%}
@@ -26,8 +29,7 @@
 -%}
 
 <div class="container section-{{ section.id }}-padding">
-    {%- assign child_collections = collection.metafields.esyncer.child_collections %}
-  {{ child_collections }}
+   
   {%- if child_collections != blank -%}
     
     {%- assign child_collection_ids = child_collections.value | split: ',' -%}
