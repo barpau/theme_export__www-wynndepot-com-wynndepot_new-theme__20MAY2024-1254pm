@@ -30,9 +30,10 @@
 <div class="container section-{{ section.id }}-padding">
    
   {%- if child_collections != blank -%}
-    {{ child_collections | json }}
+    
     
     {%- assign child_collection_ids = child_collections.value | split: ',' -%}
+    {{ child_collection_ids }}
     {%- for id in child_collection_ids -%}
         {%- assign id = id | replace: 'gid://shopify/Collection/', '' | strip -%}
       {{ id }}
