@@ -15,6 +15,28 @@
 <script src="{{ 'update-slider.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'about.js' | asset_url }}" defer="defer"></script>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var variantSelectors = document.querySelectorAll('select[name^="options"], input[name^="options"]');
+
+    variantSelectors.forEach(function(selector) {
+      selector.addEventListener('change', function() {
+        updateSKU();
+      });
+    });
+
+    function updateSKU() {
+      var selectedVariant = {{ product | json }};
+      var variant = selectedVariant.variants.find(function(v) {
+        return v.id == document.querySelector('[name="id"]').value;
+      });
+      if (variant) {
+        document.getElementById('variant-sku').textContent = variant.sku;
+      }
+    }
+  });
+</script>
+
 {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
 {%- if first_3d_model -%}
   {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
