@@ -170,7 +170,8 @@
         "banner"
       ],
       "custom_css": [
-        ".about__accordion-description {line-height: 2.1rem;}"
+        ".about__accordion-description {line-height: 2.1rem;}",
+        ".product .price-wrapper {margin-bottom: 0;}"
       ],
       "settings": {
         "desktop_alignment": "left",
