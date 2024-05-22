@@ -26,6 +26,12 @@
           "settings": {
           }
         },
+        "about_2": {
+          "type": "about",
+          "settings": {
+            "heading": "Characteristics"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -125,12 +131,6 @@
             "heading": "Description"
           }
         },
-        "about_2": {
-          "type": "about",
-          "settings": {
-            "heading": "Characteristics"
-          }
-        },
         "floated_form": {
           "type": "floated_form",
           "disabled": true,
@@ -154,6 +154,7 @@
         "rating",
         "title",
         "three_images_EidX3Q",
+        "about_2",
         "price",
         "variant_picker_DN4jiR",
         "buy_buttons",
@@ -165,7 +166,6 @@
         "promo_banner",
         "related_product",
         "about_1",
-        "about_2",
         "floated_form",
         "banner"
       ],
