@@ -21,7 +21,7 @@
     });
 
     function updateSKU() {
-      var selectedVariant = {{ product | json }};
+      var selectedVariant = {{- product.selected_or_first_available_variant.sku | escape -}};
       var variant = selectedVariant.variants.find(function(v) {
         return v.id == document.querySelector('[name="id"]').value;
       });
