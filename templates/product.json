@@ -26,15 +26,21 @@
           "settings": {
           }
         },
-        "about_2": {
-          "type": "about",
+        "description_fU7jRx": {
+          "type": "description",
           "settings": {
-            "heading": "Characteristics"
+            "description": "{{ product.metafields.custom.description.value }}"
           }
         },
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "about_1": {
+          "type": "about",
+          "settings": {
+            "heading": ""
           }
         },
         "variant_picker_DN4jiR": {
@@ -125,12 +131,6 @@
             "description": "2 Days Delivery"
           }
         },
-        "about_1": {
-          "type": "about",
-          "settings": {
-            "heading": "Description"
-          }
-        },
         "floated_form": {
           "type": "floated_form",
           "disabled": true,
@@ -154,8 +154,9 @@
         "rating",
         "title",
         "three_images_EidX3Q",
-        "about_2",
+        "description_fU7jRx",
         "price",
+        "about_1",
         "variant_picker_DN4jiR",
         "buy_buttons",
         "pickup_availability",
@@ -165,7 +166,6 @@
         "note",
         "promo_banner",
         "related_product",
-        "about_1",
         "floated_form",
         "banner"
       ],
