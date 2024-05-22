@@ -21,12 +21,6 @@
             "heading_size": "h2"
           }
         },
-        "variant_picker_DN4jiR": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
         "three_images_EidX3Q": {
           "type": "three-images",
           "settings": {
@@ -35,6 +29,12 @@
         "price": {
           "type": "price",
           "settings": {
+          }
+        },
+        "variant_picker_DN4jiR": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
           }
         },
         "buy_buttons": {
@@ -153,9 +153,9 @@
         "vendor",
         "rating",
         "title",
-        "variant_picker_DN4jiR",
         "three_images_EidX3Q",
         "price",
+        "variant_picker_DN4jiR",
         "buy_buttons",
         "pickup_availability",
         "advantage_1",
