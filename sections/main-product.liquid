@@ -738,11 +738,6 @@
             {%- case block.type -%}
               {%- when 'text' -%}
                 <div class="product__skuID">
-                  <span
-                    >SKU: #<span id="variant-sku">
-                      {{- product.selected_or_first_available_variant.sku | escape -}}
-                    </span></span
-                  >
                   {% assign current_variant = product.selected_or_first_available_variant %}
                   <span class="variant-sku">{{ current_variant.sku }}</span>
                 </div>
