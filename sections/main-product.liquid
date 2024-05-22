@@ -17,23 +17,31 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    var variantSelectors = document.querySelectorAll('select[name^="options"], input[name^="options"]');
+    var variantSelectors = document.querySelectorAll('.variant-selector');
+    var productJson = JSON.parse(document.querySelector('[type="application/json"]').textContent);
 
+    // Function to update SKU
+    function updateSKU(selectedVariantId) {
+      var selectedVariant = productJson.variants.find(variant => variant.id == selectedVariantId);
+      if (selectedVariant) {
+        var skuElement = document.getElementById('variant-sku');
+        if (skuElement) {
+          skuElement.textContent = selectedVariant.sku;
+        }
+      }
+    }
+
+    // Add event listeners to variant selectors
     variantSelectors.forEach(function(selector) {
       selector.addEventListener('change', function() {
-        updateSKU();
+        var selectedVariantId = document.querySelector('input[name="id"]:checked, select[name="id"]').value;
+        updateSKU(selectedVariantId);
       });
     });
 
-    function updateSKU() {
-      var selectedVariant = {{ product | json }};
-      var variant = selectedVariant.variants.find(function(v) {
-        return v.id == document.querySelector('[name="id"]').value;
-      });
-      if (variant) {
-        document.getElementById('variant-sku').textContent = variant.sku;
-      }
-    }
+    // Initial SKU update on page load
+    var initialVariantId = document.querySelector('input[name="id"]:checked, select[name="id"]').value;
+    updateSKU(initialVariantId);
   });
 </script>
 
