@@ -801,10 +801,10 @@
                     <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
                     {{ form | payment_terms }}
                   {%- endform -%}
+                </div>
+
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
-
-                </div>
 
               {%- when 'description' -%}
                 <div class="product__description no-js-hidden" {{ block.shopify_attributes }}>
