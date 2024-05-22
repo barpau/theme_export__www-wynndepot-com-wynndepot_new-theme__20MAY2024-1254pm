@@ -803,9 +803,6 @@
                   {%- endform -%}
                 </div>
 
-              {%- when 'variant_picker' -%}
-                {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
-
               {%- when 'description' -%}
                 <div class="product__description no-js-hidden" {{ block.shopify_attributes }}>
                   {% if block.settings.description.size > 140 %}
