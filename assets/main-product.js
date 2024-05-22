@@ -137,3 +137,60 @@ class FloatedForm extends HTMLElement {
 }
 
 customElements.define('floated-form', FloatedForm);
+
+document.addEventListener('DOMContentLoaded', function() {
+  var productJsonElement = document.querySelector('script[type="application/json"]');
+  if (!productJsonElement) {
+    console.error("Product JSON element not found");
+    return;
+  }
+
+  var productJson = JSON.parse(productJsonElement.textContent);
+  console.log("Product JSON:", productJson);
+
+  var variantRadioButtons = document.querySelectorAll('input[name="id"]');
+  if (variantRadioButtons.length === 0) {
+    console.error("Variant radio buttons not found");
+    return;
+  }
+
+  // Function to update SKU
+  function _updateSKU(variant) {
+    var skuElement = document.getElementById('variant-sku');
+    if (skuElement) {
+      skuElement.textContent = variant.sku;
+      console.log("SKU updated to:", variant.sku);
+    } else {
+      console.error("SKU element not found");
+    }
+  }
+
+  // Function to handle variant change
+  function _onSelectChange(event) {
+    var selectedVariantId = event.target.value;
+    var selectedVariant = productJson.variants.find(variant => variant.id == selectedVariantId);
+
+    if (selectedVariant) {
+      // Update price (assuming this is handled elsewhere)
+      // this._updatePrice(selectedVariant);
+
+      // Update SKU
+      _updateSKU(selectedVariant);
+    } else {
+      console.error("Selected variant not found");
+    }
+  }
+
+  // Add event listeners to variant radio buttons
+  variantRadioButtons.forEach(function(radioButton) {
+    radioButton.addEventListener('change', _onSelectChange);
+  });
+
+  // Initial SKU update on page load
+  var initialVariantId = document.querySelector('input[name="id"]:checked').value;
+  var initialVariant = productJson.variants.find(variant => variant.id == initialVariantId);
+  if (initialVariant) {
+    _updateSKU(initialVariant);
+  }
+});
+
