@@ -91,6 +91,7 @@
                     id="Option-{{ section.id }}-{{ forloop.index0 }}"
                     class="select__select"
                     form="{{ product_form_id }}"
+                    onchange="this.form.submit()"
                   >
                     {% render 'product-variant-options', product: product, option: option, block: block %}
                   </select>
@@ -111,6 +112,7 @@
                       id="Option-{{ section.id }}-{{ forloop.index0 }}"
                       class="select__select"
                       form="{{ product_form_id }}"
+                      onchange="this.form.submit()"
                     >
                       {% render 'product-variant-options', product: product, option: option, block: block %}
                     </select>
@@ -135,6 +137,10 @@
     {% endif %}
   {% endunless %}
 
+  <div class="product__skuID">
+    <span>SKU: #{{ product.selected_or_first_available_variant.sku | escape }}</span>
+  </div>
+
   <noscript class="product-form__noscript-wrapper-{{ section.id }}">
     <fieldset class="product-form__controls {% if product.has_only_default_variant %} hidden{% endif %}">
       <label for="Variants-{{ section.id }}" class="product-form__group-name">
@@ -148,6 +154,7 @@
             id="Variants-{{ section.id }}"
             class="select__select"
             form="{{ product_form_id }}"
+            onchange="this.form.submit()"
           >
             {%- for variant in product.variants -%}
               <option
