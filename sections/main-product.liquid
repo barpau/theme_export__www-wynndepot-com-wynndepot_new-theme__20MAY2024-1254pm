@@ -739,7 +739,7 @@
               {%- when 'text' -%}
                 <div class="product__skuID">
                   {% assign current_variant = product.selected_or_first_available_variant %}
-                  <span class="variant-sku">{{ current_variant.sku }}</span>
+                  <span class="variant-sku"># {{ current_variant.sku }}</span>
                 </div>
                 <div class="product__text" {{ block.shopify_attributes }}>
                   <span class="product__text-type">
