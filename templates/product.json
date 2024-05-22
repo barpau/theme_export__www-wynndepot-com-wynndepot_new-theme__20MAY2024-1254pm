@@ -21,6 +21,12 @@
             "heading_size": "h2"
           }
         },
+        "variant_picker_DN4jiR": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "three_images_EidX3Q": {
           "type": "three-images",
           "settings": {
@@ -147,6 +153,7 @@
         "vendor",
         "rating",
         "title",
+        "variant_picker_DN4jiR",
         "three_images_EidX3Q",
         "price",
         "buy_buttons",
