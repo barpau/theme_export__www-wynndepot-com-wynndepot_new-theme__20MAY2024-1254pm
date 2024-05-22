@@ -26,15 +26,15 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "description_fU7jRx": {
           "type": "description",
           "settings": {
             "description": "{{ product.metafields.custom.description.value }}"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
           }
         },
         "about_1": {
@@ -154,8 +154,8 @@
         "rating",
         "title",
         "three_images_EidX3Q",
-        "description_fU7jRx",
         "price",
+        "description_fU7jRx",
         "about_1",
         "variant_picker_DN4jiR",
         "buy_buttons",
