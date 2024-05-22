@@ -10,6 +10,28 @@
   {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
 {% endcomment %}
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var variantSelectors = document.querySelectorAll('select[name^="options"], input[name^="options"]');
+
+    variantSelectors.forEach(function(selector) {
+      selector.addEventListener('change', function() {
+        updateSKU();
+      });
+    });
+
+    function updateSKU() {
+      var selectedVariant = {{ product | json }};
+      var variant = selectedVariant.variants.find(function(v) {
+        return v.id == document.querySelector('[name="id"]').value;
+      });
+      if (variant) {
+        document.getElementById('variant-sku').textContent = variant.sku;
+      }
+    }
+  });
+</script>
+
 <div class="product-parameters">
   {%- unless product.has_only_default_variant -%}
     {%- if block.settings.picker_type == 'button' -%}
