@@ -88,8 +88,8 @@
             <div class="custom-contact-form__fields">
               <div class="custom-product-name-wrapper">
                 <h3 id="productName">{{ product.title | escape }}</h3>
-                <p id="productID">
-                  SKUs ID: <span id="dynamic-sku">{{ product.selected_or_first_available_variant.sku | escape }}</span>
+                 <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>SKU: #
+                  {{- product.selected_or_first_available_variant.sku -}}
                 </p>
               </div>
 
