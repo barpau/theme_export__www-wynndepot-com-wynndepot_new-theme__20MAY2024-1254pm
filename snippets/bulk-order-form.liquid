@@ -112,15 +112,14 @@
                     if (variantSku[id]) {
                      hide.style.display = 'block'
                      selector.innerHTML = variantSku[id];
-                     inputSku.value = variantSku[id];
+                     inputSku.setAttribute('value', variantSku[id]);
                     }
                     else
                      hide.style.display = 'none'
-                     inputSku.value = '';
+                     inputSku.setAttribute('value', '');
                   }
 
                   getSku(currentVariantSku);
-
 
                   document.addEventListener('DOMContentLoaded', function() {
                     const currentVariantSku = {{ product.selected_or_first_available_variant.id }};
