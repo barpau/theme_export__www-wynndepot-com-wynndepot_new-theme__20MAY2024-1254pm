@@ -146,10 +146,7 @@
                       }
                       getSku(currentVariantSku);
 
-                      document.querySelectorAll('input[name="id"], select[name="id"]').forEach((selector) => {
-                        selector.addEventListener('change', (event) => {
-                          getSku(event.target.value);
-                        });
+                       const updatedVairantSku = getSku(currentVariantSku);
                       });
                     </script>
                   </div>
@@ -162,7 +159,7 @@
                   type="text"
                   name="contact[SKU ID]"
                   id="input-sku"
-                  value="{{ product.selected_or_first_available_variant.sku | escape }}"
+                  value="{{ updatedVairantSku | escape }}"
                 >
 
                 <input
