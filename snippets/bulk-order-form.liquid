@@ -133,6 +133,7 @@
                     <script>
                       const currentVariantSku = {{ product.selected_or_first_available_variant.id }};
                       const variantSku = { {{ variant_sku }} };
+
                       const getSku = (id) => {
                         let selector = document.querySelector('.sku');
                         let hide = document.querySelector('.hideAll')
