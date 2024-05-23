@@ -88,15 +88,29 @@
             <div class="custom-contact-form__fields">
               <div class="custom-product-name-wrapper">
                 <h3 id="productName">{{ product.title | escape }}</h3>
-                <p
-                  class="product__sku no-js-hidden {% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
-                  id="Sku-{{ section.id }}"
-                  role="status"
-                  {{ block.shopify_attributes }}
-                >
-                  <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>SKU: #
-                  {{- product.selected_or_first_available_variant.sku -}}
-                </p>
+
+                <div class="product__info-wrapper">
+                  <div
+                    id="ProductInfo-{{ section.id }}"
+                    data-section="{{ section.id }}"
+                    class="product__info-container"
+                  >
+                    {%- assign product_form_id = 'product-form-' | append: section.id -%}
+                    {%- for block in section.blocks -%}
+                      {%- case block.type -%}
+                          <p
+                            class="product__sku no-js-hidden {% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
+                            id="Sku-{{ section.id }}"
+                            role="status"
+                            {{ block.shopify_attributes }}
+                          >
+                            <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>SKU: #
+                            {{- product.selected_or_first_available_variant.sku -}}
+                          </p>
+                      {%- endcase -%}
+                    {%- endfor -%}
+                  </div>
+                </div>
               </div>
 
               <div class="field field__name">
