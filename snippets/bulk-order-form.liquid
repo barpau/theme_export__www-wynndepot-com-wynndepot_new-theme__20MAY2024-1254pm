@@ -88,7 +88,13 @@
             <div class="custom-contact-form__fields">
               <div class="custom-product-name-wrapper">
                 <h3 id="productName">{{ product.title | escape }}</h3>
-                 <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>SKU: #
+                <p
+                  class="product__sku no-js-hidden {% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
+                  id="Sku-{{ section.id }}"
+                  role="status"
+                  {{ block.shopify_attributes }}
+                >
+                  <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>SKU: #
                   {{- product.selected_or_first_available_variant.sku -}}
                 </p>
               </div>
