@@ -107,6 +107,9 @@
           <div class="breadcrumb__delimiter"></div>
         {% endif %}
         <span>{{ product.title }}</span>
+
+        {% assign current_variant = product.selected_or_first_available_variant %}
+        <span class="variant-sku">{{ current_variant.sku }}</span>
       </nav>
     {% endif %}
 
