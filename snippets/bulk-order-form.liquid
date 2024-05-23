@@ -89,7 +89,35 @@
             <div class="custom-contact-form__fields">
               <div class="custom-product-name-wrapper">
                 <h3 id="productName">{{ product.title | escape }}</h3>
+                <div class="hideAll">
+                  <p><span>SKU: </span><span class="sku"></span></p>
+                </div>
 
+                {% capture 'variant_sku' %}       
+                        {% for variant in product.variants %}
+                            {{variant.id}}:{{ variant.sku| json }}
+                            {% unless forloop.last %},{% endunless %}           
+                       {% endfor %}
+                    {% endcapture %}
+
+                <script>
+                  const currentVariantSku = {{ product.selected_or_first_available_variant.id }};
+                  const variantSku = { {{ variant_sku }} };
+
+                  const getSku = (id) => {
+                    let selector = document.querySelector('.sku');
+                    let hide = document.querySelector('.hideAll')
+                      if (variantSku[id]) {
+                       hide.style.display = 'block'
+                       selector.innerHTML = variantSku[id];
+                      }
+                      else
+                       hide.style.display = 'none'
+                  }
+
+                    getSku(currentVariantSku);
+                  });
+                </script>
                 <div class="product__info-wrapper">
                   <div
                     id="ProductInfo-{{ section.id }}"
@@ -118,36 +146,6 @@
                     {% comment %}
                       Below Are Custom Script by wilson - Click variant to trigger refresh.
                     {% endcomment %}
-
-                    <div class="hideAll">
-                      <p><span>SKU: </span><span class="sku"></span></p>
-                    </div>
-
-                    {% capture 'variant_sku' %}       
-                        {% for variant in product.variants %}
-                            {{variant.id}}:{{ variant.sku| json }}
-                            {% unless forloop.last %},{% endunless %}           
-                       {% endfor %}
-                    {% endcapture %}
-
-                    <script>
-                      const currentVariantSku = {{ product.selected_or_first_available_variant.id }};
-                      const variantSku = { {{ variant_sku }} };
-
-                      const getSku = (id) => {
-                        let selector = document.querySelector('.sku');
-                        let hide = document.querySelector('.hideAll')
-                          if (variantSku[id]) {
-                           hide.style.display = 'block'
-                           selector.innerHTML = variantSku[id];
-                          }
-                          else
-                           hide.style.display = 'none'
-                      }
-
-                        getSku(currentVariantSku);
-                      });
-                    </script>
                   </div>
                 </div>
               </div>
