@@ -91,12 +91,6 @@
                 <p id="productID">
                   SKUs ID: <span id="dynamic-sku">{{ product.selected_or_first_available_variant.sku | escape }}</span>
                 </p>
-                <input
-                  type="hidden"
-                  name="contact[SKU ID]"
-                  id="input-sku"
-                  value="{{ product.selected_or_first_available_variant.sku | escape }}"
-                >
               </div>
 
               <div class="field field__name">
@@ -104,6 +98,7 @@
                 <input
                   type="hidden"
                   name="contact[SKU ID]"
+                  id="input-sku"
                   value="{{ product.selected_or_first_available_variant.sku | escape }}"
                 >
 
