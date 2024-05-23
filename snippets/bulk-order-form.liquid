@@ -152,7 +152,7 @@
               <div class="field field__name">
                 <input type="hidden" name="contact[Product Name]" value="{{ product.title | escape }}">
                 <input
-                  type="hidden"
+                  type="text"
                   name="contact[SKU ID]"
                   id="input-sku"
                   value="{{ product.selected_or_first_available_variant.id | escape }}"
