@@ -1108,4 +1108,8 @@ class VariantRadios extends VariantSelects {
 
 customElements.define("variant-radios", VariantRadios);
 
+  document.addEventListener('DOMContentLoaded', function() {
+    new ProductForm();
+  });
+
 
