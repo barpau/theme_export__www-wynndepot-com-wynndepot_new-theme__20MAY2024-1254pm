@@ -685,23 +685,12 @@
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when 'text' -%}
-                <div class="product__skuID">
-                  {% assign current_variant = product.selected_or_first_available_variant %}
-                  <span class="variant-sku"
-                    >SKU #
-                    {{- product.selected_or_first_available_variant.sku -}}
-                  </span>
               {%- when 'sku' -%}
-                <p
-                  class="product__sku {% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
-                  id="Sku-{{ section.id }}"
-                  role="status"
-                  {{ block.shopify_attributes }}
-                >
+                <p class="product__skuID product__sku">
+                  {% assign current_variant = product.selected_or_first_available_variant %}
                   <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>
                   {{- product.selected_or_first_available_variant.sku -}}
                 </p>
-                </div>
                 <div class="product__text" {{ block.shopify_attributes }}>
                   <span class="product__text-type">
                     {% if block.settings.text != blank %}
