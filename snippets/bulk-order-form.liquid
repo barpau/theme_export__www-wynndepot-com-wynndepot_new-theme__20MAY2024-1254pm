@@ -296,6 +296,34 @@
 <script>
   class ProductForm {
     constructor() {
+      this.currentVariant = { id: {{ product.selected_or_first_available_variant.id }}, sku: "{{ product.selected_or_first_available_variant.sku }}" };
+      this.bindVariantChange();
+    }
+
+    bindVariantChange() {
+      const variantSelects = document.querySelectorAll('select[name="id"]'); // Adjust the selector to match your variant dropdown
+      variantSelects.forEach(select => select.addEventListener('change', this.onVariantChange.bind(this)));
+    }
+
+    onVariantChange(event) {
+      const selectedOption = event.target.value;
+      this.currentVariant = { id: selectedOption, sku: variantSku[selectedOption] };
+      this.updateSku();
+    }
+
+    updateSku() {
+      getSku(this.currentVariant.id);
+    }
+  }
+
+  // Instantiate ProductForm
+  document.addEventListener('DOMContentLoaded', function() {
+    new ProductForm();
+  });
+</script>
+<script>
+  class ProductForm {
+    constructor() {
       // Bind the onVariantChange method to the variant change event
       this.bindVariantChange();
       this.currentVariant = { id: {{ product.selected_or_first_available_variant.id }}, sku: "{{ product.selected_or_first_available_variant.sku }}" };
