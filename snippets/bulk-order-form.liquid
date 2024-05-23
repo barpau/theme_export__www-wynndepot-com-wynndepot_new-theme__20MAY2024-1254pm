@@ -93,14 +93,6 @@
                 {%- for block in section.blocks -%}
                   {%- case block.type -%}
                     {%- when 'sku' -%}
-                      <input
-                        type="text"
-                        name="id"
-                        value="{{ product.selected_or_first_available_variant.sku }}"
-                        {% if product.selected_or_first_available_variant.available == false %}
-                          disabled
-                        {% endif %}
-                      >
                       <p
                         class="product__sku no-js-hidden {% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
                         id="Sku-{{ section.id }}"
