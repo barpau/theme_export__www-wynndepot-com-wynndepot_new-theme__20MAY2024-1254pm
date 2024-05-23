@@ -116,7 +116,7 @@
                     }
                     else
                      hide.style.display = 'none'
-                     inputSku.setAttribute('value', "else");
+                     inputSku.setAttribute('value', {{ product.selected_or_first_available_variant.id }});
                   }
 
                   getSku(currentVariantSku);
