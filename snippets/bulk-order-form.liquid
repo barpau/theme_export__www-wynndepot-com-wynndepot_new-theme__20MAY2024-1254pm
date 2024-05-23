@@ -144,6 +144,12 @@
                            hide.style.display = 'none'
                       }
                       getSku(currentVariantSku);
+
+                      document.querySelectorAll('input[name="id"], select[name="id"]').forEach((selector) => {
+                        selector.addEventListener('change', (event) => {
+                          getSku(event.target.value);
+                        });
+                      });
                     </script>
                   </div>
                 </div>
