@@ -157,14 +157,7 @@
                   type="text"
                   name="contact[SKU ID]"
                   id="input-sku"
-                  value="
-                    {% capture 'variant_sku' %}
-                        {% for variant in product.variants %}
-                            {{variant.id}}:{{ variant.sku| json }}
-                            {% unless forloop.last %},{% endunless %}
-                       {% endfor %}
-                    {% endcapture %}
-                  "
+                  value=""
                 >
 
                 <input
