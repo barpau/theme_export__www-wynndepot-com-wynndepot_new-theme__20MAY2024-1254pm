@@ -96,6 +96,9 @@
                     data-section="{{ section.id }}"
                     class="product__info-container"
                   >
+                    {% comment %}
+                      Below Are Custom Script by wilson - Click variant to trigger refresh.
+                    {% endcomment %}
                     {% for variant in product.variants %}
                       {% if product.selected_or_first_available_variant.id == variant.id %}
                         <strong>SKU: {{ variant.sku }} </strong>
