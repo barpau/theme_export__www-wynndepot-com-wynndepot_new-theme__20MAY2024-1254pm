@@ -15,58 +15,6 @@
 <script src="{{ 'update-slider.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'about.js' | asset_url }}" defer="defer"></script>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    console.log("DOM fully loaded and parsed");
-
-    var productJsonElement = document.querySelector('script[type="application/json"]');
-    if (!productJsonElement) {
-      console.error("Product JSON element not found");
-      return;
-    }
-
-    var productJson = JSON.parse(productJsonElement.textContent);
-    console.log("Product JSON:", productJson);
-
-    var variantRadioButtons = document.querySelectorAll('input[name="id"]');
-    if (variantRadioButtons.length === 0) {
-      console.error("Variant radio buttons not found");
-      return;
-    }
-
-    // Function to update SKU
-    function updateSKU(selectedVariantId) {
-      var selectedVariant = productJson.variants.find(variant => variant.id == selectedVariantId);
-      if (selectedVariant) {
-        console.log("Selected Variant:", selectedVariant);
-        var skuElement = document.getElementById('variant-sku');
-        if (skuElement) {
-          skuElement.textContent = selectedVariant.sku;
-          console.log("SKU updated to:", selectedVariant.sku);
-        } else {
-          console.error("SKU element not found");
-        }
-      } else {
-        console.error("Selected variant not found");
-      }
-    }
-
-    // Add event listeners to variant radio buttons
-    variantRadioButtons.forEach(function(radioButton) {
-      radioButton.addEventListener('change', function() {
-        var selectedVariantId = document.querySelector('input[name="id"]:checked').value;
-        console.log("Variant changed, selectedVariantId:", selectedVariantId);
-        updateSKU(selectedVariantId);
-      });
-    });
-
-    // Initial SKU update on page load
-    var initialVariantId = document.querySelector('input[name="id"]:checked').value;
-    console.log("Initial Variant ID:", initialVariantId);
-    updateSKU(initialVariantId);
-  });
-</script>
-
 {%- assign first_3d_model = product.media | where: 'media_type', 'model' | first -%}
 {%- if first_3d_model -%}
   {{ 'component-product-model.css' | asset_url | stylesheet_tag }}
