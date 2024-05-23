@@ -193,64 +193,36 @@
 </div>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-  var productJsonElement = document.querySelector('script[type="application/json"]');
-  if (!productJsonElement) {
-    console.error("Product JSON element not found");
-    return;
-  }
-
-  var productJson = JSON.parse(productJsonElement.textContent);
-  console.log("Product JSON:", productJson);
-
-  var variantSelectors = document.querySelectorAll('input[name="id"], select[name="id"]');
-  if (variantSelectors.length === 0) {
-    console.error("Variant selectors not found");
-    return;
-  }
-
-  // Function to update SKU
-  function updateSKU(variant) {
+   document.addEventListener('DOMContentLoaded', function() {
     var skuElement = document.getElementById('Sku-{{ section.id }}');
     var formSkuElement = document.getElementById('input-sku');
     var dynamicSkuElement = document.getElementById('dynamic-sku');
-    
-    if (skuElement && formSkuElement && dynamicSkuElement) {
-      var skuText = `SKU: #${variant.sku}`;
-      skuElement.innerHTML = `
-        <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>${skuText}
-      `;
-      formSkuElement.value = variant.sku;
-      dynamicSkuElement.textContent = variant.sku;
-      console.log("SKU updated to:", variant.sku);
-    } else {
+
+    if (!skuElement || !formSkuElement || !dynamicSkuElement) {
       console.error("SKU element not found");
+      return;
     }
-  }
 
-  // Function to handle variant change
-  function onVariantChange(event) {
-    var selectedVariantId = event.target.value;
-    var selectedVariant = productJson.variants.find(variant => variant.id == selectedVariantId);
-
-    if (selectedVariant) {
-      // Update SKU
-      updateSKU(selectedVariant);
-    } else {
-      console.error("Selected variant not found");
+    // Function to update SKU
+    function updateSKU() {
+      var skuText = skuElement.textContent.replace('SKU: #', '').trim();
+      formSkuElement.value = skuText;
+      dynamicSkuElement.textContent = skuText;
+      console.log("SKU updated to:", skuText);
     }
-  }
 
-  // Add event listeners to variant selectors
-  variantSelectors.forEach(function(selector) {
-    selector.addEventListener('change', onVariantChange);
+    // Observe changes in the SKU element
+    var observer = new MutationObserver(function(mutations) {
+      mutations.forEach(function(mutation) {
+        if (mutation.type === 'childList' || mutation.type === 'subtree') {
+          updateSKU();
+        }
+      });
+    });
+
+    observer.observe(skuElement, { childList: true, subtree: true });
+
+    // Initial SKU update on page load
+    updateSKU();
   });
-
-  // Initial SKU update on page load
-  var initialVariantId = document.querySelector('input[name="id"]:checked, select[name="id"]').value;
-  var initialVariant = productJson.variants.find(variant => variant.id == initialVariantId);
-  if (initialVariant) {
-    updateSKU(initialVariant);
-  }
-});
 </script>
