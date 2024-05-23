@@ -88,9 +88,10 @@
             <div class="custom-contact-form__fields">
               <div class="custom-product-name-wrapper">
                 <h3 id="productName">{{ product.title | escape }}</h3>
-                <p id="productID">SKUs IsD: {{ product.selected_or_first_available_variant.sku | escape }}</p>
+                <p id="productID">SKUs ID: {{ product.selected_or_first_available_variant.sku | escape }}</p>
                 {%- for block in section.blocks -%}
                   {%- case block.type -%}
+                    {%- when 'sku' -%}
                       <p
                         class="product__sku no-js-hidden {% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
                         id="Sku-{{ section.id }}"
