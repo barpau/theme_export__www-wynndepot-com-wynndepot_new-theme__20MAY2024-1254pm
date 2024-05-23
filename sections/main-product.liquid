@@ -682,12 +682,6 @@
         <div id="ProductInfo-{{ section.id }}" data-section="{{ section.id }}" class="product__info-container">
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
-          <p class="product__skuID product__sku">
-            {% assign current_variant = product.selected_or_first_available_variant %}
-            <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>
-            {{- product.selected_or_first_available_variant.sku -}}
-          </p>
-
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when 'text' -%}
