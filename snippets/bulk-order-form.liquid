@@ -120,6 +120,12 @@
                   }
 
                   getSku(currentVariantSku);
+
+
+                  document.addEventListener('DOMContentLoaded', function() {
+                    const currentVariantSku = {{ product.selected_or_first_available_variant.id }};
+                    getSku(currentVariantSku);
+                  });
                 </script>
                 <div class="product__info-wrapper">
                   <div
