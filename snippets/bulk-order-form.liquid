@@ -112,9 +112,7 @@
                     if (variantSku[id]) {
                      hide.style.display = 'block'
                      selector.innerHTML = variantSku[id];
-                       if (inputSku) {
-                      inputSku.innerHTML = variantSku[id]; // Set the value of the hidden input field
-                    }
+                     inputSku.value = variantSku[id];
                     }
                     else
                      hide.style.display = 'none'
