@@ -152,6 +152,12 @@
             "text": "",
             "text_color": "#ffffff"
           }
+        },
+        "sku_pqWkgH": {
+          "type": "sku",
+          "disabled": true,
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -173,7 +179,8 @@
         "promo_banner",
         "related_product",
         "floated_form",
-        "banner"
+        "banner",
+        "sku_pqWkgH"
       ],
       "custom_css": [
         ".about__accordion-description {line-height: 2.1rem;}",
