@@ -88,16 +88,7 @@
             <div class="custom-contact-form__fields">
               <div class="custom-product-name-wrapper">
                 <h3 id="productName">{{ product.title | escape }}</h3>
-                <p id="productID">
-                  SKUs ID: <span id="dynamic-sku">{{ product.selected_or_first_available_variant.sku | escape }}</span>
-                </p>
-                <input
-                  type="hidden"
-                  name="contact[SKU ID]"
-                  id="input-sku"
-                  value="{{ product.selected_or_first_available_variant.sku | escape }}"
-                >
-
+                <p id="productID">SKUs ID: {{ product.selected_or_first_available_variant.sku | escape }}</p>
                 <p
                   class="product__sku no-js-hidden {% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
                   id="Sku-{{ section.id }}"
@@ -111,6 +102,12 @@
 
               <div class="field field__name">
                 <input type="hidden" name="contact[Product Name]" value="{{ product.title | escape }}">
+                <input
+                  type="hidden"
+                  name="contact[SKU ID]"
+                  value="{{ product.selected_or_first_available_variant.sku | escape }}"
+                >
+
                 <input
                   class="field__input"
                   autocomplete="name"
@@ -200,60 +197,3 @@
     </div>
   </div>
 </div>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var productJsonElement = document.querySelector('script[type="application/json"]');
-    if (!productJsonElement) {
-      console.error("Product JSON element not found");
-      return;
-    }
-
-    var productJson = JSON.parse(productJsonElement.textContent);
-    console.log("Product JSON:", productJson);
-
-    var variantRadioButtons = document.querySelectorAll('input[name="id"]');
-    if (variantRadioButtons.length === 0) {
-      console.error("Variant radio buttons not found");
-      return;
-    }
-
-    // Function to update SKU
-    function _updateSKU(variant) {
-      var skuElement = document.getElementById('dynamic-sku');
-      var inputSkuElement = document.getElementById('input-sku');
-      if (skuElement && inputSkuElement) {
-        skuElement.textContent = variant.sku;
-        inputSkuElement.value = variant.sku;
-        console.log("SKU updated to:", variant.sku);
-      } else {
-        console.error("SKU element not found");
-      }
-    }
-
-    // Function to handle variant change
-    function _onSelectChange(event) {
-      var selectedVariantId = event.target.value;
-      var selectedVariant = productJson.variants.find(variant => variant.id == selectedVariantId);
-
-      if (selectedVariant) {
-        // Update SKU
-        _updateSKU(selectedVariant);
-      } else {
-        console.error("Selected variant not found");
-      }
-    }
-
-    // Add event listeners to variant radio buttons
-    variantRadioButtons.forEach(function(radioButton) {
-      radioButton.addEventListener('change', _onSelectChange);
-    });
-
-    // Initial SKU update on page load
-    var initialVariantId = document.querySelector('input[name="id"]:checked').value;
-    var initialVariant = productJson.variants.find(variant => variant.id == initialVariantId);
-    if (initialVariant) {
-      _updateSKU(initialVariant);
-    }
-  });
-</script>
