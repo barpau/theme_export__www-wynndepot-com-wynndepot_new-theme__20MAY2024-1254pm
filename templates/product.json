@@ -5,7 +5,6 @@
       "blocks": {
         "sku_FQKjRm": {
           "type": "sku",
-          "disabled": true,
           "settings": {
           }
         },
