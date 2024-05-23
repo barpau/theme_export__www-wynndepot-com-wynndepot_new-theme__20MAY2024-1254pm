@@ -94,25 +94,30 @@
                 </div>
 
                 {% capture 'variant_sku' %}       
-    {% for variant in product.variants %}
-        {{variant.id}}:{{ variant.sku| json }}
-        {% unless forloop.last %},{% endunless %}           
-   {% endfor %}
-{% endcapture %}
+                  {% for variant in product.variants %}
+                      {{variant.id}}:{{ variant.sku| json }}
+                      {% unless forloop.last %},{% endunless %}           
+                 {% endfor %}
+              {% endcapture %}
 
                 <script>
                   const currentVariantSku = {{ product.selected_or_first_available_variant.id }};
                   const variantSku = { {{ variant_sku }} };
+
                   const getSku = (id) => {
-                  let selector = document.querySelector('.sku');
-                  let hide = document.querySelector('.hideAll')
+                    let selector = document.querySelector('.sku');
+                    let hide = document.querySelector('.hideAll');
+                    let input-sku = document.getElementById('.input-sku');
+
                     if (variantSku[id]) {
                      hide.style.display = 'block'
                      selector.innerHTML = variantSku[id];
+                     input-sku.innerHTML = variantSku[id];
                     }
                     else
                      hide.style.display = 'none'
                   }
+
                   getSku(currentVariantSku);
                 </script>
                 <div class="product__info-wrapper">
@@ -150,7 +155,7 @@
               <div class="field field__name">
                 <input type="hidden" name="contact[Product Name]" value="{{ product.title | escape }}">
                 <input
-                  type="hidden"
+                  type="text"
                   name="contact[SKU ID]"
                   id="input-sku"
                   value=""
