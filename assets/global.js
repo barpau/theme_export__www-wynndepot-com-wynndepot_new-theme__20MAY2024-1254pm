@@ -1102,3 +1102,32 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define("variant-radios", VariantRadios);
+
+
+ onVariantChange() {
+    this.updateOptions();
+    this.updateMasterId();
+    this.toggleAddButton(true, '', false);
+    this.updatePickupAvailability();
+    this.removeErrorMessage();
+
+    if (!this.currentVariant) {
+      this.toggleAddButton(true, '', true);
+      this.setUnavailable();
+    } else {
+      this.updateMedia();
+      this.updateURL();
+      this.updateVariantInput();
+      this.renderProductInfo();
+      this.updateShareUrl();
+      this.updateSku();
+    }
+  }
+  
+ updateSku() {
+	  getSku(this.currentVariant.id);
+  }
+
+  updateOptions() {
+    this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
+  }   
