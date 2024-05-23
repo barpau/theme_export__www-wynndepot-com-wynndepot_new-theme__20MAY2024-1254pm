@@ -1091,6 +1091,213 @@
                   {% comment %}
                     {% include 'my-popup' %}
                   {% endcomment %}
+
+                  <div class="contact-form section-{{ section.id }}-padding">
+                    <div class="custom-bulk-order-form-container">
+                      <div class="contact-form__container contact-form__container--{{ section.settings.position }} ">
+                        <div class="contact-form__text contact-form__text--{{ section.settings.layout }}">
+                          <div class="contact-form__wrapper">
+                            {%- if section.settings.heading != blank -%}
+                              <h2 class="contact-form__title h3">
+                                {{ section.settings.heading }}
+                              </h2>
+                            {%- endif -%}
+
+                            {%- if form.posted_successfully? -%}
+                              <p>Thanks for contacting us. We'll get back to you as soon as possible.</p>
+                              <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                  document.getElementById('bulkOrderForm').style.display = 'none'; // Hide the form modal
+                                  document.getElementById('bulkOrderButton').innerText = 'Submission Successful!'; // Update banner text
+                                });
+                              </script>
+                            {%- endif -%}
+
+                            {%- form 'contact', id: 'ContactForm' -%}
+                              {%- if form.posted_successfully? -%}
+                                <div class="form-status form-status-list form__message" tabindex="-1" autofocus>
+                                  {% render 'icon-success' %}
+                                  {{ 'templates.contact.form.post_success' | t }}
+                                </div>
+                              {%- elsif form.errors -%}
+                              {%- endif -%}
+
+                              <div class="custom-contact-form__fields">
+                                <div class="custom-product-name-wrapper">
+                                  <h3 id="productName">{{ product.title | escape }}</h3>
+
+                                  <div class="product__info-wrapper">
+                                    <div
+                                      id="ProductInfo-{{ section.id }}"
+                                      data-section="{{ section.id }}"
+                                      class="product__info-container"
+                                    >
+                                      {%- assign product_form_id = 'product-form-' | append: section.id -%}
+                                      {%- for block in section.blocks -%}
+                                        {%- case block.type -%}
+                                          {% when 'sku' %}
+                                            <p
+                                              class="product__sku no-js-hidden {% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
+                                              id="Sku-{{ section.id }}"
+                                              role="status"
+                                              {{ block.shopify_attributes }}
+                                            >
+                                              <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>SKU:
+                                              #
+                                              {{- product.selected_or_first_available_variant.sku -}}
+                                            </p>
+                                        {%- endcase -%}
+                                      {%- endfor -%}
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="field field__name">
+                                  <input
+                                    type="hidden"
+                                    name="contact[Product Name]"
+                                    value="{{ product.title | escape }}"
+                                  >
+                                  <input
+                                    type="hidden"
+                                    name="contact[SKU ID]"
+                                    id="input-sku"
+                                    value="{{ product.selected_or_first_available_variant.sku | escape }}"
+                                  >
+
+                                  <input
+                                    class="field__input"
+                                    autocomplete="name"
+                                    type="text"
+                                    id="ContactForm-name"
+                                    name="contact[name]"
+                                    placeholder="{{ 'templates.contact.form.name' | t }}"
+                                  >
+                                  <label class="field__label" for="ContactForm-name">
+                                    {{- 'templates.contact.form.name' | t -}}
+                                  </label>
+                                </div>
+
+                                <div class="field field--with-error">
+                                  <input
+                                    class="field__input"
+                                    autocomplete="email"
+                                    type="email"
+                                    id="ContactForm-email"
+                                    name="contact[email]"
+                                    placeholder="{{ 'templates.contact.form.email' | t }}"
+                                    required
+                                  >
+                                  <label class="field__label" for="ContactForm-email">
+                                    {{- 'templates.contact.form.email' | t -}}
+                                  </label>
+                                  {%- if form.errors contains 'email' -%}
+                                    <small class="contact-form__field-error" id="ContactForm-email-error">
+                                      {{- form.errors.messages.email -}}
+                                    </small>
+                                  {%- endif -%}
+                                </div>
+
+                                <div class="field">
+                                  <input
+                                    type="tel"
+                                    id="ContactForm-phone"
+                                    class="field__input"
+                                    autocomplete="tel"
+                                    name="contact[phone]"
+                                    placeholder="{{ 'templates.contact.form.phone' | t }}"
+                                  >
+                                  <label class="field__label" for="ContactForm-phone">
+                                    {{- 'templates.contact.form.phone' | t -}}
+                                  </label>
+                                </div>
+
+                                <div class="field quantity-field">
+                                  <input
+                                    type="number"
+                                    id="ContactForm-quantity"
+                                    class="field__input"
+                                    name="contact[quantity (Unit)]"
+                                    placeholder="Quantity"
+                                    required
+                                  >
+                                  <label class="field__label" for="ContactForm-quantity">Quantity</label>
+                                  <p>/ Unit</p>
+                                </div>
+
+                                <div class="field">
+                                  <textarea
+                                    rows="4"
+                                    id="ContactForm-address"
+                                    class="text-area field__input"
+                                    name="contact[address]"
+                                    placeholder="Shipping Address"
+                                    required
+                                  ></textarea>
+                                  <label class="field__label" for="ContactForm-address">Shipping Address</label>
+                                </div>
+
+                                <div class="field">
+                                  <textarea
+                                    rows="4"
+                                    id="ContactForm-instructions"
+                                    class="text-area field__input"
+                                    name="contact[instructions]"
+                                    placeholder="Special Instructions"
+                                  ></textarea>
+                                  <label class="field__label" for="ContactForm-instructions"
+                                    >Special Instructions (Optional: Provide details if applicable)</label
+                                  >
+                                </div>
+
+                                <div class="custom-contact-form__bottom">
+                                  <button type="submit" class="button button--primary">
+                                    {{ 'templates.contact.form.send' | t }}
+                                  </button>
+                                </div>
+                              </div>
+                            {%- endform -%}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <script>
+                     document.addEventListener('DOMContentLoaded', function() {
+                      var skuElement = document.getElementById('Sku-{{ section.id }}');
+                      var formSkuElement = document.getElementById('input-sku');
+                      var dynamicSkuElement = document.getElementById('dynamic-sku');
+
+                      if (!skuElement || !formSkuElement || !dynamicSkuElement) {
+                        console.error("SKU element not found");
+                        return;
+                      }
+
+                      // Function to update SKU
+                      function updateSKU() {
+                        var skuText = skuElement.textContent.replace('SKU: #', '').trim();
+                        formSkuElement.value = skuText;
+                        dynamicSkuElement.textContent = skuText;
+                        console.log("SKU updated to:", skuText);
+                      }
+
+                      // Observe changes in the SKU element
+                      var observer = new MutationObserver(function(mutations) {
+                        mutations.forEach(function(mutation) {
+                          if (mutation.type === 'childList' || mutation.type === 'subtree') {
+                            updateSKU();
+                          }
+                        });
+                      });
+
+                      observer.observe(skuElement, { childList: true, subtree: true });
+
+                      // Initial SKU update on page load
+                      updateSKU();
+                    });
+                  </script>
+
                   <div class="product__payment-background">
                     <span class="product__label">{{ 'sections.footer.payment' | t }}</span>
                     <div class="footer__payment">
