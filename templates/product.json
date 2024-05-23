@@ -177,7 +177,8 @@
       ],
       "custom_css": [
         ".about__accordion-description {line-height: 2.1rem;}",
-        ".product .price-wrapper {margin-bottom: 0;}"
+        ".product .price-wrapper {margin-bottom: 0;}",
+        ".product__sku {font-size: 1.2rem; color: #717171;}"
       ],
       "settings": {
         "desktop_alignment": "left",
