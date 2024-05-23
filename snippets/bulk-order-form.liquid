@@ -23,7 +23,7 @@
   }
 
   .custom-contact-form__fields div {
-    margin-bottom: 15px;
+    margin-bottom: 0 px;
   }
 
   .field input {
@@ -85,6 +85,7 @@
               </div>
             {%- elsif form.errors -%}
             {%- endif -%}
+
             <div class="custom-contact-form__fields">
               <div class="custom-product-name-wrapper">
                 <h3 id="productName">{{ product.title | escape }}</h3>
