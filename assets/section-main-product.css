@@ -282,7 +282,7 @@ table:not([class]) {
   width: 100%;
   display: inline-block;
   color: rgb(var(--color-foreground-secondary));
-  margin-bottom: 0rem;
+  margin-bottom: !important 0rem;
   font-size: 1rem;
   letter-spacing: .04em;
   font-family: var(--font-subtitle-family);
