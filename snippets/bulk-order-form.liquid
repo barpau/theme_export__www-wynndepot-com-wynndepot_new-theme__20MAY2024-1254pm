@@ -109,13 +109,12 @@
                     let hide = document.querySelector('.hideAll');
                     let inputSku = document.getSelector('input-sku');
 
-                    if (inputSku) {
-                      inputSku.innerHTML = variantSku[id]; // Set the value of the hidden input field
-                    }
-
                     if (variantSku[id]) {
                      hide.style.display = 'block'
                      selector.innerHTML = variantSku[id];
+                       if (inputSku) {
+                      inputSku.innerHTML = variantSku[id]; // Set the value of the hidden input field
+                    }
                     }
                     else
                      hide.style.display = 'none'
