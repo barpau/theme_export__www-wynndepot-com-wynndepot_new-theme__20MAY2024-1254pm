@@ -161,7 +161,7 @@
               <div class="field field__name">
                 <input type="hidden" name="contact[Product Name]" value="{{ product.title | escape }}">
                 <input
-                  type="text"
+                  type="hidden"
                   name="contact[SKU ID]"
                   id="ContactForm-input-sku"
                   class="input-sku"
@@ -171,7 +171,7 @@
                 <input
                   class="field__input"
                   autocomplete="name"
-                  type="hidden"
+                  type="text"
                   id="ContactForm-name"
                   name="contact[name]"
                   placeholder="{{ 'templates.contact.form.name' | t }}"
