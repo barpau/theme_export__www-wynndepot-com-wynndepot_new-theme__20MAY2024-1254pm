@@ -145,26 +145,6 @@
                       }
                       getSku(currentVariantSku);
                     </script>
-
-                    {% comment %}
-                      Below Are Custom Script by wilson - Click variant to trigger refresh.
-                    {% endcomment %}
-
-                    {%- assign product_form_id = 'product-form-' | append: section.id -%}
-                    {%- for block in section.blocks -%}
-                      {%- case block.type -%}
-                        {%- when 'sku' -%}
-                          <p
-                            class="product__sku no-js-hidden {% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
-                            id="Sku-{{ section.id }}"
-                            role="status"
-                            {{ block.shopify_attributes }}
-                          >
-                            <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>SKU: #
-                            {{- product.selected_or_first_available_variant.sku -}}
-                          </p>
-                      {%- endcase -%}
-                    {%- endfor -%}
                   </div>
                 </div>
               </div>
