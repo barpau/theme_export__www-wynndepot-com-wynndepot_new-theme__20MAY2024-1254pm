@@ -107,13 +107,16 @@
                   const getSku = (id) => {
                     let selector = document.querySelector('.sku');
                     let hide = document.querySelector('.hideAll');
+                    let inputSku = document.querySelector('#ContactForm-input-sku');
 
                     if (variantSku[id]) {
                      hide.style.display = 'block'
                      selector.innerHTML = variantSku[id];
+                     inputSku.value = variantSku[id];
                     }
                     else
                      hide.style.display = 'none'
+                     inputSku.value = '';
                   }
 
                   getSku(currentVariantSku);
