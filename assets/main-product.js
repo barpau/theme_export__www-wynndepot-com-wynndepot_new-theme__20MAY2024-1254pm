@@ -136,25 +136,3 @@ class FloatedForm extends HTMLElement {
 	}
 }
 
-customElements.define('floated-form', FloatedForm);
-
-    var selectCallback = function(variant, selector) {
-
-      if (variant) {
-        document.querySelector('.variant-sku').innerText = variant.sku;
-      }
-      else {
-        document.querySelector('.variant-sku').innerText = '';
-      }
-
-        self.productPage({
-          money_format: theme.moneyFormat,
-          variant: variant,
-          selector: selector,
-          translations: {
-            add_to_cart : theme.productStrings.addToCart,
-            sold_out : theme.productStrings.soldOut,
-            unavailable : theme.productStrings.unavailable
-          }
-        });
-      };
