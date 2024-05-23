@@ -98,6 +98,7 @@
                     {%- assign product_form_id = 'product-form-' | append: section.id -%}
                     {%- for block in section.blocks -%}
                       {%- case block.type -%}
+                        {% when 'sku' %}
                           <p
                             class="product__sku no-js-hidden {% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
                             id="Sku-{{ section.id }}"
