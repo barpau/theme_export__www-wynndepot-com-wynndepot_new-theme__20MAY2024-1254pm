@@ -94,7 +94,7 @@
                   {%- case block.type -%}
                     {%- when 'sku' -%}
                       <input
-                        type="hidden"
+                        type="text"
                         name="id"
                         value="{{ product.selected_or_first_available_variant.id }}"
                         {% if product.selected_or_first_available_variant.available == false %}
