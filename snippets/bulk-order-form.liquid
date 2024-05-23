@@ -96,8 +96,9 @@
                     data-section="{{ section.id }}"
                     class="product__info-container"
                   >
-                    {% assign current_variant = product.selected_or_first_available_variant %}
+                    {% assign current_variant = product.selected_or_first_available_variant.sku %}
                     <span class="variant-sky">{{ current_variant.sku }}</span>
+
                     {%- assign product_form_id = 'product-form-' | append: section.id -%}
                     {%- for block in section.blocks -%}
                       {%- case block.type -%}
