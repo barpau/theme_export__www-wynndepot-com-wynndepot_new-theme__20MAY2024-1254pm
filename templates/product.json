@@ -26,6 +26,11 @@
           "settings": {
           }
         },
+        "sku_FQKjRm": {
+          "type": "sku",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -154,6 +159,7 @@
         "rating",
         "title",
         "three_images_EidX3Q",
+        "sku_FQKjRm",
         "price",
         "description_fU7jRx",
         "about_1",
