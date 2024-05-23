@@ -99,19 +99,56 @@
                     {% comment %}
                       Below Are Custom Script by wilson - Click variant to trigger refresh.
                     {% endcomment %}
+
                     {% for variant in product.variants %}
                       {% if product.selected_or_first_available_variant.id == variant.id %}
                         <strong>SKU: {{ variant.sku }} </strong>
                       {% endif %}
                     {% endfor %}
+
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
                     <script type="text/javascript">
                       jQuery(document).ready(function($){
                       $(".no-js-hidden").on("click", function(){
                       var refreshint = setInterval(function(){
                       location.reload();
-                      }, 1000);    });   });
+                      }, 1);    });   });
                     </script>
+
+                    {% comment %}
+                      Below Are Custom Script by wilson - Click variant to trigger refresh.
+                    {% endcomment %}
+
+                    <div class="hideAll">
+                      <p><span>SKU: </span><span class="sku"></span></p>
+                    </div>
+
+                    {% capture 'variant_sku' %}       
+                        {% for variant in product.variants %}
+                            {{variant.id}}:{{ variant.sku| json }}
+                            {% unless forloop.last %},{% endunless %}           
+                       {% endfor %}
+                    {% endcapture %}
+
+                    <script>
+                      const currentVariantSku = {{ product.selected_or_first_available_variant.id }};
+                      const variantSku = { {{ variant_sku }} };
+                      const getSku = (id) => {
+                      let selector = document.querySelector('.sku');
+                      let hide = document.querySelector('.hideAll')
+                        if (variantSku[id]) {
+                         hide.style.display = 'block'
+                         selector.innerHTML = variantSku[id];
+                        }
+                        else
+                         hide.style.display = 'none'
+                      }
+                      getSku(currentVariantSku);
+                    </script>
+
+                    {% comment %}
+                      Below Are Custom Script by wilson - Click variant to trigger refresh.
+                    {% endcomment %}
 
                     {%- assign product_form_id = 'product-form-' | append: section.id -%}
                     {%- for block in section.blocks -%}
