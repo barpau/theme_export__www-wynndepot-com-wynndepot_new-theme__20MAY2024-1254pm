@@ -97,24 +97,24 @@
                     class="product__info-container"
                   >
                     {% comment %}
-                      Below Are Custom Script by wilson - Click variant to trigger refresh.
+                        Below Are Custom Script by wilson - Click variant to trigger refresh.
+
+
+                      {% for variant in product.variants %}
+                        {% if product.selected_or_first_available_variant.id == variant.id %}
+                          <strong>SKU: {{ variant.sku }} </strong>
+                        {% endif %}
+                      {% endfor %}
+
+                      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                      <script type="text/javascript">
+                        jQuery(document).ready(function($){
+                        $(".no-js-hidden").on("click", function(){
+                        var refreshint = setInterval(function(){
+                        location.reload();
+                        }, 1);    });   });
+                      </script>
                     {% endcomment %}
-
-                    {% for variant in product.variants %}
-                      {% if product.selected_or_first_available_variant.id == variant.id %}
-                        <strong>SKU: {{ variant.sku }} </strong>
-                      {% endif %}
-                    {% endfor %}
-
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-                    <script type="text/javascript">
-                      jQuery(document).ready(function($){
-                      $(".no-js-hidden").on("click", function(){
-                      var refreshint = setInterval(function(){
-                      location.reload();
-                      }, 1);    });   });
-                    </script>
-
                     {% comment %}
                       Below Are Custom Script by wilson - Click variant to trigger refresh.
                     {% endcomment %}
