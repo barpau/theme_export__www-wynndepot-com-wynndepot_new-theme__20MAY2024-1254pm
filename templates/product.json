@@ -3,6 +3,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "sku_FQKjRm": {
+          "type": "sku",
+          "settings": {
+          }
+        },
         "vendor": {
           "type": "text",
           "settings": {
@@ -23,11 +28,6 @@
         },
         "three_images_EidX3Q": {
           "type": "three-images",
-          "settings": {
-          }
-        },
-        "sku_FQKjRm": {
-          "type": "sku",
           "settings": {
           }
         },
@@ -155,11 +155,11 @@
         }
       },
       "block_order": [
+        "sku_FQKjRm",
         "vendor",
         "rating",
         "title",
         "three_images_EidX3Q",
-        "sku_FQKjRm",
         "price",
         "description_fU7jRx",
         "about_1",
