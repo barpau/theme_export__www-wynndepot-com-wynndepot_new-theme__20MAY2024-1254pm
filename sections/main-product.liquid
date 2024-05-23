@@ -687,7 +687,18 @@
               {%- when 'text' -%}
                 <div class="product__skuID">
                   {% assign current_variant = product.selected_or_first_available_variant %}
-                  <span class="variant-sku">SKU #{{ current_variant.sku }}</span>
+                  <span class="variant-sku"
+                    >SKU #
+                    {{- product.selected_or_first_available_variant.sku -}}
+                  </span>
+                  <p
+                    class="product__sku no-js-hidden {% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
+                    id="Sku-{{ section.id }}"
+                    role="status"
+                    {{ block.shopify_attributes }}
+                  >
+                    <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>
+                  </p>
                 </div>
                 <div class="product__text" {{ block.shopify_attributes }}>
                   <span class="product__text-type">
