@@ -893,7 +893,7 @@
                   role="status"
                   {{ block.shopify_attributes }}
                 >
-                  <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>Test
+                  <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>SKU: #
                   {{- product.selected_or_first_available_variant.sku -}}
                 </p>
 
@@ -1088,7 +1088,9 @@
                 {% assign about = section.blocks | where: 'type', 'about' %}
                 {%- if product.description == blank and product.metafields.characteristics.name.value.size == 0 -%}
                 {% else %}
-                  {% include 'my-popup' %}
+                  {% comment %}
+                    {% include 'my-popup' %}
+                  {% endcomment %}
                   <div class="product__payment-background">
                     <span class="product__label">{{ 'sections.footer.payment' | t }}</span>
                     <div class="footer__payment">
