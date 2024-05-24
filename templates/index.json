@@ -308,14 +308,14 @@
             "color_scheme": "background-3",
             "desktop_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_9.webp",
             "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_10.webp",
-            "subheading": "Subheading",
-            "heading": "Some heading",
+            "subheading": "",
+            "heading": "",
             "heading_size": "medium",
-            "description": "Some description",
+            "description": "",
             "show_button": true,
             "button_style": "primary",
-            "button_label": "Explore Our Store",
-            "button_link": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/active-compression-wears",
             "overlay_opacity": 0.5
           }
         }
