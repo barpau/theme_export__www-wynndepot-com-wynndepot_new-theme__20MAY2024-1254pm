@@ -301,6 +301,23 @@
             "button_link": "shopify:\/\/collections\/paper-towel",
             "overlay_opacity": 0.5
           }
+        },
+        "slide_qVGKnx": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_9.webp",
+            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_10.webp",
+            "subheading": "Subheading",
+            "heading": "Some heading",
+            "heading_size": "medium",
+            "description": "Some description",
+            "show_button": true,
+            "button_style": "primary",
+            "button_label": "Explore Our Store",
+            "button_link": "",
+            "overlay_opacity": 0.5
+          }
         }
       },
       "block_order": [
@@ -310,7 +327,8 @@
         "slide_EUDD4a",
         "slide_WRnqyC",
         "slide_4WjtBF",
-        "slide_Jk6U6q"
+        "slide_Jk6U6q",
+        "slide_qVGKnx"
       ],
       "settings": {
         "color_scheme": "background-1",
