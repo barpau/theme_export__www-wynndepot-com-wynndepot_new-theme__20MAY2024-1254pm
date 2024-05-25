@@ -1,1 +1,103 @@
-{"type":"header","name":"t:sections.header.settings.header-group.label","sections":{"announcement-bar":{"type":"announcement-bar","settings":{"height":40,"height_mobile":40,"color_scheme":"1","text":"<p>Service Disabled Veteran Owned: Founded 2014<\/p>"}},"header":{"type":"header","blocks":{"mega_menu_hX7QdM":{"type":"mega_menu","settings":{"mega_menu_trigger":"trending","heading":"Current Trending Products","show_mega_menu_1":true,"color_scheme_1":"dark","heading_1":"Stay Warm, Stay Safe","description_1":"Emergency Mylar Thermal Blanket - Your Go-To Survival Blanket","image_1":"shopify:\/\/shop_images\/menus-mylar_8542e85a-9b1e-4007-9548-54fec7f43375.webp","overlay_opacity_1":0,"enable_mobile_overlay_1":false,"show_button_1":true,"button_link_1":"shopify:\/\/products\/wynn-emergency-mylar-thermal-blanket","button_label_1":"Shop Now","button_style_1":"primary","text_1":"","text_accent_1":"","show_mega_menu_2":true,"color_scheme_2":"dark","heading_2":"Ultimate Protection in Any Environment","description_2":"Disposable Coveralls - Perfect for Industrial, Medical, and Emergency Use","image_2":"shopify:\/\/shop_images\/coverall_7b92b722-0d90-4bfe-9f94-b55e3547fa02.webp","overlay_opacity_2":0,"enable_mobile_overlay_2":false,"show_button_2":true,"button_link_2":"shopify:\/\/products\/wynn-disposable-coverall","button_label_2":"Shop Now","button_style_2":"primary","text_2":"","text_accent_2":""}}},"block_order":["mega_menu_hX7QdM"],"settings":{"header_type":"bottom-menu","color_scheme":"background-1","logo":"shopify:\/\/shop_images\/WynnDepot-Logo.png","logo_width":160,"menu":"category","small_menu":"header-short-menus","enable_country_selector":false,"enable_language_selector":false,"sticky_header_type":"on-scroll-up","enable_contact_block":false,"contact_text":"Bulk Order? Contact Us:","contact_text_accent":"<p><a href=\"mailto:sales@wynndepot.com\" title=\"mailto:sales@wynndepot.com\">sales@wynndepot.com<\/a><\/p>","enable_search":true,"enable_search_modal":false,"show_collection_card":false,"collection_list":[],"show_items":false,"product_list":[],"show_vendor":false,"show_price":false,"items_link":"","show_articles":false,"blog":"","show_image":false,"show_date":false,"blog_link":"","show_search_block":false,"search_color_scheme":"dark","search_heading":"Heading","search_text":"Text","search_text_accent":"Accent text","button_link":"","button_label":"Button label","button_style":"primary"}}},"order":["announcement-bar","header"]}
+{
+  "type": "header",
+  "name": "t:sections.header.settings.header-group.label",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "settings": {
+        "height": 40,
+        "height_mobile": 40,
+        "color_scheme": "1",
+        "text": "<p>Service Disabled Veteran Owned: Founded 2014<\/p>"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_hX7QdM": {
+          "type": "mega_menu",
+          "settings": {
+            "mega_menu_trigger": "trending",
+            "heading": "Current Trending Products",
+            "show_mega_menu_1": true,
+            "color_scheme_1": "dark",
+            "heading_1": "Stay Warm, Stay Safe",
+            "description_1": "Emergency Mylar Thermal Blanket - Your Go-To Survival Blanket",
+            "image_1": "shopify:\/\/shop_images\/menus-mylar_8542e85a-9b1e-4007-9548-54fec7f43375.webp",
+            "overlay_opacity_1": 0,
+            "enable_mobile_overlay_1": false,
+            "show_button_1": true,
+            "button_link_1": "shopify:\/\/products\/wynn-emergency-mylar-thermal-blanket",
+            "button_label_1": "Shop Now",
+            "button_style_1": "primary",
+            "text_1": "",
+            "text_accent_1": "",
+            "show_mega_menu_2": true,
+            "color_scheme_2": "dark",
+            "heading_2": "Ultimate Protection in Any Environment",
+            "description_2": "Disposable Coveralls - Perfect for Industrial, Medical, and Emergency Use",
+            "image_2": "shopify:\/\/shop_images\/coverall_7b92b722-0d90-4bfe-9f94-b55e3547fa02.webp",
+            "overlay_opacity_2": 0,
+            "enable_mobile_overlay_2": false,
+            "show_button_2": true,
+            "button_link_2": "shopify:\/\/products\/wynn-disposable-coverall",
+            "button_label_2": "Shop Now",
+            "button_style_2": "primary",
+            "text_2": "",
+            "text_accent_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_hX7QdM"
+      ],
+      "custom_css": [
+        ".header__search.search {width: 70%; margin: auto;}"
+      ],
+      "settings": {
+        "header_type": "bottom-menu",
+        "color_scheme": "background-1",
+        "logo": "shopify:\/\/shop_images\/WynnDepot-Logo.png",
+        "logo_width": 160,
+        "menu": "category",
+        "small_menu": "header-short-menus",
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "sticky_header_type": "on-scroll-up",
+        "enable_contact_block": false,
+        "contact_text": "Bulk Order? Contact Us:",
+        "contact_text_accent": "<p><a href=\"mailto:sales@wynndepot.com\" title=\"mailto:sales@wynndepot.com\">sales@wynndepot.com<\/a><\/p>",
+        "enable_search": true,
+        "enable_search_modal": false,
+        "show_collection_card": false,
+        "collection_list": [
+
+        ],
+        "show_items": false,
+        "product_list": [
+
+        ],
+        "show_vendor": false,
+        "show_price": false,
+        "items_link": "",
+        "show_articles": false,
+        "blog": "",
+        "show_image": false,
+        "show_date": false,
+        "blog_link": "",
+        "show_search_block": false,
+        "search_color_scheme": "dark",
+        "search_heading": "Heading",
+        "search_text": "Text",
+        "search_text_accent": "Accent text",
+        "button_link": "",
+        "button_label": "Button label",
+        "button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}
