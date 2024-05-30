@@ -181,7 +181,6 @@
       "blocks": {
         "slide_UahfPi": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "color_scheme": "background-3",
             "desktop_image": "shopify:\/\/shop_images\/main-banner-gloves_copy.webp",
