@@ -519,10 +519,22 @@
     "0407abd6-28c5-4a97-be53-1fa28a1f9985": {
       "type": "categories-list",
       "blocks": {
-        "baff4689-e507-43e3-96ca-efe8c40b92e0": {
+        "collection_item_efxiTM": {
           "type": "collection_item",
           "settings": {
-            "collection": "office-supplies"
+            "collection": "food-services"
+          }
+        },
+        "collection_item_rrXaTC": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "furniture"
+          }
+        },
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-1": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "industrial"
           }
         },
         "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-4": {
@@ -531,28 +543,10 @@
             "collection": "janitorial-sanitation"
           }
         },
-        "collection_item_rrXaTC": {
+        "collection_item_TFAVGt": {
           "type": "collection_item",
           "settings": {
-            "collection": "furniture-appliances"
-          }
-        },
-        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-2": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "computers-electronics"
-          }
-        },
-        "collection_item_npFMzW": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "health-wellness"
-          }
-        },
-        "collection_item_efxiTM": {
-          "type": "collection_item",
-          "settings": {
-            "collection": "food-services"
+            "collection": "office"
           }
         },
         "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-0": {
@@ -561,22 +555,21 @@
             "collection": "school-supplies"
           }
         },
-        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-1": {
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-2": {
           "type": "collection_item",
           "settings": {
-            "collection": "facility-utility-maintenance"
+            "collection": "technology"
           }
         }
       },
       "block_order": [
-        "baff4689-e507-43e3-96ca-efe8c40b92e0",
-        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-4",
-        "collection_item_rrXaTC",
-        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-2",
-        "collection_item_npFMzW",
         "collection_item_efxiTM",
+        "collection_item_rrXaTC",
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-1",
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-4",
+        "collection_item_TFAVGt",
         "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-0",
-        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-1"
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-2"
       ],
       "settings": {
         "color_scheme": "background-1",
