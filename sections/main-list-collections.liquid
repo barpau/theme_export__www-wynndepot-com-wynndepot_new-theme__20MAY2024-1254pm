@@ -46,7 +46,8 @@
     {%- assign office_collections = collections | where: 'handle', 'office' -%}
     {%- assign school_collections = collections | where: 'handle', 'school-supplies' -%}
     {%- assign technology_collections = collections | where: 'handle', 'technology' -%}
-   
+    {%- assign mediacl_collections = collections | where: 'handle', 'medical-supplies' -%}
+
 
     {%- assign filtered_collections = food_services_collections | concat: furniture_collections | concat: industrial_collections | concat: janitorial_collections  | concat: office_collections | concat: school_collections | concat: technology_collections -%}
 
