@@ -560,6 +560,12 @@
           "settings": {
             "collection": "technology"
           }
+        },
+        "collection_item_TpdtWb": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "health-wellness"
+          }
         }
       },
       "block_order": [
@@ -569,7 +575,8 @@
         "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-4",
         "collection_item_TFAVGt",
         "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-0",
-        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-2"
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-2",
+        "collection_item_TpdtWb"
       ],
       "settings": {
         "color_scheme": "background-1",
