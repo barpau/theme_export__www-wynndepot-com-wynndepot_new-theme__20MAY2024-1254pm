@@ -33,6 +33,9 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "custom_css": [
+        ".motion-reduce.media--first {padding: 30px;}"
+      ],
       "settings": {
         "products_per_page": 16,
         "columns_mobile": "1",
