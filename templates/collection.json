@@ -16,57 +16,13 @@
     },
     "first_level_categories_list_NYjTYw": {
       "type": "first-level-categories-list",
-      "blocks": {
-        "collection_item_TzzFCd": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_item_m3zcQA": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_item_YythRY": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_item_Gb7EFP": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_item_TfxcBE": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection_item_kz7APw": {
-          "type": "collection_item",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection_item_TzzFCd",
-        "collection_item_m3zcQA",
-        "collection_item_YythRY",
-        "collection_item_Gb7EFP",
-        "collection_item_TfxcBE",
-        "collection_item_kz7APw"
-      ],
       "settings": {
-        "color_scheme": "background-1",
-        "heading": "Some heading",
+        "title": "Collections",
+        "sort": "alphabetical",
+        "image": "collection",
         "image_ratio": "square",
         "image_fit": "cover",
+        "show_desc": false,
         "collections_to_show": 6,
         "padding_top": "m",
         "padding_bottom": "m"
@@ -74,6 +30,7 @@
     },
     "product-grid": {
       "type": "main-collection-product-grid",
+      "disabled": true,
       "settings": {
         "products_per_page": 15,
         "columns_mobile": "1",
