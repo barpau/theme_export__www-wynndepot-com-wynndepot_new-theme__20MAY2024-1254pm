@@ -120,6 +120,7 @@
         },
         "note": {
           "type": "note",
+          "disabled": true,
           "settings": {
             "heading": "Some heading",
             "text": "Some text"
