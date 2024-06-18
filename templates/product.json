@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -45,7 +54,7 @@
         "about_1": {
           "type": "about",
           "settings": {
-            "heading": ""
+            "heading": "Description"
           }
         },
         "variant_picker_DN4jiR": {
@@ -111,7 +120,6 @@
         },
         "note": {
           "type": "note",
-          "disabled": true,
           "settings": {
             "heading": "Some heading",
             "text": "Some text"
@@ -210,7 +218,7 @@
         "show_secondary_image": true,
         "show_vendor": true,
         "show_desc": false,
-        "show_sku": false,
+        "show_sku": true,
         "padding_top": "m",
         "padding_bottom": "m"
       }
