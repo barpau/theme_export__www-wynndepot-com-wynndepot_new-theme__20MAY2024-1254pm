@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "fdb14e00-134b-480c-8919-adf7bcf3ee2b": {
@@ -1018,7 +1027,7 @@
           "type": "product_slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Bottom-Banner-liner.webp",
-            "product": "black-liners-38x58-pallet",
+            "product": "heavy-duty-black-waste-liners-38x58-1-5-mil-options-bulk-quantities",
             "subheading": "In Stock Now",
             "color_text": "#717171",
             "show_subheading_dot": true,
