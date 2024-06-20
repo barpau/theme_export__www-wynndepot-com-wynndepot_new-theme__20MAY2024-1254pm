@@ -42,18 +42,18 @@
             "menu": "footer-column-3"
           }
         },
-        "footer-4": {
-          "type": "contacts",
-          "settings": {
-            "description": "If You Have any Questions, Please Email Us 24\/7:",
-            "contact_info": "<p><a href=\"mailto:sales@wynndepot.com\" title=\"mailto:sales@wynndepot.com\">sales@wynndepot.com<\/a><\/p>"
-          }
-        },
         "contacts_XUqUEj": {
           "type": "contacts",
           "settings": {
             "description": "Office Address",
             "contact_info": "<p>125 \/ 127 Pearl St, Pinckney, Michigan 48169<\/p>"
+          }
+        },
+        "footer-4": {
+          "type": "contacts",
+          "settings": {
+            "description": "If You Have any Questions, Please Email Us 24\/7:",
+            "contact_info": "<p><a href=\"mailto:sales@wynndepot.com\" title=\"mailto:sales@wynndepot.com\">sales@wynndepot.com<\/a><\/p>"
           }
         }
       },
@@ -62,8 +62,8 @@
         "footer-1",
         "footer-2",
         "link_list_M88Xfq",
-        "footer-4",
-        "contacts_XUqUEj"
+        "contacts_XUqUEj",
+        "footer-4"
       ],
       "settings": {
         "color_scheme": "background-2",
