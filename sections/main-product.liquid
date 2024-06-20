@@ -781,7 +781,7 @@
                   -%}
                   {%- render 'price-quantity' -%}
                   {% if product.metafields.custom.quantity_type %}
-                    <p>Quantity Type: {{ product.metafields.custom.quantity_type }}</p>
+                    <p>/ {{ product.metafields.custom.quantity_type }}</p>
                   {% endif %}
 
                   {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
