@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "footer",
   "name": "t:sections.footer.settings.footer-group.label",
@@ -39,6 +48,13 @@
             "description": "If You Have any Questions, Please Email Us 24\/7:",
             "contact_info": "<p><a href=\"mailto:sales@wynndepot.com\" title=\"mailto:sales@wynndepot.com\">sales@wynndepot.com<\/a><\/p>"
           }
+        },
+        "contacts_XUqUEj": {
+          "type": "contacts",
+          "settings": {
+            "description": "Office Address",
+            "contact_info": "<p>125 \/ 127 Pearl St, Pinckney, Michigan 48169<\/p>"
+          }
         }
       },
       "block_order": [
@@ -46,7 +62,8 @@
         "footer-1",
         "footer-2",
         "link_list_M88Xfq",
-        "footer-4"
+        "footer-4",
+        "contacts_XUqUEj"
       ],
       "settings": {
         "color_scheme": "background-2",
