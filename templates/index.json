@@ -949,7 +949,7 @@
         "filter": true,
         "filter_type": "collections",
         "show_vendor": true,
-        "show_sku": false,
+        "show_sku": true,
         "image_ratio": "square",
         "image_fit": "contain",
         "padding_top": "m",
