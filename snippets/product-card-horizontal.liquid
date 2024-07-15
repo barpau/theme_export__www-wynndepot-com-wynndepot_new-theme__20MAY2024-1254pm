@@ -71,7 +71,7 @@
     <div class="card-horizontal__information-group">
       {%- if show_sku and product_card_product.selected_or_first_available_variant.sku.size > 0 -%}
         <p
-          class="card-horizontal__sku no-js-hidden"
+          class="card-horizontal__sku no-js-hidden card-horizontal__subtitle subtitle"
           id="Sku-{{ section.id }}"
           role="status"
           {{ block.shopify_attributes }}
