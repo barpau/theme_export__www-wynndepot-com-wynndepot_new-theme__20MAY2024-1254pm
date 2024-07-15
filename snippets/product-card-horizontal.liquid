@@ -1,6 +1,6 @@
 <div class="card-horizontal-wrapper {{ classMod }}">
   <span class="visually-hidden">{{ product_card_product.title | escape }}</span>
-  <p>Test</p>
+
   <div class="card-horizontal__image" tabindex="-1">
     {%- liquid
       assign featured_media_aspect_ratio = product_card_product.featured_media.aspect_ratio
@@ -68,6 +68,7 @@
   </div>
 
   <div class="card-horizontal__information">
+    <p>Test</p>
     <div class="card-horizontal__information-group">
       {%- if show_sku and product_card_product.selected_or_first_available_variant.sku.size > 0 -%}
         <p
