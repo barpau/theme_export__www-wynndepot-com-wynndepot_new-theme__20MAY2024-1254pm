@@ -44,7 +44,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         ".motion-reduce.media--first,.motion-reduce.media--second {padding: 30px;}",
-        ".card__sku {font-size: 1.2rem; }"
+        ".card__sku {font-size: 1.2rem !important;}"
       ],
       "settings": {
         "products_per_page": 16,
