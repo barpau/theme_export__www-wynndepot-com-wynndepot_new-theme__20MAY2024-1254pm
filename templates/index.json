@@ -208,6 +208,7 @@
         },
         "slide_QmBUfy": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-3",
             "desktop_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_3b1b9e61-85ff-47b6-a97e-e45a1667ebf0.webp",
@@ -222,6 +223,24 @@
             "button_link": "shopify:\/\/collections\/toilet-paper-tissue",
             "image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue.webp",
             "overlay_opacity": 0
+          }
+        },
+        "slide_EUDD4a": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify:\/\/shop_images\/main-banner-broadwalk.png",
+            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_3.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "medium",
+            "description": "",
+            "show_button": false,
+            "button_style": "primary",
+            "button_label": "",
+            "button_link": "shopify:\/\/collections\/boardwalk",
+            "image": "shopify:\/\/shop_images\/main-banner-free-shipping.webp",
+            "overlay_opacity": 0.5
           }
         },
         "slide_GFKB3i": {
@@ -242,30 +261,12 @@
             "overlay_opacity": 0.5
           }
         },
-        "slide_EUDD4a": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/main-banner-broadwalk_f3bdd843-eded-4b64-bffb-b33957b4fa0e.webp",
-            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_3.webp",
-            "subheading": "",
-            "heading": "",
-            "heading_size": "medium",
-            "description": "",
-            "show_button": false,
-            "button_style": "primary",
-            "button_label": "",
-            "button_link": "shopify:\/\/collections\/boardwalk",
-            "image": "shopify:\/\/shop_images\/main-banner-free-shipping.webp",
-            "overlay_opacity": 0.5
-          }
-        },
         "slide_WRnqyC": {
           "type": "slide",
           "settings": {
             "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/main-banner-1_copy_7_d3fcc81c-2d11-4a8f-9164-60da7ff0815c.webp",
-            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_6.webp",
+            "desktop_image": "shopify:\/\/shop_images\/main-banner-1_copy_7.png",
+            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_6.png",
             "subheading": "",
             "heading": "",
             "heading_size": "medium",
@@ -281,8 +282,8 @@
           "type": "slide",
           "settings": {
             "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/main-banner-gloves_da557c40-55a9-4675-ba73-c8da5b72db5e.webp",
-            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_4_a1ddbb6f-1ce7-49ba-a979-707722b4ee44.webp",
+            "desktop_image": "shopify:\/\/shop_images\/main-banner-gloves.png",
+            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_4.png",
             "subheading": "",
             "heading": "",
             "heading_size": "medium",
@@ -296,6 +297,7 @@
         },
         "slide_Jk6U6q": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-3",
             "desktop_image": "shopify:\/\/shop_images\/main-banner-1_copy_6.webp",
@@ -327,17 +329,35 @@
             "button_link": "shopify:\/\/collections\/active-compression-wears",
             "overlay_opacity": 0.5
           }
+        },
+        "slide_D3egVX": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify:\/\/shop_images\/mylar-banner.png",
+            "mobile_image": "shopify:\/\/shop_images\/mylar-banner-mobile.png",
+            "subheading": "Subheading",
+            "heading": "Some heading",
+            "heading_size": "medium",
+            "description": "Some description",
+            "show_button": true,
+            "button_style": "primary",
+            "button_label": "Explore Our Store",
+            "button_link": "",
+            "overlay_opacity": 0.5
+          }
         }
       },
       "block_order": [
         "slide_UahfPi",
         "slide_QmBUfy",
-        "slide_GFKB3i",
         "slide_EUDD4a",
+        "slide_GFKB3i",
         "slide_WRnqyC",
         "slide_4WjtBF",
         "slide_Jk6U6q",
-        "slide_qVGKnx"
+        "slide_qVGKnx",
+        "slide_D3egVX"
       ],
       "settings": {
         "color_scheme": "background-1",
