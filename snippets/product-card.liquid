@@ -374,6 +374,7 @@
           {{ block.shopify_attributes }}
         >
           <span class="visually-hidden">{{ 'products.product.sku' | t }}:</span>
+          SKU: #
           {{- product_card_product.selected_or_first_available_variant.sku -}}
         </p>
       {%- endif -%}
