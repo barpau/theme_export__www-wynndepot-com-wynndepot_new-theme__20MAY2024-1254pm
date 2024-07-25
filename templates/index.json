@@ -336,14 +336,14 @@
             "color_scheme": "background-3",
             "desktop_image": "shopify:\/\/shop_images\/mylar-banner.png",
             "mobile_image": "shopify:\/\/shop_images\/mylar-banner-mobile.png",
-            "subheading": "Subheading",
-            "heading": "Some heading",
+            "subheading": "",
+            "heading": "",
             "heading_size": "medium",
-            "description": "Some description",
-            "show_button": true,
+            "description": "",
+            "show_button": false,
             "button_style": "primary",
-            "button_label": "Explore Our Store",
-            "button_link": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/products\/wynn-emergency-mylar-thermal-blanket",
             "overlay_opacity": 0.5
           }
         }
