@@ -1087,7 +1087,7 @@
         "image_fit": "cover",
         "slide_duration": 5,
         "show_vendor": true,
-        "show_sku": false,
+        "show_sku": true,
         "image_ratio": "square",
         "image_fit_card": "contain",
         "margin_top": "no-indent",
