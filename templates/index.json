@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "fdb14e00-134b-480c-8919-adf7bcf3ee2b": {
@@ -21,7 +21,7 @@
             "row_end": "3",
             "min_height": "small",
             "padding": "large",
-            "image": "shopify:\/\/shop_images\/Office-supplies_e2b219fb-2d10-45da-9355-c53f71412ea1.webp",
+            "image": "shopify://shop_images/Office-supplies_e2b219fb-2d10-45da-9355-c53f71412ea1.webp",
             "image_size": "cover",
             "icon_size": "cover",
             "icon_position": "left-top",
@@ -44,7 +44,7 @@
             "text_width": 50,
             "show_button": true,
             "button_label": "Shop Office Supplies",
-            "button_link": "shopify:\/\/collections\/office-supplies",
+            "button_link": "shopify://collections/office-supplies",
             "style_button": "button button--primary button--arrow",
             "add_button_label": "",
             "add_button_price": "",
@@ -60,7 +60,7 @@
             "row_end": "3",
             "min_height": "large",
             "padding": "small",
-            "image": "shopify:\/\/shop_images\/facility-maintenance_b349515f-3882-42ad-ad53-7b701c042765.webp",
+            "image": "shopify://shop_images/facility-maintenance_b349515f-3882-42ad-ad53-7b701c042765.webp",
             "image_size": "cover",
             "icon_size": "cover",
             "icon_position": "left-top",
@@ -99,7 +99,7 @@
             "row_end": "unset",
             "min_height": "small",
             "padding": "small",
-            "image": "shopify:\/\/shop_images\/safety-supplies.webp",
+            "image": "shopify://shop_images/safety-supplies.webp",
             "image_size": "cover",
             "icon_size": "cover",
             "icon_position": "left-top",
@@ -138,7 +138,7 @@
             "row_end": "unset",
             "min_height": "small",
             "padding": "small",
-            "image": "shopify:\/\/shop_images\/warehouse-shipping.webp",
+            "image": "shopify://shop_images/warehouse-shipping.webp",
             "image_size": "cover",
             "icon_size": "cover",
             "icon_position": "left-top",
@@ -190,11 +190,10 @@
       "blocks": {
         "slide_UahfPi": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/main-banner-gloves_copy.webp",
-            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_8.webp",
+            "desktop_image": "shopify://shop_images/main-banner-gloves_copy.webp",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_8.webp",
             "subheading": "",
             "heading": "",
             "heading_size": "medium",
@@ -211,8 +210,8 @@
           "disabled": true,
           "settings": {
             "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_3b1b9e61-85ff-47b6-a97e-e45a1667ebf0.webp",
-            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_92614dfd-56c4-4c07-9de5-04431e95200d.webp",
+            "desktop_image": "shopify://shop_images/main-banner-toilet-paper-tissue_3b1b9e61-85ff-47b6-a97e-e45a1667ebf0.webp",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_92614dfd-56c4-4c07-9de5-04431e95200d.webp",
             "subheading": "",
             "heading": "",
             "heading_size": "medium",
@@ -220,17 +219,18 @@
             "show_button": false,
             "button_style": "primary",
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/toilet-paper-tissue",
-            "image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue.webp",
+            "button_link": "shopify://collections/toilet-paper-tissue",
+            "image": "shopify://shop_images/main-banner-toilet-paper-tissue.webp",
             "overlay_opacity": 0
           }
         },
         "slide_EUDD4a": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/main-banner-broadwalk.png",
-            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_3.png",
+            "desktop_image": "shopify://shop_images/main-banner-broadwalk.png",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_3.png",
             "subheading": "",
             "heading": "",
             "heading_size": "medium",
@@ -238,17 +238,18 @@
             "show_button": false,
             "button_style": "primary",
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/paper-towel",
-            "image": "shopify:\/\/shop_images\/main-banner-free-shipping.webp",
+            "button_link": "shopify://collections/paper-towel",
+            "image": "shopify://shop_images/main-banner-free-shipping.webp",
             "overlay_opacity": 0.5
           }
         },
         "slide_GFKB3i": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/main-banner-free-shipping.webp",
-            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_2.webp",
+            "desktop_image": "shopify://shop_images/main-banner-free-shipping.webp",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_2.webp",
             "subheading": "",
             "heading": "",
             "heading_size": "medium",
@@ -257,16 +258,17 @@
             "button_style": "primary",
             "button_label": "",
             "button_link": "",
-            "image": "shopify:\/\/shop_images\/main-banner-free-shipping.webp",
+            "image": "shopify://shop_images/main-banner-free-shipping.webp",
             "overlay_opacity": 0.5
           }
         },
         "slide_WRnqyC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/main-banner-1_copy_7.png",
-            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_6.png",
+            "desktop_image": "shopify://shop_images/main-banner-1_copy_7.png",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_6.png",
             "subheading": "",
             "heading": "",
             "heading_size": "medium",
@@ -274,16 +276,17 @@
             "show_button": false,
             "button_style": "primary",
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/gathering-essentials",
+            "button_link": "shopify://collections/gathering-essentials",
             "overlay_opacity": 0.5
           }
         },
         "slide_4WjtBF": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/main-banner-gloves.png",
-            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_4.png",
+            "desktop_image": "shopify://shop_images/main-banner-gloves.png",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_4.png",
             "subheading": "",
             "heading": "",
             "heading_size": "medium",
@@ -291,7 +294,7 @@
             "show_button": false,
             "button_style": "primary",
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/disposable-gloves",
+            "button_link": "shopify://collections/disposable-gloves",
             "overlay_opacity": 0
           }
         },
@@ -300,8 +303,8 @@
           "disabled": true,
           "settings": {
             "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/main-banner-1_copy_6.webp",
-            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_7.webp",
+            "desktop_image": "shopify://shop_images/main-banner-1_copy_6.webp",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_7.webp",
             "subheading": "",
             "heading": "",
             "heading_size": "medium",
@@ -309,16 +312,17 @@
             "show_button": false,
             "button_style": "primary",
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/paper-towel",
+            "button_link": "shopify://collections/paper-towel",
             "overlay_opacity": 0.5
           }
         },
         "slide_qVGKnx": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_9_6855b31e-29cc-48b7-b7ef-00ef8d5d57cb.webp",
-            "mobile_image": "shopify:\/\/shop_images\/main-banner-toilet-paper-tissue_copy_10_262fd3b1-00e6-458c-8b5e-40c7bf33f328.webp",
+            "desktop_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_9_6855b31e-29cc-48b7-b7ef-00ef8d5d57cb.webp",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_10_262fd3b1-00e6-458c-8b5e-40c7bf33f328.webp",
             "subheading": "",
             "heading": "",
             "heading_size": "medium",
@@ -326,16 +330,17 @@
             "show_button": true,
             "button_style": "primary",
             "button_label": "",
-            "button_link": "shopify:\/\/collections\/active-compression-wears",
+            "button_link": "shopify://collections/active-compression-wears",
             "overlay_opacity": 0.5
           }
         },
         "slide_D3egVX": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "background-3",
-            "desktop_image": "shopify:\/\/shop_images\/mylar-banner.png",
-            "mobile_image": "shopify:\/\/shop_images\/mylar-banner-mobile.png",
+            "desktop_image": "shopify://shop_images/mylar-banner.png",
+            "mobile_image": "shopify://shop_images/mylar-banner-mobile.png",
             "subheading": "",
             "heading": "",
             "heading_size": "medium",
@@ -343,7 +348,7 @@
             "show_button": false,
             "button_style": "primary",
             "button_label": "",
-            "button_link": "shopify:\/\/products\/wynn-emergency-mylar-thermal-blanket",
+            "button_link": "shopify://products/wynn-emergency-mylar-thermal-blanket",
             "overlay_opacity": 0.5
           }
         }
@@ -362,7 +367,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": false,
-        "height": "21\/9",
+        "height": "21/9",
         "enable_autoplay": false,
         "slide_duration": 10,
         "controls_color_scheme": "light",
@@ -384,7 +389,7 @@
             "row_end": "3",
             "min_height": "large",
             "padding": "small",
-            "image": "shopify:\/\/shop_images\/facility-maintenance_b349515f-3882-42ad-ad53-7b701c042765.webp",
+            "image": "shopify://shop_images/facility-maintenance_b349515f-3882-42ad-ad53-7b701c042765.webp",
             "image_size": "cover",
             "icon_size": "cover",
             "icon_position": "left-top",
@@ -423,7 +428,7 @@
             "row_end": "unset",
             "min_height": "small",
             "padding": "small",
-            "image": "shopify:\/\/shop_images\/safety-supplies.webp",
+            "image": "shopify://shop_images/safety-supplies.webp",
             "image_size": "cover",
             "icon_size": "cover",
             "icon_position": "left-top",
@@ -462,7 +467,7 @@
             "row_end": "unset",
             "min_height": "small",
             "padding": "small",
-            "image": "shopify:\/\/shop_images\/warehouse-shipping.webp",
+            "image": "shopify://shop_images/warehouse-shipping.webp",
             "image_size": "cover",
             "icon_size": "cover",
             "icon_position": "left-top",
@@ -523,7 +528,7 @@
         "show_button": true,
         "button_style": "primary",
         "button_label": "Shop More",
-        "button_link": "shopify:\/\/collections\/all",
+        "button_link": "shopify://collections/all",
         "product_list": [
           "wynn-disposable-coverall",
           "powder-free-nitrile-gloves-latex-free-ambidextrous-violet-blue",
@@ -660,7 +665,7 @@
             "row_end": "3",
             "min_height": "small",
             "padding": "large",
-            "image": "shopify:\/\/shop_images\/Stay-warm-stay-safe_a6677d4a-f934-41fc-ba76-3e2bb08549a5.webp",
+            "image": "shopify://shop_images/Stay-warm-stay-safe_a6677d4a-f934-41fc-ba76-3e2bb08549a5.webp",
             "image_size": "cover",
             "icon_size": "cover",
             "icon_position": "left-top",
@@ -683,10 +688,10 @@
             "text_width": 40,
             "show_button": true,
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/products\/wynn-emergency-mylar-thermal-blanket",
+            "button_link": "shopify://products/wynn-emergency-mylar-thermal-blanket",
             "style_button": "button button--primary button--arrow",
             "add_button_label": "From",
-            "add_button_price": "$11,400 \/ Pallet",
+            "add_button_price": "$11,400 / Pallet",
             "card_link": ""
           }
         },
@@ -699,7 +704,7 @@
             "row_end": "3",
             "min_height": "medium",
             "padding": "small",
-            "image": "shopify:\/\/shop_images\/Bottom-Banner-broadwalk-brown-1ply_copy_2_ac937418-0a1d-4f59-b994-665d17645e27.webp",
+            "image": "shopify://shop_images/Bottom-Banner-broadwalk-brown-1ply_copy_2_ac937418-0a1d-4f59-b994-665d17645e27.webp",
             "image_size": "cover",
             "icon_size": "cover",
             "icon_position": "left-top",
@@ -722,7 +727,7 @@
             "text_width": 80,
             "show_button": true,
             "button_label": "Available for Bulk Ordering",
-            "button_link": "shopify:\/\/collections\/paper-towel",
+            "button_link": "shopify://collections/paper-towel",
             "style_button": "tag subtitle",
             "add_button_label": "",
             "add_button_price": "",
@@ -738,9 +743,9 @@
             "row_end": "unset",
             "min_height": "small",
             "padding": "small",
-            "image": "shopify:\/\/shop_images\/Bottom-Banner-broadwalk-brown-1ply_copy_95f817a5-b52f-41a2-bfdb-abc0275825a4.webp",
+            "image": "shopify://shop_images/Bottom-Banner-broadwalk-brown-1ply_copy_95f817a5-b52f-41a2-bfdb-abc0275825a4.webp",
             "image_size": "cover",
-            "icon": "shopify:\/\/shop_images\/wynn-box_1.webp",
+            "icon": "shopify://shop_images/wynn-box_1.webp",
             "icon_size": "cover",
             "icon_position": "right-top",
             "icon_background": "background-1",
@@ -762,7 +767,7 @@
             "text_width": 100,
             "show_button": true,
             "button_label": "Start Your Bulk Order Now",
-            "button_link": "shopify:\/\/collections",
+            "button_link": "shopify://collections",
             "style_button": "button button--simple-move",
             "add_button_label": "",
             "add_button_price": "",
@@ -790,7 +795,7 @@
         "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-0": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/GSA.png",
+            "image_1": "shopify://shop_images/GSA.png",
             "image_width": 70,
             "brand_link": ""
           }
@@ -798,7 +803,7 @@
         "aa514c66-b185-4e02-93e7-cbc99eee0e94": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/EDD.png",
+            "image_1": "shopify://shop_images/EDD.png",
             "image_width": 100,
             "brand_link": ""
           }
@@ -806,7 +811,7 @@
         "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-1": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/DOTA.png",
+            "image_1": "shopify://shop_images/DOTA.png",
             "image_width": 70,
             "brand_link": ""
           }
@@ -814,7 +819,7 @@
         "c133ac02-5948-4d8a-9569-36c0821e15a5": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/DOVA.png",
+            "image_1": "shopify://shop_images/DOVA.png",
             "image_width": 110,
             "brand_link": ""
           }
@@ -822,7 +827,7 @@
         "column_EV6AEt": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/DOJ-FBOP.png",
+            "image_1": "shopify://shop_images/DOJ-FBOP.png",
             "image_width": 70,
             "brand_link": ""
           }
@@ -830,7 +835,7 @@
         "d9b878a5-e3d4-4e82-9c3e-3175bb780d15": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/SOC-DCA.png",
+            "image_1": "shopify://shop_images/SOC-DCA.png",
             "image_width": 100,
             "brand_link": ""
           }
@@ -838,7 +843,7 @@
         "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-3": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/DOHH.png",
+            "image_1": "shopify://shop_images/DOHH.png",
             "image_width": 70,
             "brand_link": ""
           }
@@ -846,7 +851,7 @@
         "column_zfjwGz": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/DHCS.png",
+            "image_1": "shopify://shop_images/DHCS.png",
             "image_width": 70,
             "brand_link": ""
           }
@@ -854,7 +859,7 @@
         "04b36121-b9f1-4cdb-91df-bf69cc3aa2c8": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/BOCFR.png",
+            "image_1": "shopify://shop_images/BOCFR.png",
             "image_width": 70,
             "brand_link": ""
           }
@@ -862,7 +867,7 @@
         "column_NV6kkh": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/DORDOR.png",
+            "image_1": "shopify://shop_images/DORDOR.png",
             "image_width": 100,
             "brand_link": ""
           }
@@ -870,7 +875,7 @@
         "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-2": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/Cal-Fire.png",
+            "image_1": "shopify://shop_images/Cal-Fire.png",
             "image_width": 70,
             "brand_link": ""
           }
@@ -903,7 +908,7 @@
         "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/free-shipping-icon_3681db7a-7d20-4dd6-b6b5-3d14f2deda56.png",
+            "image": "shopify://shop_images/free-shipping-icon_3681db7a-7d20-4dd6-b6b5-3d14f2deda56.png",
             "heading": "Free Shipping & Returns",
             "text": "Shop with confidence and have your favorite electronics delivered right to your doorstep without any additional cost."
           }
@@ -911,7 +916,7 @@
         "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/money-back-guarantee_5c39c1bb-48f4-4cec-9866-f8700a9301e2.png",
+            "image": "shopify://shop_images/money-back-guarantee_5c39c1bb-48f4-4cec-9866-f8700a9301e2.png",
             "heading": "Money Back Guarantee",
             "text": "If you're not completely satisfied with your purchase, we'll make it right. No questions asked."
           }
@@ -919,15 +924,15 @@
         "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/online-support_82c88f9f-0bd1-478e-b4b0-9932eccff90f.png",
-            "heading": "Online Support 24\/7",
+            "image": "shopify://shop_images/online-support_82c88f9f-0bd1-478e-b4b0-9932eccff90f.png",
+            "heading": "Online Support 24/7",
             "text": "Need help with your electronics? Get in touch with us anytime, anywhere, and let's get your tech sorted."
           }
         },
         "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/regular-sales_18e6295f-8294-4218-910e-f84783d6aea2.png",
+            "image": "shopify://shop_images/regular-sales_18e6295f-8294-4218-910e-f84783d6aea2.png",
             "heading": "Regular Sales",
             "text": "Don't miss out on our amazing deals with regular sales on our top-of-the-line electronics."
           }
@@ -984,7 +989,7 @@
         "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-1": {
           "type": "product_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/product-slide-Mylar_0abaa460-9bbb-4cef-95d1-8ab1d0579d69.webp",
+            "image": "shopify://shop_images/product-slide-Mylar_0abaa460-9bbb-4cef-95d1-8ab1d0579d69.webp",
             "product": "wynn-emergency-mylar-thermal-blanket",
             "subheading": "in stock now",
             "color_text": "#717171",
@@ -997,7 +1002,7 @@
         "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-2": {
           "type": "product_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bottom-Banner-cup.png",
+            "image": "shopify://shop_images/Bottom-Banner-cup.png",
             "product": "crystalware-paper-hot-cups",
             "subheading": "In Stock Now",
             "color_text": "#717171",
@@ -1010,7 +1015,7 @@
         "product_slide_YMTKbb": {
           "type": "product_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bottom-Banner-Coverall_87dd9c4c-c4c1-4ef9-a27b-480109291f05.webp",
+            "image": "shopify://shop_images/Bottom-Banner-Coverall_87dd9c4c-c4c1-4ef9-a27b-480109291f05.webp",
             "product": "wynn-disposable-coverall",
             "subheading": "In Stock Now",
             "color_text": "#717171",
@@ -1023,7 +1028,7 @@
         "product_slide_tQLky3": {
           "type": "product_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bottom-Banner-green-heritage-toilet.png",
+            "image": "shopify://shop_images/Bottom-Banner-green-heritage-toilet.png",
             "product": "green-heritage-pro-2-ply-toilet-paper",
             "subheading": "In Stock Now",
             "color_text": "#717171",
@@ -1036,7 +1041,7 @@
         "product_slide_xbHhXw": {
           "type": "product_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bottom-Banner-green-heritage-jumbo.png",
+            "image": "shopify://shop_images/Bottom-Banner-green-heritage-jumbo.png",
             "product": "green-heritage-pro-2-ply-jumbo-roll-tissue",
             "subheading": "In Stock Now",
             "color_text": "#717171",
@@ -1049,20 +1054,20 @@
         "product_slide_xfLPxY": {
           "type": "product_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bottom-Banner-liner.webp",
+            "image": "shopify://shop_images/Bottom-Banner-liner.webp",
             "product": "heavy-duty-black-waste-liners-38x58-1-5-mil-100-bags-case-50-cases-pallet",
             "subheading": "In Stock Now",
             "color_text": "#717171",
             "show_subheading_dot": true,
             "color_dot": "#40b66f",
             "heading": "Prime Pak Heavy Duty Black Waste Liners 38x58",
-            "text": "These 38x58 Black Liners are available in 1.2-mil (60 cases\/pallet) and 1.5-mil (50 cases\/pallet). Packaged in cases of 100 & offer a durable solution for waste management."
+            "text": "These 38x58 Black Liners are available in 1.2-mil (60 cases/pallet) and 1.5-mil (50 cases/pallet). Packaged in cases of 100 & offer a durable solution for waste management."
           }
         },
         "product_slide_ENQFz9": {
           "type": "product_slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bottom-Banner-broadwalk-brown-1ply_d4fafb18-9281-48d5-9e27-5359869f2cfb.webp",
+            "image": "shopify://shop_images/Bottom-Banner-broadwalk-brown-1ply_d4fafb18-9281-48d5-9e27-5359869f2cfb.webp",
             "product": "boardwalk-multifold-paper-towels-1-ply-4000-towels",
             "subheading": "In Stock",
             "color_text": "#717171",
@@ -1133,7 +1138,7 @@
           "type": "accordion",
           "settings": {
             "question": "What payment methods are accepted at your store?",
-            "answer": "<p>Our online store accepts a variety of payment methods to ensure a convenient shopping experience for our customers. We accept major credit cards, such as Visa, MasterCard, American Express, and Discover, as well as debit cards. Additionally, we offer support for digital payment platforms like PayPal, Apple Pay, and Google Pay. We are constantly working to expand our payment options to accommodate our customers' needs.<\/p>",
+            "answer": "<p>Our online store accepts a variety of payment methods to ensure a convenient shopping experience for our customers. We accept major credit cards, such as Visa, MasterCard, American Express, and Discover, as well as debit cards. Additionally, we offer support for digital payment platforms like PayPal, Apple Pay, and Google Pay. We are constantly working to expand our payment options to accommodate our customers' needs.</p>",
             "opened": false
           }
         },
@@ -1141,7 +1146,7 @@
           "type": "accordion",
           "settings": {
             "question": "How long does it take to process and ship my order?",
-            "answer": "<p>If you order before 3 pm eastern time, we can usually dispatch the next business day. In rare cases, it may take 1-2 business days to process and dispatch your order. We ship Monday through Friday, excluding weekends and holidays. All orders to the USA are shipped via USPS, UPS or with a local courier with expected delivery between 1-2 business days. Note: at this time, we do not ship to Alaska or Hawaii<\/p>",
+            "answer": "<p>If you order before 3 pm eastern time, we can usually dispatch the next business day. In rare cases, it may take 1-2 business days to process and dispatch your order. We ship Monday through Friday, excluding weekends and holidays. All orders to the USA are shipped via USPS, UPS or with a local courier with expected delivery between 1-2 business days. Note: at this time, we do not ship to Alaska or Hawaii</p>",
             "opened": false
           }
         },
@@ -1149,7 +1154,7 @@
           "type": "accordion",
           "settings": {
             "question": "Where do you ship from?",
-            "answer": "<p>We keep inventory in 34 warehouses across the lower 48 USA states ready for next business day dispatch. The closest warehouse to you will deliver your orders by USPS, UPS &\/or local courier<\/p>",
+            "answer": "<p>We keep inventory in 34 warehouses across the lower 48 USA states ready for next business day dispatch. The closest warehouse to you will deliver your orders by USPS, UPS &/or local courier</p>",
             "opened": false
           }
         },
@@ -1157,7 +1162,7 @@
           "type": "accordion",
           "settings": {
             "question": "How much does shipping cost?",
-            "answer": "<p>We are pleased to offer free shipping for all orders over $75<\/p>",
+            "answer": "<p>We are pleased to offer free shipping for all orders over $75</p>",
             "opened": false
           }
         },
@@ -1165,7 +1170,7 @@
           "type": "accordion",
           "settings": {
             "question": "What is your Return Policy?",
-            "answer": "<p>We offer a 100% no hassle 6 month guarantee and FREE returns on all of our products (except PPE). We will be fair to you, and we would appreciate the same in return.\u2028For safety reasons, all PPE purchases are not returnable.<br\/><\/p><p>You can return unopened (non PPE) items that are in re sellable condition. Send it back to us & get a credit or full refund and we will send you a free postage pre-paid mailing label to get the unwanted product back to us.<\/p>",
+            "answer": "<p>We offer a 100% no hassle 6 month guarantee and FREE returns on all of our products (except PPE). We will be fair to you, and we would appreciate the same in return. For safety reasons, all PPE purchases are not returnable.<br/></p><p>You can return unopened (non PPE) items that are in re sellable condition. Send it back to us & get a credit or full refund and we will send you a free postage pre-paid mailing label to get the unwanted product back to us.</p>",
             "opened": false
           }
         }
@@ -1193,7 +1198,7 @@
         "heading_3mJ9VX": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Brands We Supply<\/p>",
+            "heading": "<p>Brands We Supply</p>",
             "heading_size": "medium"
           }
         }
@@ -1216,7 +1221,7 @@
         "column_b9GdXq": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/business-source.webp",
+            "image_1": "shopify://shop_images/business-source.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1224,7 +1229,7 @@
         "column_xBfNMC": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/betco.webp",
+            "image_1": "shopify://shop_images/betco.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1232,7 +1237,7 @@
         "column_mkHpCL": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/bff.webp",
+            "image_1": "shopify://shop_images/bff.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1240,7 +1245,7 @@
         "column_r7J7aE": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/belkin.webp",
+            "image_1": "shopify://shop_images/belkin.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1248,7 +1253,7 @@
         "column_n4hEt9": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/avery.webp",
+            "image_1": "shopify://shop_images/avery.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1256,7 +1261,7 @@
         "column_XKPFHC": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/ajax.webp",
+            "image_1": "shopify://shop_images/ajax.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1264,7 +1269,7 @@
         "column_GDjQpz": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/black-box.webp",
+            "image_1": "shopify://shop_images/black-box.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1272,7 +1277,7 @@
         "column_cPKH6z": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/boardwalk.webp",
+            "image_1": "shopify://shop_images/boardwalk.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1280,7 +1285,7 @@
         "column_xaEcm4": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/braun.webp",
+            "image_1": "shopify://shop_images/braun.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1288,7 +1293,7 @@
         "column_JFTpUj": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/brother.webp",
+            "image_1": "shopify://shop_images/brother.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1296,7 +1301,7 @@
         "column_Kb4qxp": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/clorox.webp",
+            "image_1": "shopify://shop_images/clorox.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1304,7 +1309,7 @@
         "column_pRHGEW": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/canon.webp",
+            "image_1": "shopify://shop_images/canon.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1312,7 +1317,7 @@
         "column_QtEMc7": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/dove.webp",
+            "image_1": "shopify://shop_images/dove.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1320,7 +1325,7 @@
         "column_pgd4Yq": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/folgers.webp",
+            "image_1": "shopify://shop_images/folgers.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1328,7 +1333,7 @@
         "column_xJz9Nw": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/epson.webp",
+            "image_1": "shopify://shop_images/epson.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1336,7 +1341,7 @@
         "column_Q6kaRN": {
           "type": "column",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/flavia.webp",
+            "image_1": "shopify://shop_images/flavia.webp",
             "image_width": 60,
             "brand_link": ""
           }
