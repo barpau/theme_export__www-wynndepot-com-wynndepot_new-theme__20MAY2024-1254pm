@@ -51,11 +51,12 @@
         "image_with_text_Q3XiQr": {
           "type": "image-with-text",
           "settings": {
-            "subheading": "Subheading",
-            "heading": "Some heading for this section",
+            "subheading": "Wynn Depot – Your Trusted Source for Business Supplies",
+            "heading": "Hello, We are Wynn Depot",
+            "image": "shopify://shop_images/contact_us.webp",
             "height": "adapt",
-            "text": "<p>Description of your company, company history, company founders, and so on. There may be several paragraphs here.</p>",
-            "column_text": "Description of your company, company history, company founders. You can also add any text. Add text about whatever you want.",
+            "text": "<p>We began our journey with a vision to revolutionize the supply chain for businesses and government entities, ensuring access to top-quality products and reliable services. As a veteran-owned company, we are deeply rooted in the values of integrity, dedication, and excellence.</p>",
+            "column_text": "We're Here to Help! Whether you're looking for bulk order options, need assistance with a government procurement process, or simply want more information about our products, our team is here to provide you with the support you need.",
             "name": "Author name",
             "author_position": "Position of author or any other text",
             "padding_top": 0,
