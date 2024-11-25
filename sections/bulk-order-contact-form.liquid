@@ -83,7 +83,7 @@
                     aria-invalid="true"
                     aria-describedby="ContactForm-email-error"
                   {% endif %}
-                  placeholder="Company E-mail"
+                  placeholder="{{ 'templates.contact.form.email' | t }}"
                   required
                 >
                 <label
@@ -91,7 +91,7 @@
                   for="ContactForm-email"
                   placeholder="{{ 'templates.contact.form.email' | t }}"
                 >
-                  {{ 'templates.contact.form.email' | t }}
+                  Company E-mail
                 </label>
                 {%- if form.errors contains 'email' -%}
                   <small class="contact-form__field-error" id="ContactForm-email-error">
