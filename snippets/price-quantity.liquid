@@ -54,8 +54,8 @@
       >
         <span class="price-item price-item--regular">
           {{ money_price }}
-          {% if target.product.metafields.custom.quantity_type %}
-            { target.product.metafields.custom.quantity_type }}
+          {% if target.metafields.custom.quantity_type %}
+            { target.metafields.custom.quantity_type }}
           {% endif %}
         </span>
       </dd>
