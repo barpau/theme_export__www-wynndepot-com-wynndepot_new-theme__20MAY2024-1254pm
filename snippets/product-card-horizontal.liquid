@@ -99,7 +99,8 @@
       </h3>
     </div>
 
-    {% render 'price', product: product_card_product, price_class: '' %}
+    {% render 'price-popular', product: product_card_product, price_class: '' %}
+    {% comment %} original render 'price' {% endcomment %}
   </div>
   <a
     href="{{ product_card_product.url | default: '#' }}"
