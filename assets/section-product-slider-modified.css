@@ -22,8 +22,8 @@
 
 .main-left {
   background-color: lightblue; /* Optional: Background color for clarity */
-  width: 30%;
-    display: flex;
+  width: 45%;
+  display: flex;
   justify-content: center; /* Center the image horizontally */
   align-items: center; /* Center the image vertically */
 }
@@ -36,9 +36,8 @@
 
 .main-right {
   background-color: lightgreen; /* Optional: Background color for clarity */
-  width: 70%;
+  width: 55%;
 }
-
 
 @media (min-width: 1200px) {
   .product-slider--desktop-order .product-slider__image {
