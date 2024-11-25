@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -14,8 +14,7 @@
       "blocks": {
         "sku_FQKjRm": {
           "type": "sku",
-          "settings": {
-          }
+          "settings": {}
         },
         "vendor": {
           "type": "text",
@@ -26,8 +25,7 @@
         },
         "rating": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -35,15 +33,13 @@
             "heading_size": "h2"
           }
         },
+        "price_PWmtF8": {
+          "type": "price",
+          "settings": {}
+        },
         "three_images_EidX3Q": {
           "type": "three-images",
-          "settings": {
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "description_fU7jRx": {
           "type": "description",
@@ -73,14 +69,13 @@
         },
         "pickup_availability": {
           "type": "pickup_availability",
-          "settings": {
-          }
+          "settings": {}
         },
         "advantage_1": {
           "type": "advantage",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_38_copy_fa8a547e-74c1-42d1-aa55-e555c1953548.png",
+            "image": "shopify://shop_images/Artboard_38_copy_fa8a547e-74c1-42d1-aa55-e555c1953548.png",
             "color_scheme": "colored",
             "heading": "Extensive Selection",
             "text": "Access over 50,000 products across various categories tailored for business needs, from office supplies to technology gadgets.",
@@ -94,7 +89,7 @@
           "type": "advantage",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_38_copy_2.png",
+            "image": "shopify://shop_images/Artboard_38_copy_2.png",
             "color_scheme": "black",
             "heading": "Free 90-day returns",
             "text": "We offer a 100% no hassle 6 month guarantee and FREE returns on all of our products (except PPE).",
@@ -108,7 +103,7 @@
           "type": "advantage",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Artboard_38.png",
+            "image": "shopify://shop_images/Artboard_38.png",
             "color_scheme": "black",
             "heading": "Fast and Reliable Delivery",
             "text": "Enjoy free shipping for all orders over $75.",
@@ -131,7 +126,7 @@
           "disabled": true,
           "settings": {
             "background_color": "#b51e1e",
-            "logo": "shopify:\/\/shop_images\/Stay-warm-stay-safe_a6677d4a-f934-41fc-ba76-3e2bb08549a5.webp",
+            "logo": "shopify://shop_images/Stay-warm-stay-safe_a6677d4a-f934-41fc-ba76-3e2bb08549a5.webp",
             "text": "Text for promo banner",
             "text_color": "#ffffff",
             "link_text": "Link for promo banner",
@@ -148,8 +143,7 @@
         "floated_form": {
           "type": "floated_form",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "banner": {
           "type": "banner",
@@ -165,8 +159,7 @@
         "sku_pqWkgH": {
           "type": "sku",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -174,8 +167,8 @@
         "vendor",
         "rating",
         "title",
+        "price_PWmtF8",
         "three_images_EidX3Q",
-        "price",
         "description_fU7jRx",
         "about_1",
         "variant_picker_DN4jiR",
