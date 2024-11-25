@@ -43,9 +43,11 @@
           {%- endif -%}
           {%- form 'contact', id: 'ContactForm' -%}
             {%- if form.posted_successfully? -%}
-              <div class="form-status form-status-list form__message" tabindex="-1" autofocus>
-                {% render 'icon-success' %}
-                <div class="post-successful"> {{ 'templates.contact.form.post_success' | t }}</div>
+              <div class="post-successful">
+                <div class="form-status form-status-list form__message" tabindex="-1" autofocus>
+                  {% render 'icon-success' %}
+                   {{ 'templates.contact.form.post_success' | t }}
+                </div>
               </div>
             {%- elsif form.errors -%}
             {%- endif -%}
