@@ -6,6 +6,8 @@
 
 .post-successful {
   background: #afc2f9;
+  padding: 17px;
+  margin-bottom: 20px;
 }
 @media screen and (min-width: 990px) {
   .contact-form__container {
