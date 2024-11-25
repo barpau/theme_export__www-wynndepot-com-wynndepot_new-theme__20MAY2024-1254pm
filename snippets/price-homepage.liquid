@@ -67,6 +67,10 @@
 				</s>
 			</dd>
             / test
+            {% if target.compare_at_price.metafields.custom.quantity_type %}
+              / {{ compare_at_price.metafields.custom.quantity_type }}
+            {% endif %}
+          {{ target.metafields.custom.quantity_type | default: 'No quantity type' }}
 
 		</div>
 		<dl class = "unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
