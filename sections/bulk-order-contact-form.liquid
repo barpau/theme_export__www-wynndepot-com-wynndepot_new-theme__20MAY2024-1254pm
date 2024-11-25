@@ -38,7 +38,7 @@
         <div class="contact-form__wrapper">
           {%- if section.settings.heading != blank -%}
             <h2 class="contact-form__title h3">
-              {{ section.settings.heading }} Test
+              {{ section.settings.heading }}
             </h2>
           {%- endif -%}
           {%- form 'contact', id: 'ContactForm' -%}
@@ -83,7 +83,7 @@
                     aria-invalid="true"
                     aria-describedby="ContactForm-email-error"
                   {% endif %}
-                  placeholder="{{ 'templates.contact.form.email' | t }}"
+                  placeholder="Company E-mail"
                   required
                 >
                 <label
