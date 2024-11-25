@@ -9,6 +9,126 @@
  */
 {
   "sections": {
+    "63426eab-f4fd-42ce-8d05-6ff273e37a6a": {
+      "type": "product-slider",
+      "blocks": {
+        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-1": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/product-slide-Mylar_0abaa460-9bbb-4cef-95d1-8ab1d0579d69.webp",
+            "product": "wynn-emergency-mylar-thermal-blanket",
+            "subheading": "in stock now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Stay Warm, Stay Safe with Wynn Mylar Thermal Blankets",
+            "text": "Durable, compact, and capable of retaining up to 90% of body heat, our Mylar blankets are your best ally in any weather condition. Bulk availability: 250 blankets per case, 48 cases per pallet."
+          }
+        },
+        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-2": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-cup.png",
+            "product": "crystalware-paper-hot-cups",
+            "subheading": "In Stock Now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Crystalware Disposable Paper Hot Cups",
+            "text": "Serve hot beverages in Crystalware Paper Hot Cups, perfect for coffee shops, offices, and events. These biodegradable, BPA-free, poly-coated cups range from 8 oz to 16 oz, ensuring durability and leak resistance"
+          }
+        },
+        "product_slide_YMTKbb": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-Coverall_87dd9c4c-c4c1-4ef9-a27b-480109291f05.webp",
+            "product": "wynn-disposable-coverall",
+            "subheading": "In Stock Now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Wynn Disposable Coveralls - Heavy-Duty Protection",
+            "text": "Stay protected with Wynn Disposable Coveralls. Featuring a hood, zipper closure, elastic cuffs, waist, and ankles, these coveralls offer heavy-duty protection with type 5 & 6 safety levels."
+          }
+        },
+        "product_slide_tQLky3": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-green-heritage-toilet.png",
+            "product": "green-heritage-pro-2-ply-toilet-paper",
+            "subheading": "In Stock Now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Green Heritage® Pro 2-Ply Toilet Paper",
+            "text": "Experience premium quality with Green Heritage® Pro 2-Ply Toilet Paper, ideal for high-traffic and government use. Available in 400 and 500-sheet rolls, it ensures long-lasting supply and comfort. SFI certified and eco-friendly."
+          }
+        },
+        "product_slide_xbHhXw": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-green-heritage-jumbo.png",
+            "product": "green-heritage-pro-2-ply-jumbo-roll-tissue",
+            "subheading": "In Stock Now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Green Heritage® Pro 2-Ply Jumbo Roll Tissue",
+            "text": "The Green Heritage® Pro 2-ply Jumbo Roll Tissue fits 9\" diameter JRT dispensers. Each roll is 560 ft long, with 12 rolls per case and 65 cases per pallet."
+          }
+        },
+        "product_slide_xfLPxY": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-liner.webp",
+            "product": "heavy-duty-black-waste-liners-38x58-1-5-mil-100-bags-case-50-cases-pallet",
+            "subheading": "In Stock Now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Prime Pak Heavy Duty Black Waste Liners 38x58",
+            "text": "These 38x58 Black Liners are available in 1.2-mil (60 cases/pallet) and 1.5-mil (50 cases/pallet). Packaged in cases of 100 & offer a durable solution for waste management."
+          }
+        },
+        "product_slide_ENQFz9": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-broadwalk-brown-1ply_d4fafb18-9281-48d5-9e27-5359869f2cfb.webp",
+            "product": "boardwalk-multifold-paper-towels-1-ply-4000-towels",
+            "subheading": "In Stock",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Boardwalk Brown Multifold 1-Ply Paper Towels (Pack of 4000 pieces)",
+            "text": "Boardwalk® Brown Multi-Fold Paper Towels offer convenience and efficiency with 4,000 towels per carton. Their multi-fold design suits different preferences and ensures quick, effective drying."
+          }
+        }
+      },
+      "block_order": [
+        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-1",
+        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-2",
+        "product_slide_YMTKbb",
+        "product_slide_tQLky3",
+        "product_slide_xbHhXw",
+        "product_slide_xfLPxY",
+        "product_slide_ENQFz9"
+      ],
+      "settings": {
+        "color_scheme": "2",
+        "desktop_alignment": "left",
+        "mobile_alignment": "before",
+        "image_fit": "cover",
+        "slide_duration": 5,
+        "show_vendor": true,
+        "show_sku": true,
+        "image_ratio": "square",
+        "image_fit_card": "contain",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
     "fdb14e00-134b-480c-8919-adf7bcf3ee2b": {
       "type": "cards-grid",
       "blocks": {
@@ -364,6 +484,7 @@
         "slide_qVGKnx",
         "slide_D3egVX"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": false,
@@ -533,10 +654,6 @@
           "wynn-disposable-coverall",
           "powder-free-nitrile-gloves-latex-free-ambidextrous-violet-blue",
           "powder-free-vinyl-gloves-latex-free-ambidextrous-clear",
-          "classic-active-compression-patent-socks",
-          "light-active-compression-patent-socks",
-          "light-active-compression-patent-calf-sleeves",
-          "light-active-compression-arm-sleeves",
           "boardwalk®-translucent-plastic-cold-cups-7-oz-polypropylene-100-cups-sleeve-25-sleeves-carton",
           "antigua-bath-tissue-atp400"
         ],
@@ -983,126 +1100,6 @@
         "padding_bottom": "no-indent"
       }
     },
-    "63426eab-f4fd-42ce-8d05-6ff273e37a6a": {
-      "type": "product-slider",
-      "blocks": {
-        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-1": {
-          "type": "product_slide",
-          "settings": {
-            "image": "shopify://shop_images/product-slide-Mylar_0abaa460-9bbb-4cef-95d1-8ab1d0579d69.webp",
-            "product": "wynn-emergency-mylar-thermal-blanket",
-            "subheading": "in stock now",
-            "color_text": "#717171",
-            "show_subheading_dot": true,
-            "color_dot": "#40b66f",
-            "heading": "Stay Warm, Stay Safe with Wynn Mylar Thermal Blankets",
-            "text": "Durable, compact, and capable of retaining up to 90% of body heat, our Mylar blankets are your best ally in any weather condition. Bulk availability: 250 blankets per case, 48 cases per pallet."
-          }
-        },
-        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-2": {
-          "type": "product_slide",
-          "settings": {
-            "image": "shopify://shop_images/Bottom-Banner-cup.png",
-            "product": "crystalware-paper-hot-cups",
-            "subheading": "In Stock Now",
-            "color_text": "#717171",
-            "show_subheading_dot": true,
-            "color_dot": "#40b66f",
-            "heading": "Crystalware Disposable Paper Hot Cups",
-            "text": "Serve hot beverages in Crystalware Paper Hot Cups, perfect for coffee shops, offices, and events. These biodegradable, BPA-free, poly-coated cups range from 8 oz to 16 oz, ensuring durability and leak resistance"
-          }
-        },
-        "product_slide_YMTKbb": {
-          "type": "product_slide",
-          "settings": {
-            "image": "shopify://shop_images/Bottom-Banner-Coverall_87dd9c4c-c4c1-4ef9-a27b-480109291f05.webp",
-            "product": "wynn-disposable-coverall",
-            "subheading": "In Stock Now",
-            "color_text": "#717171",
-            "show_subheading_dot": true,
-            "color_dot": "#40b66f",
-            "heading": "Wynn Disposable Coveralls - Heavy-Duty Protection",
-            "text": "Stay protected with Wynn Disposable Coveralls. Featuring a hood, zipper closure, elastic cuffs, waist, and ankles, these coveralls offer heavy-duty protection with type 5 & 6 safety levels."
-          }
-        },
-        "product_slide_tQLky3": {
-          "type": "product_slide",
-          "settings": {
-            "image": "shopify://shop_images/Bottom-Banner-green-heritage-toilet.png",
-            "product": "green-heritage-pro-2-ply-toilet-paper",
-            "subheading": "In Stock Now",
-            "color_text": "#717171",
-            "show_subheading_dot": true,
-            "color_dot": "#40b66f",
-            "heading": "Green Heritage® Pro 2-Ply Toilet Paper",
-            "text": "Experience premium quality with Green Heritage® Pro 2-Ply Toilet Paper, ideal for high-traffic and government use. Available in 400 and 500-sheet rolls, it ensures long-lasting supply and comfort. SFI certified and eco-friendly."
-          }
-        },
-        "product_slide_xbHhXw": {
-          "type": "product_slide",
-          "settings": {
-            "image": "shopify://shop_images/Bottom-Banner-green-heritage-jumbo.png",
-            "product": "green-heritage-pro-2-ply-jumbo-roll-tissue",
-            "subheading": "In Stock Now",
-            "color_text": "#717171",
-            "show_subheading_dot": true,
-            "color_dot": "#40b66f",
-            "heading": "Green Heritage® Pro 2-Ply Jumbo Roll Tissue",
-            "text": "The Green Heritage® Pro 2-ply Jumbo Roll Tissue fits 9\" diameter JRT dispensers. Each roll is 560 ft long, with 12 rolls per case and 65 cases per pallet."
-          }
-        },
-        "product_slide_xfLPxY": {
-          "type": "product_slide",
-          "settings": {
-            "image": "shopify://shop_images/Bottom-Banner-liner.webp",
-            "product": "heavy-duty-black-waste-liners-38x58-1-5-mil-100-bags-case-50-cases-pallet",
-            "subheading": "In Stock Now",
-            "color_text": "#717171",
-            "show_subheading_dot": true,
-            "color_dot": "#40b66f",
-            "heading": "Prime Pak Heavy Duty Black Waste Liners 38x58",
-            "text": "These 38x58 Black Liners are available in 1.2-mil (60 cases/pallet) and 1.5-mil (50 cases/pallet). Packaged in cases of 100 & offer a durable solution for waste management."
-          }
-        },
-        "product_slide_ENQFz9": {
-          "type": "product_slide",
-          "settings": {
-            "image": "shopify://shop_images/Bottom-Banner-broadwalk-brown-1ply_d4fafb18-9281-48d5-9e27-5359869f2cfb.webp",
-            "product": "boardwalk-multifold-paper-towels-1-ply-4000-towels",
-            "subheading": "In Stock",
-            "color_text": "#717171",
-            "show_subheading_dot": true,
-            "color_dot": "#40b66f",
-            "heading": "Boardwalk Brown Multifold 1-Ply Paper Towels (Pack of 4000 pieces)",
-            "text": "Boardwalk® Brown Multi-Fold Paper Towels offer convenience and efficiency with 4,000 towels per carton. Their multi-fold design suits different preferences and ensures quick, effective drying."
-          }
-        }
-      },
-      "block_order": [
-        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-1",
-        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-2",
-        "product_slide_YMTKbb",
-        "product_slide_tQLky3",
-        "product_slide_xbHhXw",
-        "product_slide_xfLPxY",
-        "product_slide_ENQFz9"
-      ],
-      "settings": {
-        "color_scheme": "2",
-        "desktop_alignment": "left",
-        "mobile_alignment": "before",
-        "image_fit": "cover",
-        "slide_duration": 5,
-        "show_vendor": true,
-        "show_sku": true,
-        "image_ratio": "square",
-        "image_fit_card": "contain",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "m",
-        "padding_bottom": "no-indent"
-      }
-    },
     "0ba715c9-8c7f-482a-9cfa-a4f47ce39395": {
       "type": "featured-blog",
       "settings": {
@@ -1375,6 +1372,7 @@
     }
   },
   "order": [
+    "63426eab-f4fd-42ce-8d05-6ff273e37a6a",
     "fdb14e00-134b-480c-8919-adf7bcf3ee2b",
     "slideshow_wGfqbx",
     "new-unique-id-0000-0000-0000-000000000000",
@@ -1385,7 +1383,6 @@
     "511b9a41-0c97-48f1-a4fc-b3b866f28474",
     "7340d2a2-cb01-4234-94ef-e38fe247d422",
     "ed6a5fc5-d085-4d3b-9039-72c51fde32cd",
-    "63426eab-f4fd-42ce-8d05-6ff273e37a6a",
     "0ba715c9-8c7f-482a-9cfa-a4f47ce39395",
     "a31d6bda-9c7d-403c-a31c-fbad6413fa14",
     "rich_text_b4bfyN",
