@@ -35,7 +35,7 @@
           {%- for block in section.blocks -%}
             <div
               class="product-slider__item swiper-slide"
-              data-swiper-autoplay="{{ section.settings.slide_duration | times: 1000 }}"
+              data-swiper-autoplay="{{ section.settings.slide_duration | times: 1000000 }}"
             >
               <div class="product-slider__image product-slider__image--{{- section.settings.image_fit -}}">
                 {% if block.settings.image != blank %}
