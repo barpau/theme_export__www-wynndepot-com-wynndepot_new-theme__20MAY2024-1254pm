@@ -30,6 +30,9 @@
   {%- if price_class %} {{ price_class }}{% endif -%}
   {%- if available == false %} price--sold-out {% endif -%}
   {%- if compare_at_price > price %} price--on-sale {% endif -%}
+    {% if target.metafields.custom.quantity_type %}
+      / {{ target.metafields.custom.quantity_type }}
+    {% endif %}
   {%- if product.price_varies == false and product.compare_at_price_varies %} price--no-compare{% endif -%}">
 	<dl>
 		{%- comment -%}
