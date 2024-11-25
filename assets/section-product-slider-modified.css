@@ -106,7 +106,7 @@
 }
 @media (min-width: 1200px) {
   .product-slider__item {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 .product-slider__image, .product-slider__content {
