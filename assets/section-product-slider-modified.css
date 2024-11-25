@@ -22,10 +22,12 @@
 
 .main-left {
   background-color: lightblue; /* Optional: Background color for clarity */
+  width: 30%;
 }
 
 .main-right {
   background-color: lightgreen; /* Optional: Background color for clarity */
+  width: 70%;
 }
 
 
