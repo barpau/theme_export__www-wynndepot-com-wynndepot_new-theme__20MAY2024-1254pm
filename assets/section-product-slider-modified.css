@@ -7,6 +7,27 @@
   flex-direction: column;
 }
 
+.inner-container {
+  display: flex; /* Apply flexbox to inner-container */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  width: 100%;
+}
+
+.main-left,
+.main-right {
+  flex: 1; /* Ensure both divs take up equal space */
+  padding: 20px; /* Optional: Add some padding */
+  box-sizing: border-box; /* Ensure padding doesn't affect width */
+}
+
+.main-left {
+  background-color: lightblue; /* Optional: Background color for clarity */
+}
+
+.main-right {
+  background-color: lightgreen; /* Optional: Background color for clarity */
+}
+
 
 @media (min-width: 1200px) {
   .product-slider--desktop-order .product-slider__image {
