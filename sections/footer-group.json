@@ -52,8 +52,8 @@
         "footer-4": {
           "type": "contacts",
           "settings": {
-            "description": "If You Have any Questions, Please Email Us 24/7:",
-            "contact_info": "<p><a href=\"mailto:sales@wynndepot.com\" title=\"mailto:sales@wynndepot.com\">sales@wynndepot.com</a></p>"
+            "description": "If You Have any Questions, Please Call or Email Us 24/7:",
+            "contact_info": "<p><a href=\"mailto:sales@wynndepot.com\" title=\"mailto:sales@wynndepot.com\">sales@wynndepot.com</a></p><p>530-906-4422</p>"
           }
         }
       },
