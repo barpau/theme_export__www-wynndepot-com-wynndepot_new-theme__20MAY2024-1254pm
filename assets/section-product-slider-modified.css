@@ -1,6 +1,13 @@
 .product-slider {
   overflow: hidden;
 }
+
+.product-slider__item swiper-slide {
+  display: flex;
+  flex-direction: column;
+}
+
+
 @media (min-width: 1200px) {
   .product-slider--desktop-order .product-slider__image {
     order: 1;
