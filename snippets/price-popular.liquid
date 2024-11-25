@@ -82,6 +82,6 @@
 		</dl>
 	</dl>
     {% if target.metafields.custom.quantity_type %}
-      { target.metafields.custom.quantity_type }}
+      {{  }} target.metafields.custom.quantity_type | default : "not found"}}
     {% endif %}
 </div>
