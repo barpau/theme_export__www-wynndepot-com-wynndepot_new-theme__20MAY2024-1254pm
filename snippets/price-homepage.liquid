@@ -30,9 +30,6 @@
   {%- if price_class %} {{ price_class }}{% endif -%}
   {%- if available == false %} price--sold-out {% endif -%}
   {%- if compare_at_price > price %} price--on-sale {% endif -%}
-    {% if target.metafields.custom.quantity_type %}
-      / {{ target.metafields.custom.quantity_type }}
-    {% endif %}
   {%- if product.price_varies == false and product.compare_at_price_varies %} price--no-compare{% endif -%}">
 	<dl>
 		{%- comment -%}
@@ -58,7 +55,7 @@
 			</dt>
 			<dd {% if show_badges == false %}class = "price__last"{% endif %}>
         <span class = "price-item price-item--sale">
-          {{ money_price }}
+          {{ money_price }} test
         </span>
 			</dd>
 			<dt class = "price__compare">
