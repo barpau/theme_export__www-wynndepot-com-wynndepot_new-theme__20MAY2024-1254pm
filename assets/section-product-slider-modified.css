@@ -117,7 +117,7 @@
 }
 @media (min-width: 1200px) {
   .product-slider__image, .product-slider__content {
-    width: 50%;
+    width: 100%;
   }
 }
 .product-slider__image {
