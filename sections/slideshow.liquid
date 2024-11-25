@@ -7,7 +7,7 @@
 {% endstyle %}
 
 <div class="slideshow section-{{ section.id }}-padding color-{{ section.settings.color_scheme }}">
-  <div
+  test<div
     {% if section.settings.full_width == false %}
       class="container"
     {% endif %}
@@ -16,7 +16,6 @@
       class="slideshow__swiper {% if section.settings.full_width == true %}slideshow__swiper--full-width{% endif %} swiper"
       data-autoplay="{{ section.settings.enable_autoplay }}"
     >
-      test
       <div class="slidershow__wrapper swiper-wrapper">
         {% for block in section.blocks %}
           {% if section.settings.height != 'adapt' %}
