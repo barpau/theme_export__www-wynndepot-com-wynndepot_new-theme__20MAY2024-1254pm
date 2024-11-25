@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "t:sections.footer.settings.footer-group.label",
@@ -17,7 +17,7 @@
         "footer-0": {
           "type": "logo_info",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/wynndepot-logo.webp",
+            "logo": "shopify://shop_images/wynndepot-logo.webp",
             "logo_width": 160
           }
         },
@@ -46,14 +46,14 @@
           "type": "contacts",
           "settings": {
             "description": "Office Address",
-            "contact_info": "<p>125 \/ 127 Pearl St, Pinckney, Michigan 48169<\/p>"
+            "contact_info": "<p>125 Pearl St, Pinckney, Michigan 48169</p>"
           }
         },
         "footer-4": {
           "type": "contacts",
           "settings": {
-            "description": "If You Have any Questions, Please Email Us 24\/7:",
-            "contact_info": "<p><a href=\"mailto:sales@wynndepot.com\" title=\"mailto:sales@wynndepot.com\">sales@wynndepot.com<\/a><\/p>"
+            "description": "If You Have any Questions, Please Email Us 24/7:",
+            "contact_info": "<p><a href=\"mailto:sales@wynndepot.com\" title=\"mailto:sales@wynndepot.com\">sales@wynndepot.com</a></p>"
           }
         }
       },
