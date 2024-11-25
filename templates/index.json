@@ -1369,9 +1369,71 @@
         "padding_top": "s",
         "padding_bottom": "s"
       }
+    },
+    "product_slider_modified_homepage_right_Rmh4Fg": {
+      "type": "product-slider-modified-homepage-right",
+      "blocks": {
+        "product_slide_ydUrE8": {
+          "type": "product_slide",
+          "settings": {
+            "product": "",
+            "subheading": "Some subheading",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40B66F",
+            "heading": "Some heading",
+            "text": "Some text."
+          }
+        },
+        "product_slide_pajgpX": {
+          "type": "product_slide",
+          "settings": {
+            "product": "",
+            "subheading": "Some subheading",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40B66F",
+            "heading": "Some heading",
+            "text": "Some text."
+          }
+        },
+        "product_slide_awrBcf": {
+          "type": "product_slide",
+          "settings": {
+            "product": "",
+            "subheading": "Some subheading",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40B66F",
+            "heading": "Some heading",
+            "text": "Some text."
+          }
+        }
+      },
+      "block_order": [
+        "product_slide_ydUrE8",
+        "product_slide_pajgpX",
+        "product_slide_awrBcf"
+      ],
+      "settings": {
+        "color_scheme": "2",
+        "desktop_alignment": "left",
+        "mobile_alignment": "before",
+        "image_fit": "cover",
+        "slide_duration": 5,
+        "show_vendor": true,
+        "show_sku": false,
+        "image_ratio": "square",
+        "image_fit_card": "cover",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
     }
   },
   "order": [
+    "product_slider_modified_homepage_right_Rmh4Fg",
     "63426eab-f4fd-42ce-8d05-6ff273e37a6a",
     "fdb14e00-134b-480c-8919-adf7bcf3ee2b",
     "slideshow_wGfqbx",
