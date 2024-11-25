@@ -18,6 +18,7 @@
   flex: 1; /* Ensure both divs take up equal space */
   padding: 20px; /* Optional: Add some padding */
   box-sizing: border-box; /* Ensure padding doesn't affect width */
+  width: 100%;
 }
 
 .main-left {
