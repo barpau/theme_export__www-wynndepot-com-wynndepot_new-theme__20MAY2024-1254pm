@@ -779,7 +779,7 @@
                     show_badges: true,
                     price_class: 'price--product'
                   -%}
-                  {%- render 'price-quantity' -%}
+                  {% comment %}{%- render 'price-quantity' -%}{% endcomment %}
                   {% if product.metafields.custom.quantity_type %}
                     <div class="price-name-custom">
                       <p>/ {{ product.metafields.custom.quantity_type }}</p>
