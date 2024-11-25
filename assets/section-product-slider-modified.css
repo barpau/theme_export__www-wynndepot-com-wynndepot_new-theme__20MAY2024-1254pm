@@ -109,6 +109,13 @@
     flex-direction: column;
   }
 }
+@media (min-width: 1200px) {
+  .product-slider__item {
+    flex-direction: column;
+  }
+}
+
+
 .product-slider__image, .product-slider__content {
   width: 100%;
 }
