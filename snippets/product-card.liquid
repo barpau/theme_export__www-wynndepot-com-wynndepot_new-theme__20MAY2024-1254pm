@@ -410,7 +410,9 @@
       
       <div class="price-name-wrapper">
       {% render 'price-quantity', product: product_card_product, price_class: '' %}
-
+      {% comment %}
+        {% original render 'price' %}
+      {% endcomment %}
       {% if product.metafields.custom.quantity_type %}
         <div class="price-name-custom">
           <p>/ {{ product.metafields.custom.quantity_type }}</p>
