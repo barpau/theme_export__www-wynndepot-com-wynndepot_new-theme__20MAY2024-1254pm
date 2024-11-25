@@ -3,6 +3,9 @@
   flex-direction: column;
   gap: 2.4rem;
 }
+.form-status-list {
+  margin: 0;
+}
 
 .post-successful {
   background: #afc2f9;
