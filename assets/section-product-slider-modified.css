@@ -2,7 +2,11 @@
   overflow: hidden;
 }
 
-.product-slider__item {
+.swiper-slide {
+  
+}
+
+.product-slider__item .swiper-slide {
   display: flex;
   flex-direction: column;
 }
