@@ -9,6 +9,69 @@
  */
 {
   "sections": {
+    "product_slider_modified_homepage_right_Rmh4Fg": {
+      "type": "product-slider-modified-homepage-right",
+      "blocks": {
+        "product_slide_ydUrE8": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/ROSESATP400-WYNN.jpg",
+            "product": "",
+            "subheading": "Some subheading",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Some heading",
+            "text": "Some text."
+          }
+        },
+        "product_slide_pajgpX": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/mylar-banner.png",
+            "product": "",
+            "subheading": "Some subheading",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Some heading",
+            "text": "Some text."
+          }
+        },
+        "product_slide_awrBcf": {
+          "type": "product_slide",
+          "settings": {
+            "product": "",
+            "subheading": "Some subheading",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Some heading",
+            "text": "Some text."
+          }
+        }
+      },
+      "block_order": [
+        "product_slide_ydUrE8",
+        "product_slide_pajgpX",
+        "product_slide_awrBcf"
+      ],
+      "settings": {
+        "color_scheme": "2",
+        "desktop_alignment": "left",
+        "mobile_alignment": "before",
+        "image_fit": "cover",
+        "slide_duration": 5,
+        "show_vendor": true,
+        "show_sku": false,
+        "image_ratio": "square",
+        "image_fit_card": "cover",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
     "63426eab-f4fd-42ce-8d05-6ff273e37a6a": {
       "type": "product-slider",
       "blocks": {
@@ -1368,67 +1431,6 @@
         "border_bottom": false,
         "padding_top": "s",
         "padding_bottom": "s"
-      }
-    },
-    "product_slider_modified_homepage_right_Rmh4Fg": {
-      "type": "product-slider-modified-homepage-right",
-      "blocks": {
-        "product_slide_ydUrE8": {
-          "type": "product_slide",
-          "settings": {
-            "product": "",
-            "subheading": "Some subheading",
-            "color_text": "#282828",
-            "show_subheading_dot": true,
-            "color_dot": "#40B66F",
-            "heading": "Some heading",
-            "text": "Some text."
-          }
-        },
-        "product_slide_pajgpX": {
-          "type": "product_slide",
-          "settings": {
-            "product": "",
-            "subheading": "Some subheading",
-            "color_text": "#282828",
-            "show_subheading_dot": true,
-            "color_dot": "#40B66F",
-            "heading": "Some heading",
-            "text": "Some text."
-          }
-        },
-        "product_slide_awrBcf": {
-          "type": "product_slide",
-          "settings": {
-            "product": "",
-            "subheading": "Some subheading",
-            "color_text": "#282828",
-            "show_subheading_dot": true,
-            "color_dot": "#40B66F",
-            "heading": "Some heading",
-            "text": "Some text."
-          }
-        }
-      },
-      "block_order": [
-        "product_slide_ydUrE8",
-        "product_slide_pajgpX",
-        "product_slide_awrBcf"
-      ],
-      "settings": {
-        "color_scheme": "2",
-        "desktop_alignment": "left",
-        "mobile_alignment": "before",
-        "image_fit": "cover",
-        "slide_duration": 5,
-        "show_vendor": true,
-        "show_sku": false,
-        "image_ratio": "square",
-        "image_fit_card": "cover",
-        "margin_top": "no-indent",
-        "margin_bottom": "no-indent",
-        "padding_top": "no-indent",
-        "padding_bottom": "no-indent"
       }
     }
   },
