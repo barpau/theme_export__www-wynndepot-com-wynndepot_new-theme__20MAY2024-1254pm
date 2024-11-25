@@ -60,6 +60,7 @@
                   value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
                   placeholder="{{ 'templates.contact.form.name' | t }}"
                   aria-required="true"
+                  required
                 >
                 <label
                   class="field__label"
@@ -115,6 +116,8 @@
                 pattern="[0-9\-]*"
                 value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
                 placeholder="{{ 'templates.contact.form.phone' | t }}"
+                aria-required="true"
+                required
               >
               <label
                 class="field__label"
