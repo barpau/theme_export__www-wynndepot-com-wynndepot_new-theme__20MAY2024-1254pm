@@ -407,8 +407,15 @@
           {{ product_card_product.description | strip_html | truncate: 120 }}
         </div>
       {%- endif -%}
-
+      <div>
       {% render 'price', product: product_card_product, price_class: '' %}
+                        {%- render 'price-quantity' -%}
+                  {% if product.metafields.custom.quantity_type %}
+                    <div class="price-name-custom">
+                      <p>/ {{ product.metafields.custom.quantity_type }}</p>
+                    </div>
+                  {% endif %}
+      </div>
     </div>
   </div>
   <a
