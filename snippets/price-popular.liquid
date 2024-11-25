@@ -64,9 +64,6 @@
 				<s class = "price-item price-item--regular">
 					{{ compare_at_price | money }}
 				</s>
-              {% if product.metafields.custom.quantity_type %}
-              	{ product.metafields.custom.quantity_type }}
-              {% endif %}
 			</dd>
 		</div>
 		<dl class = "unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
@@ -84,4 +81,7 @@
 			</dd>
 		</dl>
 	</dl>
+    {% if target.metafields.custom.quantity_type %}
+      { target.metafields.custom.quantity_type }}
+    {% endif %}
 </div>
