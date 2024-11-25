@@ -409,7 +409,7 @@
       {%- endif -%}
       
       <div class="price-name-wrapper">
-      {% render 'price', product: product_card_product, price_class: '' %}
+      {% render 'price-quantity', product: product_card_product, price_class: '' %}
 
       {% if product.metafields.custom.quantity_type %}
         <div class="price-name-custom">
