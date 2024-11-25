@@ -3,6 +3,10 @@
   flex-direction: column;
   gap: 2.4rem;
 }
+
+.post_successful {
+  background: #afc2f9;
+}
 @media screen and (min-width: 990px) {
   .contact-form__container {
     flex-direction: row;
