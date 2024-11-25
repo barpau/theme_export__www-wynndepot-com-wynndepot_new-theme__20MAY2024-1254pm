@@ -55,7 +55,7 @@
 			</dt>
 			<dd {% if show_badges == false %}class = "price__last"{% endif %}>
         <span class = "price-item price-item--sale">
-          {{ money_price }} test
+          {{ money_price }} 
         </span>
 			</dd>
 			<dt class = "price__compare">
@@ -66,6 +66,7 @@
 					{{ compare_at_price | money }}
 				</s>
 			</dd>
+          test
 		</div>
 		<dl class = "unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
 			<dt class = "visually-hidden">{{ 'products.product.price.unit_price' | t }}</dt>
