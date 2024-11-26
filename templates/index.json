@@ -15,9 +15,9 @@
         "product_slide_ydUrE8": {
           "type": "product_slide",
           "settings": {
-            "image": "shopify://shop_images/mylar-banner.png",
+            "image": "shopify://shop_images/mylar-banner-mobile.png",
             "product": "wynn-emergency-mylar-thermal-blanket",
-            "subheading": "Some subheading",
+            "subheading": "In Stock Now",
             "color_text": "#282828",
             "show_subheading_dot": true,
             "color_dot": "#40b66f",
@@ -28,8 +28,8 @@
         "product_slide_pajgpX": {
           "type": "product_slide",
           "settings": {
-            "image": "shopify://shop_images/mylar-banner.png",
-            "product": "",
+            "image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_6.png",
+            "product": "crystalware-paper-hot-cups",
             "subheading": "Some subheading",
             "color_text": "#282828",
             "show_subheading_dot": true,
