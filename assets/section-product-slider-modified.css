@@ -19,6 +19,12 @@
   align-items: center;
 }
 
+@media (max-width:1080px) {
+  .inner-container {
+    flex-direction: row;
+  }
+}
+
 .main-left,
 .main-right {
   flex: 1; /* Ensure both divs take up equal space */
