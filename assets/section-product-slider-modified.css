@@ -23,6 +23,9 @@
   .inner-container {
     flex-direction: column;
   }
+  .main-left, .main-right {
+    width: 100%;
+  }
 }
 
 .main-left,
