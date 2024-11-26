@@ -122,7 +122,7 @@
         "show_vendor": true,
         "show_sku": false,
         "image_ratio": "square",
-        "image_fit_card": "cover",
+        "image_fit_card": "contain",
         "margin_top": "no-indent",
         "margin_bottom": "no-indent",
         "padding_top": "no-indent",
