@@ -208,6 +208,7 @@
 @media (min-width: 1200px) {
   .product-slider__title {
     max-width: 100%;
+    font-size: calc(var(--font-heading-h2-scale) * 3rem);
   }
 }
 .product-slider__text {
