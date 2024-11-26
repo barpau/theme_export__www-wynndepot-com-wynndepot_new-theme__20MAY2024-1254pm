@@ -38,7 +38,7 @@
 
 .main-left {
   /* background-color: lightblue; /* Optional: Background color for clarity */
-  width: 45%;
+  width: 50%;
   display: flex;
   justify-content: center; /* Center the image horizontally */
   align-items: center; /* Center the image vertically */
@@ -59,7 +59,7 @@
 
 .main-right {
   /* background-color: lightgreen; /* Optional: Background color for clarity */
-  width: 55%;
+  width: 50%;
 }
 
 @media (min-width: 1200px) {
