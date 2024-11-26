@@ -274,4 +274,9 @@
   .product-slider__content_modified {
     padding: 3rem 2rem 0rem;
   }
+
+  .swiper-wrapper {
+    height: 600px;
+  }
 }
+
