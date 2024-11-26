@@ -201,7 +201,7 @@
   text-align: center;
 }
 .product-slider__title {
-  margin: 0.5rem 0 20px;
+  margin: 0.5rem 0 20px !important;
 }
 @media (min-width: 1200px) {
   .product-slider__title {
