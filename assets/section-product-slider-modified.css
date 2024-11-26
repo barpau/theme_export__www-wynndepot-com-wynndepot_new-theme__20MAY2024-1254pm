@@ -196,6 +196,7 @@
 @media (min-width: 1200px) {
   .product-slider__content_modified {
     padding: 2rem 4rem;
+    height: 50%;
   }
 }
 .product-slider__title, .product-slider__text {
