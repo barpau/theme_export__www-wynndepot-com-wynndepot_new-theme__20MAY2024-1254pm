@@ -57,7 +57,7 @@
 }
 
 .main-left img:hover {
-  filter: brightness(0.9); /* Add a dark overlay */
+  filter: brightness(1); /* Add a dark overlay */
   transform: scale(1.02); /* Slight zoom-in effect */
 }
 
