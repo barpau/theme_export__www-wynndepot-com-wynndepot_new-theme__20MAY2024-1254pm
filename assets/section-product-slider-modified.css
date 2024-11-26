@@ -7,6 +7,10 @@
   flex-direction: column;
 }
 
+.product-slider__product-margin-bottom {
+  margin-bottom: 20px;
+}
+
 .inner-container {
   display: flex; /* Apply flexbox to inner-container */
   flex-wrap: nowrap; /* Prevent wrapping */
