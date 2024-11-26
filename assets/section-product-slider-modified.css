@@ -56,6 +56,11 @@
   object-fit: contain;
 }
 
+.main-left img:hover {
+  filter: brightness(0.8); /* Add a dark overlay */
+  transform: scale(1.05); /* Slight zoom-in effect */
+}
+
 .main-right {
   /* background-color: lightgreen; /* Optional: Background color for clarity */
   width: 50%;
