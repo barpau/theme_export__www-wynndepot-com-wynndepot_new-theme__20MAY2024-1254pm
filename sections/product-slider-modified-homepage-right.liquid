@@ -69,12 +69,13 @@
                     {{ block.settings.heading | truncate: 70 }}
                   </h2>
                 {%- endif -%}
+                {% comment %}
                 {%- if block.settings.text != blank -%}
                   <div class="product-slider__text">
                     {{ block.settings.text | truncate: 220 }}
                   </div>
                 {%- endif -%}
-  
+                {% endcomment %}
                 {% if block.settings.product != blank %}
                   <div class="product-slider__product">
                     {% render 'product-card-horizontal',
