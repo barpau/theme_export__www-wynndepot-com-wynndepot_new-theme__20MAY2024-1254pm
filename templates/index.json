@@ -15,14 +15,14 @@
         "product_slide_ydUrE8": {
           "type": "product_slide",
           "settings": {
-            "image": "shopify://shop_images/ROSESATP400-WYNN.jpg",
-            "product": "",
+            "image": "shopify://shop_images/mylar-banner.png",
+            "product": "wynn-emergency-mylar-thermal-blanket",
             "subheading": "Some subheading",
             "color_text": "#282828",
             "show_subheading_dot": true,
             "color_dot": "#40b66f",
-            "heading": "Some heading",
-            "text": "Some text."
+            "heading": "Stay Warm, Stay Safe with Wynn Mylar Thermal Blankets",
+            "text": "Durable, compact, and capable of retaining up to 90% of body heat, our Mylar blankets are your best ally in any weather condition. Bulk availability: 250 blankets per case, 48 cases per pallet."
           }
         },
         "product_slide_pajgpX": {
@@ -176,7 +176,6 @@
         "product_slide_xfLPxY",
         "product_slide_ENQFz9"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "2",
         "desktop_alignment": "left",
