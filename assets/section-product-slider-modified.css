@@ -21,7 +21,7 @@
 
 @media (max-width:1080px) {
   .inner-container {
-    flex-direction: row;
+    flex-direction: column;
   }
 }
 
