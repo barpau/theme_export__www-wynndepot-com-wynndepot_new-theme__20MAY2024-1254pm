@@ -59,7 +59,7 @@
             "subheading": "In Stock Now",
             "color_text": "#282828",
             "show_subheading_dot": true,
-            "color_dot": "#40B66F",
+            "color_dot": "#40b66f",
             "heading": "Green Heritage® Pro 2-Ply Toilet Paper",
             "text": "Experience premium quality with Green Heritage® Pro 2-Ply Toilet Paper, ideal for high-traffic and government use. Available in 400 and 500-sheet rolls, it ensures long-lasting supply and comfort. SFI certified and eco-friendly."
           }
@@ -72,7 +72,7 @@
             "subheading": "In Stock Now",
             "color_text": "#282828",
             "show_subheading_dot": true,
-            "color_dot": "#40B66F",
+            "color_dot": "#40b66f",
             "heading": "Green Heritage® Pro 2-Ply Jumbo Roll Tissue",
             "text": "The Green Heritage® Pro 2-ply Jumbo Roll Tissue fits 9\" diameter JRT dispensers. Each roll is 560 ft long, with 12 rolls per case and 65 cases per pallet."
           }
@@ -85,7 +85,7 @@
             "subheading": "Some subheading",
             "color_text": "#282828",
             "show_subheading_dot": true,
-            "color_dot": "#40B66F",
+            "color_dot": "#40b66f",
             "heading": "Prime Pak Heavy Duty Black Waste Liners 38x58",
             "text": "Some text."
           }
@@ -98,7 +98,7 @@
             "subheading": "In Stock Now",
             "color_text": "#282828",
             "show_subheading_dot": true,
-            "color_dot": "#40B66F",
+            "color_dot": "#40b66f",
             "heading": "Boardwalk Brown Multifold 1-Ply Paper Towels (Pack of 4000 pieces)",
             "text": "Boardwalk® Brown Multi-Fold Paper Towels offer convenience and efficiency with 4,000 towels per carton. Their multi-fold design suits different preferences and ensures quick, effective drying."
           }
@@ -233,6 +233,7 @@
         "product_slide_xfLPxY",
         "product_slide_ENQFz9"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "2",
         "desktop_alignment": "left",
