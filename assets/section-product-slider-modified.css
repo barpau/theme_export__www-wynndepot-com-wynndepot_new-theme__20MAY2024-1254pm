@@ -50,7 +50,6 @@
 
 .main-left img {
   max-width: 100%; /* Ensure the image is responsive */
-  height: 56.9rem; /* Maintain aspect ratio */
   width: 100%;
   display: block; /* Remove any extra spacing below the image */
   border-radius: .6rem;
