@@ -117,7 +117,7 @@
         "color_scheme": "2",
         "desktop_alignment": "left",
         "mobile_alignment": "before",
-        "image_fit": "cover",
+        "image_fit": "contain",
         "slide_duration": 5,
         "show_vendor": true,
         "show_sku": false,
