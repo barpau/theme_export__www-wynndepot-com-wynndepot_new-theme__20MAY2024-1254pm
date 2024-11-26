@@ -7,6 +7,7 @@
   flex-direction: column;
 }
 
+
 .product-slider__item .product-slider__product-margin-bottom {
   margin-bottom: 20px;
 }
@@ -264,5 +265,9 @@
   }
   .main-left img {
     height: auto;
+  }
+
+  .product-slider__item {
+    height: stretch;
   }
 }
