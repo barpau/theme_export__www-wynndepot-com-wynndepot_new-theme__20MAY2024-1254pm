@@ -43,6 +43,7 @@
   height: auto; /* Maintain aspect ratio */
   width: 100%;
   display: block; /* Remove any extra spacing below the image */
+    border-radius: .6rem;
 }
 
 .main-right {
