@@ -257,3 +257,9 @@
     transform: translateY(-50%);
   }
 }
+
+@media (max-width: 760px){
+  .product-slider__item {
+    height: 680px;
+  }
+}
