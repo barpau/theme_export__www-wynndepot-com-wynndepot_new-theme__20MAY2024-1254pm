@@ -226,6 +226,8 @@
     font-size: 2rem;
     margin-top: 2.3rem;
   }
+
+  
 }
 @media (min-width: 1200px) {
   .product-slider__text {
@@ -293,5 +295,9 @@
   .inner-container {
     gap: 20px;
   }
+
+  .main-right {
+    height: 56.9rem;
+    }
 }
 
