@@ -114,7 +114,7 @@
 }
 @media (min-width: 1200px) {
   .product-slider__swiper {
-    height: 56.9rem;
+    height: 53.9rem;
   }
 }
 .product-slider__swiper:hover .swiper-bullet-active .svg__circle {
