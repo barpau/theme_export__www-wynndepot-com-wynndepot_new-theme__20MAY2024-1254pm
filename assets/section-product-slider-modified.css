@@ -58,7 +58,7 @@
 
 .main-left img:hover {
   filter: brightness(0.9); /* Add a dark overlay */
-  transform: scale(1.015); /* Slight zoom-in effect */
+  transform: scale(1.005); /* Slight zoom-in effect */
 }
 
 .main-right {
@@ -194,7 +194,7 @@
 }
 @media (min-width: 750px) {
   .product-slider__content_modified {
-    padding: 6rem 4rem 10rem;
+    padding: 6rem 4rem 2rem;
   }
 }
 @media (min-width: 1200px) {
