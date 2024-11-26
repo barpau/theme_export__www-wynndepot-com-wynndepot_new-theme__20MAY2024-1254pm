@@ -22,93 +22,95 @@
   <div class="container">
     <div class="inner-container">
       <div class="main-left">
-          <a href="https://www.wynndepot.com/pages/contact">
-
+        <a href="https://www.wynndepot.com/pages/contact">
           <picture>
-      <!-- Default Image for smaller screens -->
-      <source 
-        srcset="https://cdn.shopify.com/s/files/1/0559/2786/5399/files/bulk-order-home-banner.webp?v=1732644685" 
-        media="(max-width: 749px)">
-      
-      <!-- Larger Image for 750px and above -->
-      <source 
-        srcset="https://cdn.shopify.com/s/files/1/0559/2786/5399/files/large-image.webp?v=123456789" 
-        media="(min-width: 750px)">
-      
-      <!-- Fallback Image -->
-      <img
-        src="https://cdn.shopify.com/s/files/1/0559/2786/5399/files/large-image.webp?v=123456789"
-        alt="Bulk Order Form Banner"
-        class="full-image">
-    </picture>
-          </a>
+            <!-- Default Image for smaller screens -->
+            <source
+              srcset="https://cdn.shopify.com/s/files/1/0559/2786/5399/files/bulk-order-home-banner.webp?v=1732644685"
+              media="(max-width: 749px)"
+            >
+
+            <!-- Larger Image for 750px and above -->
+            <source
+              srcset="https://cdn.shopify.com/s/files/1/0559/2786/5399/files/bulk-order-home-banner-height.webp?v=1732645520"
+              media="(min-width: 750px)"
+            >
+
+            <!-- Fallback Image -->
+            <img
+              src="https://cdn.shopify.com/s/files/1/0559/2786/5399/files/bulk-order-home-banner.webp?v=1732644685"
+              alt="Bulk Order Form Banner"
+              class="full-image"
+            >
+          </picture>
+        </a>
       </div>
       <div class="main-right">
         <div
           class="product-slider__swiper swiper swiper-product-slider color-background-{{- section.settings.color_scheme -}}"
           data-duration="{{ section.settings.slide_duration }}"
         >
-        <div class="swiper-wrapper">
-          {%- for block in section.blocks -%}
-            <div
-              class="product-slider__item swiper-slide"
-              data-swiper-autoplay="{{ section.settings.slide_duration | times: 1000000 }}"
-            >
-              <div class="product-slider__image product-slider__image--{{- section.settings.image_fit -}}">
-                {% if block.settings.image != blank %}
-                  {{
-                    block.settings.image
-                    | image_url: width: block.settings.image.width
-                    | image_tag:
-                      class: '',
-                      loading: 'lazy',
-                      widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
-                  }}
-                {% endif %}
-              </div>
-  
-              <div class="product-slider__content_modified">
-                {%- if block.settings.subheading != blank -%}
-                  <div
-                    class="product-slider__subheading subtitle subtitle--{% if block.settings.show_subheading_dot %}dot{%- endif -%}"
-                    style="color: {{ block.settings.color_text }};"
-                  >
-                    {% if block.settings.show_subheading_dot %}
-                      <span
-                        style="background-color: {{ block.settings.color_dot }};"
-                      ></span>
+          <div class="swiper-wrapper">
+            {%- for block in section.blocks -%}
+              <div
+                class="product-slider__item swiper-slide"
+                data-swiper-autoplay="{{ section.settings.slide_duration | times: 1000000 }}"
+              >
+                <div class="product-slider__image product-slider__image--{{- section.settings.image_fit -}}">
+                  {% if block.settings.image != blank %}
+                    {{
+                      block.settings.image
+                      | image_url: width: block.settings.image.width
+                      | image_tag:
+                        class: '',
+                        loading: 'lazy',
+                        widths: '246, 493, 600, 713, 823, 990, 1100, 1206, 1346, 1426, 1646, 1946'
+                    }}
+                  {% endif %}
+                </div>
+
+                <div class="product-slider__content_modified">
+                  {%- if block.settings.subheading != blank -%}
+                    <div
+                      class="product-slider__subheading subtitle subtitle--{% if block.settings.show_subheading_dot %}dot{%- endif -%}"
+                      style="color: {{ block.settings.color_text }};"
+                    >
+                      {% if block.settings.show_subheading_dot %}
+                        <span
+                          style="background-color: {{ block.settings.color_dot }};"
+                        ></span>
+                      {%- endif -%}
+                      {{ block.settings.subheading | escape }}
+                    </div>
+                  {%- endif -%}
+                  {%- if block.settings.heading != blank -%}
+                    <h2 class="product-slider__title product-slider__product-margin-bottom">
+                      {{ block.settings.heading | truncate: 70 }}
+                    </h2>
+                  {%- endif -%}
+                  {% comment %}
+                    {%- if block.settings.text != blank -%}
+                      <div class="product-slider__text">
+                        {{ block.settings.text | truncate: 220 }}
+                      </div>
                     {%- endif -%}
-                    {{ block.settings.subheading | escape }}
-                  </div>
-                {%- endif -%}
-                {%- if block.settings.heading != blank -%}
-                  <h2 class="product-slider__title product-slider__product-margin-bottom">
-                    {{ block.settings.heading | truncate: 70 }}
-                  </h2>
-                {%- endif -%}
-                {% comment %}
-                {%- if block.settings.text != blank -%}
-                  <div class="product-slider__text">
-                    {{ block.settings.text | truncate: 220 }}
-                  </div>
-                {%- endif -%}
-                {% endcomment %}
-                {% if block.settings.product != blank %}
-                  <div class="product-slider__product">
-                    {% render 'product-card-horizontal',
-                      product_card_product: block.settings.product,
-                      show_vendor: section.settings.show_vendor,
-                      show_sku: section.settings.show_sku,
-                      media_size: section.settings.image_ratio,
-                      media_fit: section.settings.image_fit_card,
-                      classMod: 'color-background-2'
-                    %}
-                  </div>
-                {% endif %}
+                  {% endcomment %}
+                  {% if block.settings.product != blank %}
+                    <div class="product-slider__product">
+                      {% render 'product-card-horizontal',
+                        product_card_product: block.settings.product,
+                        show_vendor: section.settings.show_vendor,
+                        show_sku: section.settings.show_sku,
+                        media_size: section.settings.image_ratio,
+                        media_fit: section.settings.image_fit_card,
+                        classMod: 'color-background-2'
+                      %}
+                    </div>
+                  {% endif %}
+                </div>
               </div>
-            </div>
-          {% endfor %}
-        </div>
+            {% endfor %}
+          </div>
           {% if section.blocks.size > 1 %}
             <div class="product-slider__pagination swiper-pagination"></div>
           {% endif %}
