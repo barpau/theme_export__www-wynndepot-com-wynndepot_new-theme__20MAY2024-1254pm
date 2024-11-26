@@ -207,7 +207,7 @@
 }
 @media (min-width: 1200px) {
   .product-slider__title {
-    max-width: 51.7rem;
+    max-width: 100%;
   }
 }
 .product-slider__text {
