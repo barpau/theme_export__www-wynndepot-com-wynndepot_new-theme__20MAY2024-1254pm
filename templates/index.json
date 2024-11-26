@@ -51,29 +51,56 @@
             "text": "Stay protected with Wynn Disposable Coveralls. Featuring a hood, zipper closure, elastic cuffs, waist, and ankles, these coveralls offer heavy-duty protection with type 5 & 6 safety levels."
           }
         },
-        "product_slide_eGX7HM": {
-          "type": "product_slide",
-          "settings": {
-            "product": "crystalware-paper-hot-cups",
-            "subheading": "In Stock Now",
-            "color_text": "#282828",
-            "show_subheading_dot": true,
-            "color_dot": "#40B66F",
-            "heading": "Crystalware Disposable Paper Hot Cups",
-            "text": "Serve hot beverages in Crystalware Paper Hot Cups, perfect for coffee shops, offices, and events. These biodegradable, BPA-free, poly-coated cups range from 8 oz to 16 oz, ensuring durability and leak resistance"
-          }
-        },
         "product_slide_dHmDWA": {
           "type": "product_slide",
           "settings": {
-            "image": "shopify://shop_images/Bottom-Banner-Coverall.png",
-            "product": "wynn-disposable-coverall",
+            "image": "shopify://shop_images/Bottom-Banner-green-heritage-toilet.png",
+            "product": "green-heritage-pro-2-ply-toilet-paper",
             "subheading": "In Stock Now",
             "color_text": "#282828",
             "show_subheading_dot": true,
             "color_dot": "#40B66F",
-            "heading": "Wynn Disposable Coveralls - Heavy-Duty Protection",
-            "text": "Stay protected with Wynn Disposable Coveralls. Featuring a hood, zipper closure, elastic cuffs, waist, and ankles, these coveralls offer heavy-duty protection with type 5 & 6 safety levels."
+            "heading": "Green Heritage® Pro 2-Ply Toilet Paper",
+            "text": "Experience premium quality with Green Heritage® Pro 2-Ply Toilet Paper, ideal for high-traffic and government use. Available in 400 and 500-sheet rolls, it ensures long-lasting supply and comfort. SFI certified and eco-friendly."
+          }
+        },
+        "product_slide_8mMAc4": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-green-heritage-jumbo.png",
+            "product": "green-heritage-pro-2-ply-jumbo-roll-tissue",
+            "subheading": "In Stock Now",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40B66F",
+            "heading": "Green Heritage® Pro 2-Ply Jumbo Roll Tissue",
+            "text": "The Green Heritage® Pro 2-ply Jumbo Roll Tissue fits 9\" diameter JRT dispensers. Each roll is 560 ft long, with 12 rolls per case and 65 cases per pallet."
+          }
+        },
+        "product_slide_XY3DDV": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-liner.webp",
+            "product": "heavy-duty-black-waste-liners-38x58-1-5-mil-100-bags-case-50-cases-pallet",
+            "subheading": "Some subheading",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40B66F",
+            "heading": "Prime Pak Heavy Duty Black Waste Liners 38x58",
+            "text": "Some text."
+          }
+        },
+        "product_slide_VBkibN": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-broadwalk-brown-1ply_d4fafb18-9281-48d5-9e27-5359869f2cfb.webp",
+            "product": "boardwalk-multifold-paper-towels-1-ply-4000-towels",
+            "subheading": "In Stock Now",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40B66F",
+            "heading": "Boardwalk Brown Multifold 1-Ply Paper Towels (Pack of 4000 pieces)",
+            "text": "Boardwalk® Brown Multi-Fold Paper Towels offer convenience and efficiency with 4,000 towels per carton. Their multi-fold design suits different preferences and ensures quick, effective drying."
           }
         }
       },
@@ -81,8 +108,10 @@
         "product_slide_ydUrE8",
         "product_slide_pajgpX",
         "product_slide_awrBcf",
-        "product_slide_eGX7HM",
-        "product_slide_dHmDWA"
+        "product_slide_dHmDWA",
+        "product_slide_8mMAc4",
+        "product_slide_XY3DDV",
+        "product_slide_VBkibN"
       ],
       "settings": {
         "color_scheme": "2",
