@@ -25,7 +25,7 @@
 }
 
 .main-left {
-  background-color: lightblue; /* Optional: Background color for clarity */
+  /* background-color: lightblue; /* Optional: Background color for clarity */
   width: 45%;
   display: flex;
   justify-content: center; /* Center the image horizontally */
@@ -39,7 +39,7 @@
 }
 
 .main-right {
-  background-color: lightgreen; /* Optional: Background color for clarity */
+  /* background-color: lightgreen; /* Optional: Background color for clarity */
   width: 55%;
 }
 
