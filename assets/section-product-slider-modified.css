@@ -154,7 +154,7 @@
 }
 @media (min-width: 1200px) {
   .product-slider__image {
-    height: 30%;
+    height: 50%;
     padding: 0;
   }
 }
@@ -195,7 +195,7 @@
 }
 @media (min-width: 1200px) {
   .product-slider__content_modified {
-    padding: 2rem 9.4rem;
+    padding: 2rem 4rem;
   }
 }
 .product-slider__title, .product-slider__text {
