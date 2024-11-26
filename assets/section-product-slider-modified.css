@@ -30,6 +30,10 @@
   display: flex;
   justify-content: center; /* Center the image horizontally */
   align-items: center; /* Center the image vertically */
+  height: 56.9rem;
+  border-radius: .6rem;
+  overflow: hidden;
+  position: relative;
 }
 
 .main-left img {
