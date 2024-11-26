@@ -262,4 +262,7 @@
   .product-slider__item {
     height: 680px;
   }
+  .main-left img {
+    height: auto;
+  }
 }
