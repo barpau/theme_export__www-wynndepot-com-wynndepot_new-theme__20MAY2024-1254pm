@@ -65,7 +65,7 @@
                   </div>
                 {%- endif -%}
                 {%- if block.settings.heading != blank -%}
-                  <h2 class="product-slider__title">
+                  <h2 class="product-slider__title product-slider__product-margin-bottom">
                     {{ block.settings.heading | truncate: 70 }}
                   </h2>
                 {%- endif -%}
@@ -77,7 +77,7 @@
                 {%- endif -%}
                 {% endcomment %}
                 {% if block.settings.product != blank %}
-                  <div class="product-slider__product product-slider__product-margin-bottom">
+                  <div class="product-slider__product">
                     {% render 'product-card-horizontal',
                       product_card_product: block.settings.product,
                       show_vendor: section.settings.show_vendor,
