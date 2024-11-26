@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 
-.product-slider__product-margin-bottom {
+.product-slider__item .product-slider__product-margin-bottom {
   margin-bottom: 20px;
 }
 
