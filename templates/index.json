@@ -1500,6 +1500,63 @@
     "brands_3yJ4Nm": {
       "type": "brands",
       "blocks": {
+        "column_DjrptR": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_9.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_fcNTaY": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_14.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_zKQHdV": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_W87qPa": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_5.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_Bq6pqU": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_6.webp",
+            "image_2": "shopify://shop_images/Artboard_9_copy_13.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_VENt6f": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_6.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_8KqEFW": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_7.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
         "column_gEEjKT": {
           "type": "column",
           "settings": {
@@ -1575,6 +1632,13 @@
         }
       },
       "block_order": [
+        "column_DjrptR",
+        "column_fcNTaY",
+        "column_zKQHdV",
+        "column_W87qPa",
+        "column_Bq6pqU",
+        "column_VENt6f",
+        "column_8KqEFW",
         "column_gEEjKT",
         "column_jXMHAY",
         "column_PjtNRU",
