@@ -1503,6 +1503,7 @@
         "column_gEEjKT": {
           "type": "column",
           "settings": {
+            "image_1": "shopify://shop_images/Artboard_9.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1510,6 +1511,7 @@
         "column_jXMHAY": {
           "type": "column",
           "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_3.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1517,6 +1519,7 @@
         "column_PjtNRU": {
           "type": "column",
           "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_11.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1524,6 +1527,7 @@
         "column_dnajM4": {
           "type": "column",
           "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_8.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1531,6 +1535,8 @@
         "column_7cTTPm": {
           "type": "column",
           "settings": {
+            "image_1": "shopify://shop_images/Artboard_9.webp",
+            "image_2": "shopify://shop_images/Artboard_9_copy_2.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1538,6 +1544,15 @@
         "column_yqqNfz": {
           "type": "column",
           "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_4.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_HaKcRM": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_2.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1545,6 +1560,7 @@
         "column_FfRjba": {
           "type": "column",
           "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_4.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1552,6 +1568,7 @@
         "column_xmbJ9A": {
           "type": "column",
           "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_10.webp",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1564,6 +1581,7 @@
         "column_dnajM4",
         "column_7cTTPm",
         "column_yqqNfz",
+        "column_HaKcRM",
         "column_FfRjba",
         "column_xmbJ9A"
       ],
