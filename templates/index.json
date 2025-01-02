@@ -1490,6 +1490,84 @@
         "padding_top": "s",
         "padding_bottom": "s"
       }
+    },
+    "brands_3yJ4Nm": {
+      "type": "brands",
+      "blocks": {
+        "column_gEEjKT": {
+          "type": "column",
+          "settings": {
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_jXMHAY": {
+          "type": "column",
+          "settings": {
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_PjtNRU": {
+          "type": "column",
+          "settings": {
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_dnajM4": {
+          "type": "column",
+          "settings": {
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_7cTTPm": {
+          "type": "column",
+          "settings": {
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_yqqNfz": {
+          "type": "column",
+          "settings": {
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_FfRjba": {
+          "type": "column",
+          "settings": {
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_xmbJ9A": {
+          "type": "column",
+          "settings": {
+            "image_width": 60,
+            "brand_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_gEEjKT",
+        "column_jXMHAY",
+        "column_PjtNRU",
+        "column_dnajM4",
+        "column_7cTTPm",
+        "column_yqqNfz",
+        "column_FfRjba",
+        "column_xmbJ9A"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "border_top": false,
+        "border_bottom": false,
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
     }
   },
   "order": [
@@ -1508,6 +1586,7 @@
     "0ba715c9-8c7f-482a-9cfa-a4f47ce39395",
     "a31d6bda-9c7d-403c-a31c-fbad6413fa14",
     "rich_text_b4bfyN",
-    "brands_GwRKxR"
+    "brands_GwRKxR",
+    "brands_3yJ4Nm"
   ]
 }
