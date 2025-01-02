@@ -1334,7 +1334,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "margin_top": "no-indent",
+        "margin_top": "m",
         "margin_bottom": "no-indent",
         "padding_top": "no-indent",
         "padding_bottom": "no-indent"
