@@ -1306,6 +1306,7 @@
         "accordion_aDxWEt",
         "accordion_fWXTwQ"
       ],
+      "disabled": true,
       "settings": {
         "heading": "FAQ",
         "heading_size": "h2",
@@ -1647,7 +1648,7 @@
         "column_xmbJ9A"
       ],
       "custom_css": [
-        ".section-template--15226394345527__brands_3yJ4Nm-padding {padding-top: 0.0rem; padding-bottom: 3.2rem; }"
+        ".section-template--15226394345527__brands_3yJ4Nm-padding {padding-top: 0rem; padding-bottom: 3.2rem;}"
       ],
       "settings": {
         "color_scheme": "background-1",
