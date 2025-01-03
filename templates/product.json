@@ -35,6 +35,7 @@
         },
         "price_PWmtF8": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "three_images_EidX3Q": {
