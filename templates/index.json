@@ -758,7 +758,7 @@
     "45752c1e-c913-4d29-bdf2-2aa7c8acb73e": {
       "type": "featured-products",
       "custom_css": [
-        ".price {display: hidden;}"
+        ".price {display: none;}"
       ],
       "settings": {
         "color_scheme": "background-1",
