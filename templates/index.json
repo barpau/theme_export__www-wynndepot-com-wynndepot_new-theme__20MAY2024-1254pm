@@ -113,6 +113,9 @@
         "product_slide_XY3DDV",
         "product_slide_VBkibN"
       ],
+      "custom_css": [
+        ".price.price--on-sale {display: none;}"
+      ],
       "settings": {
         "color_scheme": "2",
         "desktop_alignment": "left",
