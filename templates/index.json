@@ -117,6 +117,7 @@
         ".price.price--on-sale {display: none;}"
       ],
       "settings": {
+        "bulk_order_form_link": "shopify://pages/contact",
         "color_scheme": "2",
         "desktop_alignment": "left",
         "mobile_alignment": "before",
