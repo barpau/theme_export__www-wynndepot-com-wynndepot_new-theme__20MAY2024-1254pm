@@ -15,12 +15,12 @@
     display: block !important;
   }
   .product__label {
-    margin-bottom: 0.8rem !important; 
+    margin-bottom: 0.8rem !important;
   }
 }
 
 .product__payment-background {
-    background-color: #e8ebfc;  
+    background-color: #e8ebfc;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -64,12 +64,12 @@
   letter-spacing: 0.3px;
 }
 
-@media (min-width: 750px) { 
+@media (min-width: 750px) {
   .product__three-images.three-images-display-mobile {
     display: none;
   }
 }
-@media (max-width: 750px) { 
+@media (max-width: 750px) {
   .product__three-images.three-images-display-mobile {
     margin-top: 0px;
   }
@@ -98,6 +98,7 @@
   padding-top: 10px;
   padding-left: 4px;
   padding-right: 4px;
+  max-width: 120px;
 }
 
 .product__individual-paragraph {

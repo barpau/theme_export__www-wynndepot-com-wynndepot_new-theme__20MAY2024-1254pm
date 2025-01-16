@@ -21,7 +21,7 @@
 					pauseOnMouseEnter: true
 				},
 				breakpoints: {
-					1200: {
+					800: {
 						direction: 'vertical'
 					}
 				},
