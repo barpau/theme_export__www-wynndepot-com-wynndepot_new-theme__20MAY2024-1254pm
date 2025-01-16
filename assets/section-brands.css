@@ -9,8 +9,10 @@
   align-items: center;
   justify-content: space-between;
   gap: 3.2rem;
-  overflow-x: auto;
   overflow-y: hidden;
+  overflow-x: auto; /* Allows horizontal scrolling but hides scrollbar */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 .brands__items::-webkit-scrollbar {
   height: 0.4rem;

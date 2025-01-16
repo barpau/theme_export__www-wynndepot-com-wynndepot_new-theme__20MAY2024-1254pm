@@ -1,0 +1,196 @@
+{%- style -%}
+    /* Marquee Logos Styles */
+    .marquee-logos {
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      background:white;
+    }
+
+    .marquee-logos__items {
+      display: inline-flex;
+      white-space: nowrap;
+      min-height: 40px;
+      gap: 10px;
+    }
+
+    .marquee-logos--right .marquee-logos__items {
+      animation: marquee-logos-right 40s linear infinite;
+    }
+
+    .marquee-logos--left .marquee-logos__items {
+      animation: marquee-logos-left 40s linear infinite;
+    }
+
+    .marquee-logos__item {
+      display: inline-block;
+      margin: 0 10px;
+      white-space: normal;
+    }
+
+    .marquee-logos__image {
+      display: inline-block;
+      width: 80px;
+      height: auto;
+      object-fit: contain;
+    }
+
+    .marquee-logos__placeholder {
+      display: inline-block;
+      width: 80px;
+      height: 60px;
+      background-color: #f0f0f0;
+      line-height: 60px;
+      text-align: center;
+      color: #999;
+    }
+
+    @keyframes marquee-logos-right {
+      from {
+        transform: translateX(100%);
+      }
+      to {
+        transform: translateX(calc(-100%));
+      }
+    }
+
+    @keyframes marquee-logos-left {
+      from {
+        transform: translateX(-100%);
+      }
+      to {
+        transform: translateX(calc(100%));
+      }
+    }
+  {%- endstyle -%}
+
+  <div class="marquee-logos marquee-logos--{{ section.settings.marquee_direction }}">
+    <div class="container">
+      <div class="marquee-logos__content {% if section.settings.border_top %}marquee-logos__border-top{% endif %} {% if section.settings.border_bottom %}marquee-logos__border-bottom{% endif %}">
+        <div class="marquee-logos__items">
+          {%- for block in section.blocks -%}
+            <a
+              class="marquee-logos__item"
+              {% if block.settings.brand_link.url != blank %}
+                href="{{ block.settings.brand_link }}"
+              {% endif %}
+              {% if block.settings.brand_link.url == blank %}
+                aria-disabled="true"
+              {% endif %}
+            >
+              {%- if block.settings.image_1 != blank -%}
+                <img
+                src="{{ block.settings.image_1 | image_url: width: block.settings.image_width }}"
+                srcset="
+                  {{ block.settings.image_1 | image_url: width: 275 }} 275w,
+                  {{ block.settings.image_1 | image_url: width: 550 }} 550w,
+                  {{ block.settings.image_1 | image_url: width: 750 }} 750w,
+                  {{ block.settings.image_1 | image_url: width: 710 }}"
+                sizes="(min-width: 1100px) 750px, (min-width: 750px) 550px, 275px"
+                alt="Brand Logo {{ forloop.index }}"
+                width="{{ block.settings.image_width }}"
+                height="auto"
+                class="marquee-logos__image brands__image--light"
+                loading="lazy"
+              />
+
+              {%- else -%}
+                <div class="marquee-logos__placeholder">Brand</div>
+              {%- endif -%}
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% schema %}
+  {
+    "name": "Marquee Logos",
+    "class": "marquee-logos-section",
+    "tag": "section",
+    "max_blocks": 50,
+    "enabled_on": {
+      "templates": ["*"]
+    },
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "border_top",
+        "default": false,
+        "label": "Add Top Border"
+      },
+      {
+        "type": "checkbox",
+        "id": "border_bottom",
+        "default": false,
+        "label": "Add Bottom Border"
+      },
+      {
+        "type": "select",
+        "id": "marquee_direction",
+        "label": "Marquee Direction",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left to Right"
+          },
+          {
+            "value": "right",
+            "label": "Right to Left"
+          }
+        ],
+        "default": "right"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "Logo Block",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image_1",
+            "label": "Logo Image"
+          },
+          {
+            "type": "range",
+            "id": "image_width",
+            "min": 10,
+            "max": 300,
+            "step": 5,
+            "default": 60,
+            "unit": "px",
+            "label": "Image Width"
+          },
+          {
+            "type": "url",
+            "id": "brand_link",
+            "label": "Brand Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Marquee Logos",
+        "blocks": [
+          {
+            "type": "column",
+            "settings": {
+              "image_1": "shopify://shop_images/logo1.png",
+              "image_width": 80
+            }
+          },
+          {
+            "type": "column",
+            "settings": {
+              "image_1": "shopify://shop_images/logo2.png",
+              "image_width": 80
+            }
+          }
+        ]
+      }
+    ]
+  }
+  {% endschema %}

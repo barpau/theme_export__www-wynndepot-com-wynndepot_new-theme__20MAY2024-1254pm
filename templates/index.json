@@ -1,0 +1,1688 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "product_slider_modified_homepage_right_Rmh4Fg": {
+      "type": "product-slider-modified-homepage-right",
+      "blocks": {
+        "product_slide_ydUrE8": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/mylar-banner_copy_3.webp",
+            "product": "wynn-emergency-mylar-thermal-blanket",
+            "subheading": "In Stock Now",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Stay Warm, Stay Safe with Wynn Mylar Thermal Blankets",
+            "text": "Durable, compact, and capable of retaining up to 90% of body heat, our Mylar blankets are your best ally in any weather condition. Bulk availability: 250 blankets per case, 48 cases per pallet."
+          }
+        },
+        "product_slide_pajgpX": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/mylar-banner_copy_2.webp",
+            "product": "crystalware-paper-hot-cups",
+            "subheading": "In Stock Now",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Crystalware Disposable Paper Hot Cups",
+            "text": "Serve hot beverages in Crystalware Paper Hot Cups, perfect for coffee shops, offices, and events. These biodegradable, BPA-free, poly-coated cups range from 8 oz to 16 oz, ensuring durability and leak resistance"
+          }
+        },
+        "product_slide_awrBcf": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-Coverall.png",
+            "product": "wynn-disposable-coverall",
+            "subheading": "In Stock Now",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Wynn Disposable Coveralls - Heavy-Duty Protection",
+            "text": "Stay protected with Wynn Disposable Coveralls. Featuring a hood, zipper closure, elastic cuffs, waist, and ankles, these coveralls offer heavy-duty protection with type 5 & 6 safety levels."
+          }
+        },
+        "product_slide_dHmDWA": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-green-heritage-toilet.png",
+            "product": "green-heritage-pro-2-ply-toilet-paper",
+            "subheading": "In Stock Now",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Green Heritage® Pro 2-Ply Toilet Paper",
+            "text": "Experience premium quality with Green Heritage® Pro 2-Ply Toilet Paper, ideal for high-traffic and government use. Available in 400 and 500-sheet rolls, it ensures long-lasting supply and comfort. SFI certified and eco-friendly."
+          }
+        },
+        "product_slide_8mMAc4": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-green-heritage-jumbo.png",
+            "product": "green-heritage-pro-2-ply-jumbo-roll-tissue",
+            "subheading": "In Stock Now",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Green Heritage® Pro 2-Ply Jumbo Roll Tissue",
+            "text": "The Green Heritage® Pro 2-ply Jumbo Roll Tissue fits 9\" diameter JRT dispensers. Each roll is 560 ft long, with 12 rolls per case and 65 cases per pallet."
+          }
+        },
+        "product_slide_XY3DDV": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-liner.webp",
+            "product": "heavy-duty-black-waste-liners-38x58-1-5-mil-100-bags-case-50-cases-pallet",
+            "subheading": "In Stock Now",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Prime Pak Heavy Duty Black Waste Liners 38x58",
+            "text": "Some text."
+          }
+        },
+        "product_slide_VBkibN": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-broadwalk-brown-1ply_d4fafb18-9281-48d5-9e27-5359869f2cfb.webp",
+            "product": "boardwalk-multifold-paper-towels-1-ply-4000-towels",
+            "subheading": "In Stock Now",
+            "color_text": "#282828",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Boardwalk Brown Multifold 1-Ply Paper Towels (Pack of 4000 pieces)",
+            "text": "Boardwalk® Brown Multi-Fold Paper Towels offer convenience and efficiency with 4,000 towels per carton. Their multi-fold design suits different preferences and ensures quick, effective drying."
+          }
+        }
+      },
+      "block_order": [
+        "product_slide_ydUrE8",
+        "product_slide_pajgpX",
+        "product_slide_awrBcf",
+        "product_slide_dHmDWA",
+        "product_slide_8mMAc4",
+        "product_slide_XY3DDV",
+        "product_slide_VBkibN"
+      ],
+      "custom_css": [
+        ".price.price--on-sale {display: none;}"
+      ],
+      "settings": {
+        "color_scheme": "2",
+        "desktop_alignment": "left",
+        "mobile_alignment": "before",
+        "image_fit": "cover",
+        "slide_duration": 5,
+        "show_vendor": true,
+        "show_sku": false,
+        "image_ratio": "landscape",
+        "image_fit_card": "cover",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "63426eab-f4fd-42ce-8d05-6ff273e37a6a": {
+      "type": "product-slider",
+      "blocks": {
+        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-1": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/product-slide-Mylar_0abaa460-9bbb-4cef-95d1-8ab1d0579d69.webp",
+            "product": "wynn-emergency-mylar-thermal-blanket",
+            "subheading": "in stock now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Stay Warm, Stay Safe with Wynn Mylar Thermal Blankets",
+            "text": "Durable, compact, and capable of retaining up to 90% of body heat, our Mylar blankets are your best ally in any weather condition. Bulk availability: 250 blankets per case, 48 cases per pallet."
+          }
+        },
+        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-2": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-cup.png",
+            "product": "crystalware-paper-hot-cups",
+            "subheading": "In Stock Now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Crystalware Disposable Paper Hot Cups",
+            "text": "Serve hot beverages in Crystalware Paper Hot Cups, perfect for coffee shops, offices, and events. These biodegradable, BPA-free, poly-coated cups range from 8 oz to 16 oz, ensuring durability and leak resistance"
+          }
+        },
+        "product_slide_YMTKbb": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-Coverall_87dd9c4c-c4c1-4ef9-a27b-480109291f05.webp",
+            "product": "wynn-disposable-coverall",
+            "subheading": "In Stock Now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Wynn Disposable Coveralls - Heavy-Duty Protection",
+            "text": "Stay protected with Wynn Disposable Coveralls. Featuring a hood, zipper closure, elastic cuffs, waist, and ankles, these coveralls offer heavy-duty protection with type 5 & 6 safety levels."
+          }
+        },
+        "product_slide_tQLky3": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-green-heritage-toilet.png",
+            "product": "green-heritage-pro-2-ply-toilet-paper",
+            "subheading": "In Stock Now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Green Heritage® Pro 2-Ply Toilet Paper",
+            "text": "Experience premium quality with Green Heritage® Pro 2-Ply Toilet Paper, ideal for high-traffic and government use. Available in 400 and 500-sheet rolls, it ensures long-lasting supply and comfort. SFI certified and eco-friendly."
+          }
+        },
+        "product_slide_xbHhXw": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-green-heritage-jumbo.png",
+            "product": "green-heritage-pro-2-ply-jumbo-roll-tissue",
+            "subheading": "In Stock Now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Green Heritage® Pro 2-Ply Jumbo Roll Tissue",
+            "text": "The Green Heritage® Pro 2-ply Jumbo Roll Tissue fits 9\" diameter JRT dispensers. Each roll is 560 ft long, with 12 rolls per case and 65 cases per pallet."
+          }
+        },
+        "product_slide_xfLPxY": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-liner.webp",
+            "product": "heavy-duty-black-waste-liners-38x58-1-5-mil-100-bags-case-50-cases-pallet",
+            "subheading": "In Stock Now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Prime Pak Heavy Duty Black Waste Liners 38x58",
+            "text": "These 38x58 Black Liners are available in 1.2-mil (60 cases/pallet) and 1.5-mil (50 cases/pallet). Packaged in cases of 100 & offer a durable solution for waste management."
+          }
+        },
+        "product_slide_ENQFz9": {
+          "type": "product_slide",
+          "settings": {
+            "image": "shopify://shop_images/Bottom-Banner-broadwalk-brown-1ply_d4fafb18-9281-48d5-9e27-5359869f2cfb.webp",
+            "product": "boardwalk-multifold-paper-towels-1-ply-4000-towels",
+            "subheading": "In Stock Now",
+            "color_text": "#717171",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Boardwalk Brown Multifold 1-Ply Paper Towels (Pack of 4000 pieces)",
+            "text": "Boardwalk® Brown Multi-Fold Paper Towels offer convenience and efficiency with 4,000 towels per carton. Their multi-fold design suits different preferences and ensures quick, effective drying."
+          }
+        }
+      },
+      "block_order": [
+        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-1",
+        "template--17920095879487__63426eab-f4fd-42ce-8d05-6ff273e37a6a-16763865236569489e-2",
+        "product_slide_YMTKbb",
+        "product_slide_tQLky3",
+        "product_slide_xbHhXw",
+        "product_slide_xfLPxY",
+        "product_slide_ENQFz9"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "2",
+        "desktop_alignment": "left",
+        "mobile_alignment": "before",
+        "image_fit": "cover",
+        "slide_duration": 5,
+        "show_vendor": true,
+        "show_sku": true,
+        "image_ratio": "square",
+        "image_fit_card": "contain",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "fdb14e00-134b-480c-8919-adf7bcf3ee2b": {
+      "type": "cards-grid",
+      "blocks": {
+        "f8bee6a2-edac-412d-b894-1effeadcae04": {
+          "type": "column",
+          "settings": {
+            "column_start": 1,
+            "column_end": 3,
+            "row_start": "1",
+            "row_end": "3",
+            "min_height": "small",
+            "padding": "large",
+            "image": "shopify://shop_images/Office-supplies_e2b219fb-2d10-45da-9355-c53f71412ea1.webp",
+            "image_size": "cover",
+            "icon_size": "cover",
+            "icon_position": "left-top",
+            "icon_background": "background-2",
+            "background_color": "#dde4f0",
+            "background_effect": "none",
+            "effect_opacity": 0.4,
+            "enable_mobile_overlay": true,
+            "text_align": "left",
+            "text_color_scheme": "dark",
+            "subheading": "in stock now",
+            "color_text": "#3565e0",
+            "show_subheading_dot": true,
+            "color_dot": "#40b66f",
+            "heading": "Equip Your Workspace",
+            "heading_size": "h1",
+            "heading_width": 70,
+            "text": "From pens to printers, find all the essentials your office needs.",
+            "text_size": "medium",
+            "text_width": 50,
+            "show_button": true,
+            "button_label": "Shop Office Supplies",
+            "button_link": "shopify://collections/office-supplies",
+            "style_button": "button button--primary button--arrow",
+            "add_button_label": "",
+            "add_button_price": "",
+            "card_link": ""
+          }
+        },
+        "13bb0bcd-0538-40bb-959a-f613cbcc7f9d": {
+          "type": "column",
+          "settings": {
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "1",
+            "row_end": "3",
+            "min_height": "large",
+            "padding": "small",
+            "image": "shopify://shop_images/facility-maintenance_b349515f-3882-42ad-ad53-7b701c042765.webp",
+            "image_size": "cover",
+            "icon_size": "cover",
+            "icon_position": "left-top",
+            "icon_background": "background-2",
+            "background_color": "#ffffff",
+            "background_effect": "none",
+            "effect_opacity": 0.4,
+            "enable_mobile_overlay": false,
+            "text_align": "left",
+            "text_color_scheme": "dark",
+            "subheading": "",
+            "color_text": "#282828",
+            "show_subheading_dot": false,
+            "color_dot": "#40b66f",
+            "heading": "Discover ideal maintenance products",
+            "heading_size": "h3",
+            "heading_width": 68,
+            "text": "",
+            "text_size": "small",
+            "text_width": 100,
+            "show_button": true,
+            "button_label": "FACILITY MAINTENANCE",
+            "button_link": "",
+            "style_button": "tag subtitle",
+            "add_button_label": "",
+            "add_button_price": "",
+            "card_link": ""
+          }
+        },
+        "809c29b3-2eee-4b8a-b87e-fcdd7dddbc56": {
+          "type": "column",
+          "settings": {
+            "column_start": 4,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "min_height": "small",
+            "padding": "small",
+            "image": "shopify://shop_images/safety-supplies.webp",
+            "image_size": "cover",
+            "icon_size": "cover",
+            "icon_position": "left-top",
+            "icon_background": "background-2",
+            "background_color": "#ffffff",
+            "background_effect": "none",
+            "effect_opacity": 0.4,
+            "enable_mobile_overlay": false,
+            "text_align": "left",
+            "text_color_scheme": "dark",
+            "subheading": "",
+            "color_text": "#282828",
+            "show_subheading_dot": false,
+            "color_dot": "#40b66f",
+            "heading": "Safety Secured",
+            "heading_size": "h3",
+            "heading_width": 60,
+            "text": "",
+            "text_size": "small",
+            "text_width": 100,
+            "show_button": true,
+            "button_label": "SAFETY SUPPLIES",
+            "button_link": "",
+            "style_button": "tag subtitle",
+            "add_button_label": "",
+            "add_button_price": "",
+            "card_link": ""
+          }
+        },
+        "5105b754-b324-4eeb-b175-d86bf8c92704": {
+          "type": "column",
+          "settings": {
+            "column_start": 4,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "min_height": "small",
+            "padding": "small",
+            "image": "shopify://shop_images/warehouse-shipping.webp",
+            "image_size": "cover",
+            "icon_size": "cover",
+            "icon_position": "left-top",
+            "icon_background": "background-2",
+            "background_color": "#ffffff",
+            "background_effect": "none",
+            "effect_opacity": 0.4,
+            "enable_mobile_overlay": false,
+            "text_align": "left",
+            "text_color_scheme": "dark",
+            "subheading": "",
+            "color_text": "#282828",
+            "show_subheading_dot": false,
+            "color_dot": "#40b66f",
+            "heading": "Streamline Your Operations",
+            "heading_size": "h3",
+            "heading_width": 72,
+            "text": "",
+            "text_size": "small",
+            "text_width": 100,
+            "show_button": true,
+            "button_label": "WAREHOUSE & SHIPPING",
+            "button_link": "",
+            "style_button": "tag subtitle",
+            "add_button_label": "",
+            "add_button_price": "",
+            "card_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f8bee6a2-edac-412d-b894-1effeadcae04",
+        "13bb0bcd-0538-40bb-959a-f613cbcc7f9d",
+        "809c29b3-2eee-4b8a-b87e-fcdd7dddbc56",
+        "5105b754-b324-4eeb-b175-d86bf8c92704"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "columns": 4,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "slideshow_wGfqbx": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_UahfPi": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify://shop_images/main-banner-gloves_copy.webp",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_8.webp",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "medium",
+            "description": "",
+            "show_button": false,
+            "button_style": "primary",
+            "button_label": "",
+            "button_link": "",
+            "overlay_opacity": 0.5
+          }
+        },
+        "slide_QmBUfy": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify://shop_images/main-banner-toilet-paper-tissue_3b1b9e61-85ff-47b6-a97e-e45a1667ebf0.webp",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_92614dfd-56c4-4c07-9de5-04431e95200d.webp",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "medium",
+            "description": "",
+            "show_button": false,
+            "button_style": "primary",
+            "button_label": "",
+            "button_link": "shopify://collections/toilet-paper-tissue",
+            "image": "shopify://shop_images/main-banner-toilet-paper-tissue.webp",
+            "overlay_opacity": 0
+          }
+        },
+        "slide_EUDD4a": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify://shop_images/main-banner-broadwalk.png",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_3.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "medium",
+            "description": "",
+            "show_button": false,
+            "button_style": "primary",
+            "button_label": "",
+            "button_link": "shopify://collections/paper-towel",
+            "image": "shopify://shop_images/main-banner-free-shipping.webp",
+            "overlay_opacity": 0.5
+          }
+        },
+        "slide_GFKB3i": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify://shop_images/main-banner-free-shipping.webp",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_2.webp",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "medium",
+            "description": "",
+            "show_button": false,
+            "button_style": "primary",
+            "button_label": "",
+            "button_link": "",
+            "image": "shopify://shop_images/main-banner-free-shipping.webp",
+            "overlay_opacity": 0.5
+          }
+        },
+        "slide_WRnqyC": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify://shop_images/main-banner-1_copy_7.png",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_6.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "medium",
+            "description": "",
+            "show_button": false,
+            "button_style": "primary",
+            "button_label": "",
+            "button_link": "shopify://collections/gathering-essentials",
+            "overlay_opacity": 0.5
+          }
+        },
+        "slide_4WjtBF": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify://shop_images/main-banner-gloves.png",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_4.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "medium",
+            "description": "",
+            "show_button": false,
+            "button_style": "primary",
+            "button_label": "",
+            "button_link": "shopify://collections/disposable-gloves",
+            "overlay_opacity": 0
+          }
+        },
+        "slide_Jk6U6q": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify://shop_images/main-banner-1_copy_6.webp",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_7.webp",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "medium",
+            "description": "",
+            "show_button": false,
+            "button_style": "primary",
+            "button_label": "",
+            "button_link": "shopify://collections/paper-towel",
+            "overlay_opacity": 0.5
+          }
+        },
+        "slide_qVGKnx": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_9_6855b31e-29cc-48b7-b7ef-00ef8d5d57cb.webp",
+            "mobile_image": "shopify://shop_images/main-banner-toilet-paper-tissue_copy_10_262fd3b1-00e6-458c-8b5e-40c7bf33f328.webp",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "medium",
+            "description": "",
+            "show_button": true,
+            "button_style": "primary",
+            "button_label": "",
+            "button_link": "shopify://collections/active-compression-wears",
+            "overlay_opacity": 0.5
+          }
+        },
+        "slide_D3egVX": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "background-3",
+            "desktop_image": "shopify://shop_images/mylar-banner.png",
+            "mobile_image": "shopify://shop_images/mylar-banner-mobile.png",
+            "subheading": "",
+            "heading": "",
+            "heading_size": "medium",
+            "description": "",
+            "show_button": false,
+            "button_style": "primary",
+            "button_label": "",
+            "button_link": "shopify://products/wynn-emergency-mylar-thermal-blanket",
+            "overlay_opacity": 0.5
+          }
+        }
+      },
+      "block_order": [
+        "slide_UahfPi",
+        "slide_QmBUfy",
+        "slide_EUDD4a",
+        "slide_GFKB3i",
+        "slide_WRnqyC",
+        "slide_4WjtBF",
+        "slide_Jk6U6q",
+        "slide_qVGKnx",
+        "slide_D3egVX"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": false,
+        "height": "21/9",
+        "enable_autoplay": false,
+        "slide_duration": 10,
+        "controls_color_scheme": "light",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent"
+      }
+    },
+    "new-unique-id-0000-0000-0000-000000000000": {
+      "type": "cards-grid-custom",
+      "blocks": {
+        "new-unique-id-0000-0000-0000-000000000002": {
+          "type": "column",
+          "settings": {
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "1",
+            "row_end": "3",
+            "min_height": "large",
+            "padding": "small",
+            "image": "shopify://shop_images/facility-maintenance_b349515f-3882-42ad-ad53-7b701c042765.webp",
+            "image_size": "cover",
+            "icon_size": "cover",
+            "icon_position": "left-top",
+            "icon_background": "background-2",
+            "background_color": "#ffffff",
+            "background_effect": "none",
+            "effect_opacity": 0.4,
+            "enable_mobile_overlay": false,
+            "text_align": "left",
+            "text_color_scheme": "dark",
+            "subheading": "",
+            "color_text": "#282828",
+            "show_subheading_dot": false,
+            "color_dot": "#40b66f",
+            "heading": "Discover ideal maintenance products",
+            "heading_size": "h3",
+            "heading_width": 68,
+            "text": "",
+            "text_size": "small",
+            "text_width": 100,
+            "show_button": true,
+            "button_label": "FACILITY MAINTENANCE",
+            "button_link": "",
+            "style_button": "tag subtitle",
+            "add_button_label": "",
+            "add_button_price": "",
+            "card_link": ""
+          }
+        },
+        "new-unique-id-0000-0000-0000-000000000003": {
+          "type": "column",
+          "settings": {
+            "column_start": 4,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "min_height": "small",
+            "padding": "small",
+            "image": "shopify://shop_images/safety-supplies.webp",
+            "image_size": "cover",
+            "icon_size": "cover",
+            "icon_position": "left-top",
+            "icon_background": "background-2",
+            "background_color": "#ffffff",
+            "background_effect": "none",
+            "effect_opacity": 0.4,
+            "enable_mobile_overlay": false,
+            "text_align": "left",
+            "text_color_scheme": "dark",
+            "subheading": "",
+            "color_text": "#282828",
+            "show_subheading_dot": false,
+            "color_dot": "#40b66f",
+            "heading": "Safety Secured",
+            "heading_size": "h3",
+            "heading_width": 60,
+            "text": "",
+            "text_size": "small",
+            "text_width": 100,
+            "show_button": true,
+            "button_label": "SAFETY SUPPLIES",
+            "button_link": "",
+            "style_button": "tag subtitle",
+            "add_button_label": "",
+            "add_button_price": "",
+            "card_link": ""
+          }
+        },
+        "new-unique-id-0000-0000-0000-000000000004": {
+          "type": "column",
+          "settings": {
+            "column_start": 4,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "min_height": "small",
+            "padding": "small",
+            "image": "shopify://shop_images/warehouse-shipping.webp",
+            "image_size": "cover",
+            "icon_size": "cover",
+            "icon_position": "left-top",
+            "icon_background": "background-2",
+            "background_color": "#ffffff",
+            "background_effect": "none",
+            "effect_opacity": 0.4,
+            "enable_mobile_overlay": false,
+            "text_align": "left",
+            "text_color_scheme": "dark",
+            "subheading": "",
+            "color_text": "#282828",
+            "show_subheading_dot": false,
+            "color_dot": "#40b66f",
+            "heading": "Streamline Your Operations",
+            "heading_size": "h3",
+            "heading_width": 72,
+            "text": "",
+            "text_size": "small",
+            "text_width": 100,
+            "show_button": true,
+            "button_label": "WAREHOUSE & SHIPPING",
+            "button_link": "",
+            "style_button": "tag subtitle",
+            "add_button_label": "",
+            "add_button_price": "",
+            "card_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "new-unique-id-0000-0000-0000-000000000002",
+        "new-unique-id-0000-0000-0000-000000000003",
+        "new-unique-id-0000-0000-0000-000000000004"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "background-1",
+        "columns": 4,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "45752c1e-c913-4d29-bdf2-2aa7c8acb73e": {
+      "type": "featured-products",
+      "custom_css": [
+        ".price {display: none;}"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "subheading": "",
+        "heading": "",
+        "heading_size": "h2",
+        "show_info": true,
+        "info_subheading": "Featured items",
+        "info_heading": "Top 10 Bestsellers of  This Week",
+        "info_heading_size": "h2",
+        "text": "Check out our Top 10 Bestsellers this week, a curated list of market favorites across all categories that are flying off the shelves and defining current trends.",
+        "show_button": true,
+        "button_style": "primary",
+        "button_label": "Shop More",
+        "button_link": "shopify://collections/all",
+        "product_list": [
+          "wynn-disposable-coverall",
+          "powder-free-nitrile-gloves-latex-free-ambidextrous-violet-blue",
+          "powder-free-vinyl-gloves-latex-free-ambidextrous-clear",
+          "boardwalk®-translucent-plastic-cold-cups-7-oz-polypropylene-100-cups-sleeve-25-sleeves-carton",
+          "antigua-bath-tissue-atp400",
+          "lysol®-brand-clean-and-fresh-multi-surface-cleaner-sparkling-lemon-and-sunflower-essence-48-oz-bottle-9-carton",
+          "boardwalk-two-ply-toilet-tissue-400-sheets-roll-96-rolls-carton-30-cartons-pallet",
+          "boardwalk-center-pull-2-ply-paper-hand-towels-6-rolls",
+          "boardwalk-brown-multifold-paper-towels-1-ply-9-x-9-45-natural-250-pack-16-packs-carton-copy",
+          "flavia®-starbucks-caffe-verona-coffee-freshpack-caffe-verona-0-32-oz-pouch-76-carton",
+          "wynn-emergency-mylar-thermal-blanket",
+          "heavy-duty-black-waste-liners-38x58-1-2-1-5-mil-options-bulk-quantities-copy"
+        ],
+        "columns_mobile": "2",
+        "image_ratio": "square",
+        "image_fit": "contain",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_desc": false,
+        "show_sku": true,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "0407abd6-28c5-4a97-be53-1fa28a1f9985": {
+      "type": "categories-list",
+      "blocks": {
+        "collection_item_efxiTM": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "food-services"
+          }
+        },
+        "collection_item_rrXaTC": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "furniture"
+          }
+        },
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-1": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "industrial"
+          }
+        },
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-4": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "janitorial-sanitation"
+          }
+        },
+        "collection_item_TFAVGt": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "office"
+          }
+        },
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-0": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "school-supplies"
+          }
+        },
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-2": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "technology"
+          }
+        },
+        "collection_item_TpdtWb": {
+          "type": "collection_item",
+          "settings": {
+            "collection": "health-wellness"
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_efxiTM",
+        "collection_item_rrXaTC",
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-1",
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-4",
+        "collection_item_TFAVGt",
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-0",
+        "template--17920095879487__0407abd6-28c5-4a97-be53-1fa28a1f9985-16763865457ad331ae-2",
+        "collection_item_TpdtWb"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "heading": "Product Categories",
+        "image_ratio": "landscape",
+        "image_fit": "cover",
+        "collections_to_show": 4,
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    },
+    "425e1ef5-8e38-4632-bece-befd6e899561": {
+      "type": "featured-blog",
+      "settings": {
+        "color_scheme": "background-1",
+        "color_scheme_card": "background-1",
+        "subheading": "How to",
+        "heading": "Guides for Everything You Need",
+        "heading_size": "h2",
+        "post_layout": "column-icon",
+        "image_width": "small",
+        "image_fit": "contain",
+        "icon_background": "background-2",
+        "blog": "guide",
+        "post_limit": 6,
+        "post_limit_mobile": 2,
+        "show_image": true,
+        "show_tags": true,
+        "show_date": false,
+        "show_author": false,
+        "show_excerpt": false,
+        "show_view_all": true,
+        "show_view_all_mobile": true,
+        "button_label": "View All Guides",
+        "button_style": "secondary",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "70a3aae0-a3ad-423f-bf20-cbd331d97800": {
+      "type": "cards-grid",
+      "blocks": {
+        "template--17920095879487__70a3aae0-a3ad-423f-bf20-cbd331d97800-167638643713f0e50f-0": {
+          "type": "column",
+          "settings": {
+            "column_start": 1,
+            "column_end": 3,
+            "row_start": "1",
+            "row_end": "3",
+            "min_height": "small",
+            "padding": "large",
+            "image": "shopify://shop_images/Stay-warm-stay-safe_a6677d4a-f934-41fc-ba76-3e2bb08549a5.webp",
+            "image_size": "cover",
+            "icon_size": "cover",
+            "icon_position": "left-top",
+            "icon_background": "background-2",
+            "background_color": "#dddcec",
+            "background_effect": "none",
+            "effect_opacity": 0.4,
+            "enable_mobile_overlay": true,
+            "text_align": "left",
+            "text_color_scheme": "dark",
+            "subheading": "SKU: #MYLAR52x84",
+            "color_text": "#282828",
+            "show_subheading_dot": false,
+            "color_dot": "#40b66f",
+            "heading": "Stay Warm, Stay Safe",
+            "heading_size": "h2",
+            "heading_width": 50,
+            "text": "Wynn Mylar blankets provide reliable warmth and protection in any emergency or outdoor adventure. Compact and versatile, they're an essential in any safety kit.",
+            "text_size": "small",
+            "text_width": 40,
+            "show_button": true,
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/wynn-emergency-mylar-thermal-blanket",
+            "style_button": "button button--primary button--arrow",
+            "add_button_label": "From",
+            "add_button_price": "$11,400 / Pallet",
+            "card_link": ""
+          }
+        },
+        "template--17920095879487__70a3aae0-a3ad-423f-bf20-cbd331d97800-167638643713f0e50f-1": {
+          "type": "column",
+          "settings": {
+            "column_start": 3,
+            "column_end": 4,
+            "row_start": "1",
+            "row_end": "3",
+            "min_height": "medium",
+            "padding": "small",
+            "image": "shopify://shop_images/Bottom-Banner-broadwalk-brown-1ply_copy_2_ac937418-0a1d-4f59-b994-665d17645e27.webp",
+            "image_size": "cover",
+            "icon_size": "cover",
+            "icon_position": "left-top",
+            "icon_background": "background-2",
+            "background_color": "#ffffff",
+            "background_effect": "overlay",
+            "effect_opacity": 0.4,
+            "enable_mobile_overlay": false,
+            "text_align": "center",
+            "text_color_scheme": "light",
+            "subheading": "",
+            "color_text": "#282828",
+            "show_subheading_dot": false,
+            "color_dot": "#40b66f",
+            "heading": "Discover the Perfect Paper Towels",
+            "heading_size": "h2",
+            "heading_width": 74,
+            "text": "Reliable Absorbency for Every Task",
+            "text_size": "small",
+            "text_width": 80,
+            "show_button": true,
+            "button_label": "Available for Bulk Ordering",
+            "button_link": "shopify://collections/paper-towel",
+            "style_button": "tag subtitle",
+            "add_button_label": "",
+            "add_button_price": "",
+            "card_link": ""
+          }
+        },
+        "column_dWchxH": {
+          "type": "column",
+          "settings": {
+            "column_start": 1,
+            "column_end": 5,
+            "row_start": "unset",
+            "row_end": "unset",
+            "min_height": "small",
+            "padding": "small",
+            "image": "shopify://shop_images/Bottom-Banner-broadwalk-brown-1ply_copy_95f817a5-b52f-41a2-bfdb-abc0275825a4.webp",
+            "image_size": "cover",
+            "icon": "shopify://shop_images/wynn-box_1.webp",
+            "icon_size": "cover",
+            "icon_position": "right-top",
+            "icon_background": "background-1",
+            "background_color": "#ffffff",
+            "background_effect": "none",
+            "effect_opacity": 0.4,
+            "enable_mobile_overlay": false,
+            "text_align": "left",
+            "text_color_scheme": "dark",
+            "subheading": "Explore Our Extensive Range of Over 44,000 Products",
+            "color_text": "#282828",
+            "show_subheading_dot": false,
+            "color_dot": "#40b66f",
+            "heading": "Streamline Your Supplies with Easy Bulk Ordering",
+            "heading_size": "h3",
+            "heading_width": 50,
+            "text": "Save big and streamline your supply chain with our easy bulk ordering for over 44,000 products from Wynn Depot, all available directly through our embedded bulk order forms on our product pages.",
+            "text_size": "small",
+            "text_width": 100,
+            "show_button": true,
+            "button_label": "Start Your Bulk Order Now",
+            "button_link": "shopify://collections",
+            "style_button": "button button--simple-move",
+            "add_button_label": "",
+            "add_button_price": "",
+            "card_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17920095879487__70a3aae0-a3ad-423f-bf20-cbd331d97800-167638643713f0e50f-0",
+        "template--17920095879487__70a3aae0-a3ad-423f-bf20-cbd331d97800-167638643713f0e50f-1",
+        "column_dWchxH"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "columns": 3,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "511b9a41-0c97-48f1-a4fc-b3b866f28474": {
+      "type": "brands",
+      "blocks": {
+        "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-0": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/GSA.png",
+            "image_width": 70,
+            "brand_link": ""
+          }
+        },
+        "aa514c66-b185-4e02-93e7-cbc99eee0e94": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/EDD.png",
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-1": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/DOTA.png",
+            "image_width": 70,
+            "brand_link": ""
+          }
+        },
+        "c133ac02-5948-4d8a-9569-36c0821e15a5": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/DOVA.png",
+            "image_width": 110,
+            "brand_link": ""
+          }
+        },
+        "column_EV6AEt": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/DOJ-FBOP.png",
+            "image_width": 70,
+            "brand_link": ""
+          }
+        },
+        "d9b878a5-e3d4-4e82-9c3e-3175bb780d15": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/SOC-DCA.png",
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-3": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/DOHH.png",
+            "image_width": 70,
+            "brand_link": ""
+          }
+        },
+        "column_zfjwGz": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/DHCS.png",
+            "image_width": 70,
+            "brand_link": ""
+          }
+        },
+        "04b36121-b9f1-4cdb-91df-bf69cc3aa2c8": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/BOCFR.png",
+            "image_width": 70,
+            "brand_link": ""
+          }
+        },
+        "column_NV6kkh": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/DORDOR.png",
+            "image_width": 100,
+            "brand_link": ""
+          }
+        },
+        "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-2": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Cal-Fire.png",
+            "image_width": 70,
+            "brand_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-0",
+        "aa514c66-b185-4e02-93e7-cbc99eee0e94",
+        "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-1",
+        "c133ac02-5948-4d8a-9569-36c0821e15a5",
+        "column_EV6AEt",
+        "d9b878a5-e3d4-4e82-9c3e-3175bb780d15",
+        "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-3",
+        "column_zfjwGz",
+        "04b36121-b9f1-4cdb-91df-bf69cc3aa2c8",
+        "column_NV6kkh",
+        "template--17920095879487__511b9a41-0c97-48f1-a4fc-b3b866f28474-16763865512ef4b5ba-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "border_top": true,
+        "border_bottom": true,
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
+    },
+    "7340d2a2-cb01-4234-94ef-e38fe247d422": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/free-shipping-icon_3681db7a-7d20-4dd6-b6b5-3d14f2deda56.png",
+            "heading": "Free Shipping & Returns",
+            "text": "Shop with confidence and have your favorite electronics delivered right to your doorstep without any additional cost."
+          }
+        },
+        "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/money-back-guarantee_5c39c1bb-48f4-4cec-9866-f8700a9301e2.png",
+            "heading": "Money Back Guarantee",
+            "text": "If you're not completely satisfied with your purchase, we'll make it right. No questions asked."
+          }
+        },
+        "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/online-support_82c88f9f-0bd1-478e-b4b0-9932eccff90f.png",
+            "heading": "Online Support 24/7",
+            "text": "Need help with your electronics? Get in touch with us anytime, anywhere, and let's get your tech sorted."
+          }
+        },
+        "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/regular-sales_18e6295f-8294-4218-910e-f84783d6aea2.png",
+            "heading": "Regular Sales",
+            "text": "Don't miss out on our amazing deals with regular sales on our top-of-the-line electronics."
+          }
+        }
+      },
+      "block_order": [
+        "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-0",
+        "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-1",
+        "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-2",
+        "template--17920095879487__7340d2a2-cb01-4234-94ef-e38fe247d422-167638651482dece17-3"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "multicolumn_to_show": 4,
+        "image_type": "icon",
+        "icon_background": "background-2",
+        "image_width": "medium",
+        "object_fit": "contain",
+        "swipe_on_mobile": true,
+        "border_top": false,
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "ed6a5fc5-d085-4d3b-9039-72c51fde32cd": {
+      "type": "popular-products",
+      "settings": {
+        "heading": "Recommended for You (Available in Bulk Order)",
+        "collection_list": [
+          "sanitary-supplies",
+          "disposable-tableware",
+          "safety-and-emergency-supplies",
+          "toilet-paper-tissue",
+          "paper-towel",
+          "custom-supplies"
+        ],
+        "products_limit": 8,
+        "products_to_show": 3,
+        "filter": true,
+        "filter_type": "collections",
+        "show_vendor": true,
+        "show_sku": true,
+        "image_ratio": "square",
+        "image_fit": "contain",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "0ba715c9-8c7f-482a-9cfa-a4f47ce39395": {
+      "type": "featured-blog",
+      "settings": {
+        "color_scheme": "background-1",
+        "color_scheme_card": "background-2",
+        "subheading": "",
+        "heading": "Latest News & Blog",
+        "heading_size": "h3",
+        "post_layout": "grid",
+        "image_width": "medium",
+        "image_fit": "contain",
+        "icon_background": "background-2",
+        "blog": "news",
+        "post_limit": 3,
+        "post_limit_mobile": 3,
+        "show_image": true,
+        "show_tags": true,
+        "show_date": true,
+        "show_author": true,
+        "show_excerpt": true,
+        "show_view_all": false,
+        "show_view_all_mobile": true,
+        "button_label": "Read All",
+        "button_style": "secondary",
+        "padding_top": "m",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "a31d6bda-9c7d-403c-a31c-fbad6413fa14": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--17920095879487__a31d6bda-9c7d-403c-a31c-fbad6413fa14-168303731742e42d05-0": {
+          "type": "accordion",
+          "settings": {
+            "question": "What payment methods are accepted at your store?",
+            "answer": "<p>Our online store accepts a variety of payment methods to ensure a convenient shopping experience for our customers. We accept major credit cards, such as Visa, MasterCard, American Express, and Discover, as well as debit cards. Additionally, we offer support for digital payment platforms like PayPal, Apple Pay, and Google Pay. We are constantly working to expand our payment options to accommodate our customers' needs.</p>",
+            "opened": false
+          }
+        },
+        "template--17920095879487__a31d6bda-9c7d-403c-a31c-fbad6413fa14-168303731742e42d05-1": {
+          "type": "accordion",
+          "settings": {
+            "question": "How long does it take to process and ship my order?",
+            "answer": "<p>If you order before 3 pm eastern time, we can usually dispatch the next business day. In rare cases, it may take 1-2 business days to process and dispatch your order. We ship Monday through Friday, excluding weekends and holidays. All orders to the USA are shipped via USPS, UPS or with a local courier with expected delivery between 1-2 business days. Note: at this time, we do not ship to Alaska or Hawaii</p>",
+            "opened": false
+          }
+        },
+        "template--17920095879487__a31d6bda-9c7d-403c-a31c-fbad6413fa14-168303731742e42d05-2": {
+          "type": "accordion",
+          "settings": {
+            "question": "Where do you ship from?",
+            "answer": "<p>We keep inventory in 34 warehouses across the lower 48 USA states ready for next business day dispatch. The closest warehouse to you will deliver your orders by USPS, UPS &/or local courier</p>",
+            "opened": false
+          }
+        },
+        "accordion_aDxWEt": {
+          "type": "accordion",
+          "settings": {
+            "question": "How much does shipping cost?",
+            "answer": "<p>We are pleased to offer free shipping for all orders over $75</p>",
+            "opened": false
+          }
+        },
+        "accordion_fWXTwQ": {
+          "type": "accordion",
+          "settings": {
+            "question": "What is your Return Policy?",
+            "answer": "<p>We offer a 100% no hassle 6 month guarantee and FREE returns on all of our products (except PPE). We will be fair to you, and we would appreciate the same in return. For safety reasons, all PPE purchases are not returnable.<br/></p><p>You can return unopened (non PPE) items that are in re sellable condition. Send it back to us & get a credit or full refund and we will send you a free postage pre-paid mailing label to get the unwanted product back to us.</p>",
+            "opened": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17920095879487__a31d6bda-9c7d-403c-a31c-fbad6413fa14-168303731742e42d05-0",
+        "template--17920095879487__a31d6bda-9c7d-403c-a31c-fbad6413fa14-168303731742e42d05-1",
+        "template--17920095879487__a31d6bda-9c7d-403c-a31c-fbad6413fa14-168303731742e42d05-2",
+        "accordion_aDxWEt",
+        "accordion_fWXTwQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "FAQ",
+        "heading_size": "h2",
+        "text": "Have a question? Check out our FAQ section for answers to common inquiries.",
+        "margin_top": "no-indent",
+        "margin_bottom": "no-indent",
+        "padding_top": "m",
+        "padding_bottom": "m"
+      }
+    },
+    "rich_text_b4bfyN": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3mJ9VX": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Brands We Supply</p>",
+            "heading_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3mJ9VX"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "margin_top": "m",
+        "margin_bottom": "xs",
+        "padding_top": "no-indent",
+        "padding_bottom": "no-indent"
+      }
+    },
+    "brands_GwRKxR": {
+      "type": "brands",
+      "blocks": {
+        "column_b9GdXq": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/business-source.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_xBfNMC": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/betco.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_mkHpCL": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/bff.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_r7J7aE": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/belkin.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_n4hEt9": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/avery.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_XKPFHC": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/ajax.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_GDjQpz": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/black-box.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_cPKH6z": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/boardwalk.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_xaEcm4": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/braun.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_JFTpUj": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/brother.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_Kb4qxp": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/clorox.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_pRHGEW": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/canon.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_QtEMc7": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/dove.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_pgd4Yq": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/folgers.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_xJz9Nw": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/epson.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_Q6kaRN": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/flavia.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_b9GdXq",
+        "column_xBfNMC",
+        "column_mkHpCL",
+        "column_r7J7aE",
+        "column_n4hEt9",
+        "column_XKPFHC",
+        "column_GDjQpz",
+        "column_cPKH6z",
+        "column_xaEcm4",
+        "column_JFTpUj",
+        "column_Kb4qxp",
+        "column_pRHGEW",
+        "column_QtEMc7",
+        "column_pgd4Yq",
+        "column_xJz9Nw",
+        "column_Q6kaRN"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "border_top": false,
+        "border_bottom": false,
+        "padding_top": "s",
+        "padding_bottom": "s"
+      }
+    },
+    "brands_3yJ4Nm": {
+      "type": "brands",
+      "blocks": {
+        "column_DjrptR": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_10_f5767fa0-af1b-4264-b492-6a054f12ec8d.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_fcNTaY": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_3_921a1b62-97e2-48c4-afe8-56129c9085a9.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_zKQHdV": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_12_fb56e105-77d1-43f6-96cc-dacd987b7b66.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_W87qPa": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_2_81c7b70c-2957-4c4f-b845-004ab37a0db2.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_Bq6pqU": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_11_c6fcdbd6-20d0-4b9d-b327-25cdca0f7c16.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_VENt6f": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_8_008c8e34-d574-4fbf-bd22-090d7e9769c3.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_8KqEFW": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_13_2e8d5473-419c-4a3f-808b-3e120550c251.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_gEEjKT": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_ee75b97a-c21f-4f3c-a744-6459a1f8aadf.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_jXMHAY": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_9_a2f5ec25-f03f-4603-ae98-ca074384dd8a.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_PjtNRU": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_153edc52-3c2b-4091-8af8-3ad2d8d6769b.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_dnajM4": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_14_5770ccfc-589d-4f99-8247-39d7cfbd21d0.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_7cTTPm": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_4_8ebb2af5-788f-4c20-9ac0-cf8d7373d4f2.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_yqqNfz": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_5_0de3822d-a90b-4e9b-812b-6f1016845423.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_HaKcRM": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_7_ac17ec7c-3191-415f-96b6-c7d809eaa015.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_FfRjba": {
+          "type": "column",
+          "settings": {
+            "image_1": "shopify://shop_images/Artboard_9_copy_6_11bcbe8e-4e02-4f13-89ba-d9f0eea60025.webp",
+            "image_width": 60,
+            "brand_link": ""
+          }
+        },
+        "column_xmbJ9A": {
+          "type": "column",
+          "settings": {
+            "image_width": 60,
+            "brand_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_DjrptR",
+        "column_fcNTaY",
+        "column_zKQHdV",
+        "column_W87qPa",
+        "column_Bq6pqU",
+        "column_VENt6f",
+        "column_8KqEFW",
+        "column_gEEjKT",
+        "column_jXMHAY",
+        "column_PjtNRU",
+        "column_dnajM4",
+        "column_7cTTPm",
+        "column_yqqNfz",
+        "column_HaKcRM",
+        "column_FfRjba",
+        "column_xmbJ9A"
+      ],
+      "custom_css": [
+        ".section-template--15226394345527__brands_3yJ4Nm-padding {padding-top: 0rem; padding-bottom: 6rem;}"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "border_top": false,
+        "border_bottom": false,
+        "padding_top": "s",
+        "padding_bottom": "no-indent"
+      }
+    }
+  },
+  "order": [
+    "product_slider_modified_homepage_right_Rmh4Fg",
+    "63426eab-f4fd-42ce-8d05-6ff273e37a6a",
+    "fdb14e00-134b-480c-8919-adf7bcf3ee2b",
+    "slideshow_wGfqbx",
+    "new-unique-id-0000-0000-0000-000000000000",
+    "45752c1e-c913-4d29-bdf2-2aa7c8acb73e",
+    "0407abd6-28c5-4a97-be53-1fa28a1f9985",
+    "425e1ef5-8e38-4632-bece-befd6e899561",
+    "70a3aae0-a3ad-423f-bf20-cbd331d97800",
+    "511b9a41-0c97-48f1-a4fc-b3b866f28474",
+    "7340d2a2-cb01-4234-94ef-e38fe247d422",
+    "ed6a5fc5-d085-4d3b-9039-72c51fde32cd",
+    "0ba715c9-8c7f-482a-9cfa-a4f47ce39395",
+    "a31d6bda-9c7d-403c-a31c-fbad6413fa14",
+    "rich_text_b4bfyN",
+    "brands_GwRKxR",
+    "brands_3yJ4Nm"
+  ]
+}
