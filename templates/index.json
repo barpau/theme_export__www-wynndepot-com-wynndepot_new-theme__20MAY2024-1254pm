@@ -1842,6 +1842,7 @@
         "column_6pNJ69": {
           "type": "column",
           "settings": {
+            "image_1": "shopify://shop_images/8-primepak-3_09ecaa97-ff3f-4e52-9f46-939f90e4bd46.png",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1849,41 +1850,7 @@
         "column_mjVVqg": {
           "type": "column",
           "settings": {
-            "image_width": 60,
-            "brand_link": ""
-          }
-        },
-        "column_jhcGrH": {
-          "type": "column",
-          "settings": {
-            "image_width": 60,
-            "brand_link": ""
-          }
-        },
-        "column_DMXKzf": {
-          "type": "column",
-          "settings": {
-            "image_width": 60,
-            "brand_link": ""
-          }
-        },
-        "column_Yzrtxg": {
-          "type": "column",
-          "settings": {
-            "image_width": 60,
-            "brand_link": ""
-          }
-        },
-        "column_hyjjcE": {
-          "type": "column",
-          "settings": {
-            "image_width": 60,
-            "brand_link": ""
-          }
-        },
-        "column_UbT8wX": {
-          "type": "column",
-          "settings": {
+            "image_1": "shopify://shop_images/9-safeguard-2.png",
             "image_width": 60,
             "brand_link": ""
           }
@@ -1912,12 +1879,7 @@
         "column_qenWp7",
         "column_iyGXgQ",
         "column_6pNJ69",
-        "column_mjVVqg",
-        "column_jhcGrH",
-        "column_DMXKzf",
-        "column_Yzrtxg",
-        "column_hyjjcE",
-        "column_UbT8wX"
+        "column_mjVVqg"
       ],
       "settings": {
         "border_top": false,
